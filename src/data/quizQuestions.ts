@@ -829,16 +829,16 @@ export const quizQuestions: QuizQuestion[] = [
   id: 55,
   difficulty: "easy",
   source: "Ramayana",
-  question: "Who was Sita’s mother according to Ramayana GK?",
+  question: "Who was Sita’s mother according to Ramayana?",
   questionHindi: "रामायण के अनुसार सीता की माता कौन थीं?",
   questionTelugu: "రామాయణం ప్రకారం సీత తల్లి ఎవరు?",
   options: ["Kausalya", "Sunayana", "Kaikeyi", "Sumitra"],
   optionsHindi: ["कौशल्या", "सुनयना", "कैकेयी", "सुमित्रा"],
   optionsTelugu: ["కౌసల్య", "సునయన", "కైకేయి", "సుమిత్ర"],
   correct: 0,
-  explanation: "According to some Ramayana GK sources, Sita’s mother is named as Sunayana. :contentReference[oaicite:19]{index=19}",
-  explanationHindi: "रामायण जीके स्रोतों के अनुसार सीता की माता सुनयना थीं। :contentReference[oaicite:20]{index=20}",
-  explanationTelugu: "రామాయణ జీకే ప్రకారం సీత తల్లి సునయన."
+  explanation: "According to Ramayana, Sita’s mother was Sunayana.",
+  explanationHindi: "रामायण के अनुसार सीता की माता सुनयना थीं।",
+  explanationTelugu: "రామాయణం ప్రకారం సీత తల్లి సునయన."
 },
 {
   id: 56,
