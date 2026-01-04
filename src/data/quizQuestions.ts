@@ -25,7 +25,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Bharata", "Shatrughna", "Lakshmana", "Vibhishana"],
     optionsHindi: ["भरत", "शत्रुघ्न", "लक्ष्मण", "विभीषण"],
     optionsTelugu: ["భరతుడు", "శత్రుఘ్నుడు", "లక్ష్మణుడు", "విభీషణుడు"],
-    correct: 3,
+    correct: 0,
     explanation: "Lakshmana accompanied Rama and Sita during their exile.",
     explanationHindi: "लक्ष्मण ने राम और सीता के साथ वनवास किया।",
     explanationTelugu: "లక్ష్మణుడు రాముడు మరియు సీతతో కలిసి వనవాసానికి వెళ్లాడు."
@@ -40,7 +40,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Dasharatha", "Janaka", "Bali", "Sugriva"],
     optionsHindi: ["दशरथ", "जनक", "बालि", "सुग्रीव"],
     optionsTelugu: ["దశరథుడు", "జనకుడు", "బాలి", "సుగ్రీవుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "King Dasharatha was the father of Rama.",
     explanationHindi: "राजा दशरथ राम के पिता थे।",
     explanationTelugu: "రాజు దశరథుడు రాముని తండ్రి."
@@ -55,7 +55,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Sita", "Urmila", "Mandodari", "Tara"],
     optionsHindi: ["सीता", "उर्मिला", "मंदोदरी", "तारा"],
     optionsTelugu: ["సీత", "ఉర్మిళ", "మందోదరి", "తారా"],
-    correct: 1,
+    correct: 0,
     explanation: "Sita was the wife of Lord Rama.",
     explanationHindi: "सीता भगवान राम की पत्नी थीं।",
     explanationTelugu: "సీత రాముని భార్య."
@@ -70,7 +70,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Ravana", "Kumbhakarna", "Bali", "Maricha"],
     optionsHindi: ["रावण", "कुंभकर्ण", "बालि", "मारीच"],
     optionsTelugu: ["రావణుడు", "కుంభకర్ణుడు", "బాలి", "మారీచుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Ravana kidnapped Sita.",
     explanationHindi: "रावण ने सीता का अपहरण किया।",
     explanationTelugu: "రావణుడు సీతను అపహరించాడు."
@@ -85,7 +85,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Hanuman", "Sugriva", "Bali", "Angada"],
     optionsHindi: ["हनुमान", "सुग्रीव", "बालि", "अंगद"],
     optionsTelugu: ["హనుమాన్", "సుగ్రీవుడు", "బాలి", "అంగదుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Hanuman was the greatest devotee of Rama.",
     explanationHindi: "हनुमान राम के महान भक्त थे।",
     explanationTelugu: "హనుమాన్ రాముని గొప్ప భక్తుడు."
@@ -100,7 +100,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Ayodhya", "Mithila", "Lanka", "Kishkindha"],
     optionsHindi: ["अयोध्या", "मिथिला", "लंका", "किष्किंधा"],
     optionsTelugu: ["అయోధ్య", "మిథిల", "లంక", "కిష్కింధ"],
-    correct: 1,
+    correct: 0,
     explanation: "Rama was the prince of Ayodhya.",
     explanationHindi: "राम अयोध्या के राजकुमार थे।",
     explanationTelugu: "రాముడు అయోధ్య రాజకుమారుడు."
@@ -115,7 +115,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Janaka", "Dasharatha", "Ravana", "Vali"],
     optionsHindi: ["जनक", "दशरथ", "रावण", "वालि"],
     optionsTelugu: ["జనకుడు", "దశరథుడు", "రావణుడు", "వాలి"],
-    correct: 1,
+    correct: 0,
     explanation: "King Janaka was the father of Sita.",
     explanationHindi: "राजा जनक सीता के पिता थे।",
     explanationTelugu: "రాజు జనకుడు సీత తండ్రి."
@@ -130,7 +130,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["10", "12", "14", "16"],
     optionsHindi: ["10", "12", "14", "16"],
     optionsTelugu: ["10", "12", "14", "16"],
-    correct: 3,
+    correct: 0,
     explanation: "Rama was exiled for 14 years.",
     explanationHindi: "राम को 14 वर्षों का वनवास मिला।",
     explanationTelugu: "రాముడు 14 సంవత్సరాలు వనవాసం చేశాడు."
@@ -145,7 +145,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Urmila", "Sita", "Mandavi", "Shrutakirti"],
     optionsHindi: ["उर्मिला", "सीता", "मांडवी", "श्रुतकीर्ति"],
     optionsTelugu: ["ఉర్మిళ", "సీత", "మాండవి", "శ్రుతకీర్తి"],
-    correct: 1,
+    correct: 0,
     explanation: "Urmila was Lakshmana's wife.",
     explanationHindi: "उर्मिला लक्ष्मण की पत्नी थीं।",
     explanationTelugu: "ఉర్మిళ లక్ష్మణుని భార్య."
@@ -160,7 +160,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Rama", "Hanuman", "Vanara Sena", "Ravana"],
     optionsHindi: ["राम", "हनुमान", "वानर सेना", "रावण"],
     optionsTelugu: ["రాముడు", "హనుమాన్", "వానర సేన", "రావణుడు"],
-    correct: 3,
+    correct: 0,
     explanation: "The Vanara Sena built the bridge to Lanka.",
     explanationHindi: "वानर सेना ने लंका तक पुल बनाया।",
     explanationTelugu: "వానర సేన లంకకు వంతెన నిర్మించింది."
@@ -175,7 +175,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Vasishta", "Narada", "Agastya", "Vishwamitra"],
     optionsHindi: ["वशिष्ठ", "नारद", "अगस्त्य", "विश्वामित्र"],
     optionsTelugu: ["వశిష్ఠుడు", "నారదుడు", "అగస్త్యుడు", "విశ్వామిత్రుడు"],
-    correct: 2,
+    correct: 0,
     explanation: "Sage Narada narrated the story of Rama to Valmiki.",
     explanationHindi: "नारद मुनि ने वाल्मीकि को रामकथा सुनाई।",
     explanationTelugu: "నారదుడు వాల్మీకికి రామకథను చెప్పారు."
@@ -190,7 +190,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Narada", "Agastya", "Vishwamitra", "Vasishta"],
     optionsHindi: ["नारद", "अगस्त्य", "विश्वामित्र", "वशिष्ठ"],
     optionsTelugu: ["నారదుడు", "అగస్త్యుడు", "విశ్వామిత్రుడు", "వశిష్ఠుడు"],
-    correct: 3,
+    correct: 0,
     explanation: "Sage Vishwamitra took Rama and Lakshmana.",
     explanationHindi: "ऋषि विश्वामित्र ने राम और लक्ष्मण को लिया।",
     explanationTelugu: "విశ్వామిత్రుడు రామలక్ష్మణులను తీసుకెళ్లాడు."
@@ -205,7 +205,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Trijata", "Tataka", "Mandodari", "Surpanakha"],
     optionsHindi: ["त्रिजटा", "ताटका", "मंदोदरी", "शूर्पणखा"],
     optionsTelugu: ["త్రిజట", "తాటక", "మందోదరి", "శూర్పణఖ"],
-    correct: 2,
+    correct: 0,
     explanation: "Rama killed the demoness Tataka.",
     explanationHindi: "राम ने राक्षसी ताटका का वध किया।",
     explanationTelugu: "రాముడు తాటకను సంహరించాడు."
@@ -220,7 +220,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Agni Dhanush", "Indra Dhanush", "Shiva Dhanush", "Vishnu Dhanush"],
     optionsHindi: ["अग्नि धनुष", "इंद्र धनुष", "शिव धनुष", "विष्णु धनुष"],
     optionsTelugu: ["అగ్ని ధనుస్సు", "ఇంద్ర ధనుస్సు", "శివ ధనుస్సు", "విష్ణు ధనుస్సు"],
-    correct: 3,
+    correct: 0,
     explanation: "Rama broke Lord Shiva’s bow to marry Sita.",
     explanationHindi: "राम ने सीता से विवाह करने के लिए भगवान शिव का धनुष तोड़ा।",
     explanationTelugu: "రాముడు శివుడి ధనుస్సును విరించాడు."
@@ -235,7 +235,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Mandavi", "Kaikeyi", "Sumitra", "Kausalya"],
     optionsHindi: ["मांडवी", "कैकेयी", "सुमित्रा", "कौशल्या"],
     optionsTelugu: ["మాండవి", "కైకేయి", "సుమిత్ర", "కౌసల్య"],
-    correct: 2,
+    correct: 0,
     explanation: "Queen Kaikeyi demanded two boons.",
     explanationHindi: "रानी कैकेयी ने राजा दशरथ से दो वरदान मांगे।",
     explanationTelugu: "రాణి కైకేయి రెండు వరాలు కోరింది."
@@ -250,7 +250,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Shatrughna", "Lakshmana", "Sugriva", "Bharata"],
     optionsHindi: ["शत्रुघ्न", "लक्ष्मण", "सुग्रीव", "भरत"],
     optionsTelugu: ["శత్రుఘ్నుడు", "లక్ష్మణుడు", "సుగ్రీవుడు", "భరతుడు"],
-    correct: 4,
+    correct: 0,
     explanation: "Bharata was crowned king during Rama’s exile.",
     explanationHindi: "भरत को राम के वनवास के दौरान राजा बनाया गया।",
     explanationTelugu: "భరతుడు రాముని స్థానంలో రాజుగా నియమించబడ్డాడు."
@@ -265,7 +265,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Bharata", "Hanuman", "Shatrughna", "Lakshmana"],
     optionsHindi: ["भरत", "हनुमान", "शत्रुघ्न", "लक्ष्मण"],
     optionsTelugu: ["భరతుడు", "హనుమాన్", "శత్రుఘ్నుడు", "లక్ష్మణుడు"],
-    correct: 4,
+    correct: 0,
     explanation: "Lakshmana accompanied Rama and Sita to the forest.",
     explanationHindi: "लक्ष्मण राम और सीता के साथ वन में गए।",
     explanationTelugu: "లక్ష్మణుడు రాముని మరియు సీతతో అడవికి కలిసి వెళ్లాడు."
@@ -280,7 +280,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Mandodari", "Surpanakha", "Tataka", "Trijata"],
     optionsHindi: ["मंदोदरी", "शूर्पणखा", "ताटका", "त्रिजटा"],
     optionsTelugu: ["మందోదరి", "శూర్పణఖ", "తాటక", "త్రిజట"],
-    correct: 2,
+    correct: 0,
     explanation: "Surpanakha tried to marry Rama.",
     explanationHindi: "शूर्पणखा ने राम से विवाह करने की कोशिश की।",
     explanationTelugu: "శూర్పణఖ రాముని పెళ్లి చేసుకోవాలని ప్రయత్నించింది."
@@ -295,7 +295,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Ravana", "Subahu", "Vibhishana", "Maricha"],
     optionsHindi: ["रावण", "सुबाहु", "विभीषण", "मारीच"],
     optionsTelugu: ["రావణుడు", "సుబాహుడు", "విభీషణుడు", "మారీచుడు"],
-    correct: 4,
+    correct: 0,
     explanation: "Maricha disguised himself as a golden deer.",
     explanationHindi: "मारीच ने सुनहरे हिरण का रूप लिया।",
     explanationTelugu: "మారీచుడు బంగారు జింకగా మారాడు."
@@ -310,7 +310,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Sugriva", "Angada", "Rama", "Hanuman"],
     optionsHindi: ["सुग्रीव", "अंगद", "राम", "हनुमान"],
     optionsTelugu: ["సుగ్రీవుడు", "అంగదుడు", "రాముడు", "హనుమాన్"],
-    correct: 4,
+    correct: 0,
     explanation: "Hanuman found Sita in Ashoka Vatika.",
     explanationHindi: "हनुमान ने अशोक वाटिका में सीता को खोजा।",
     explanationTelugu: "హనుమాన్ అశోకవాటికలో సీతను కనుగొన్నారు."
@@ -325,7 +325,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Valmiki", "Vyasa", "Tulsidas", "Kalidasa"],
   optionsHindi: ["वाल्मीकि", "व्यास", "तुलसीदास", "कालिदास"],
   optionsTelugu: ["వాల్మీకి", "వ్యాస", "తులసిదాస్", "కాలిదాస"],
-  correct: 1,
+  correct: 0,
   explanation: "Valmiki is the author of the epic Ramayana.", 
   explanationHindi: "वाल्मीकि रामायण के लेखक हैं।",
   explanationTelugu: "వాల్మీకి రామాయణం రచయిత."
@@ -340,7 +340,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["One", "Two", "Three", "Four"],
   optionsHindi: ["एक", "दो", "तीन", "चार"],
   optionsTelugu: ["ఒకటి", "రెండు", "మూడు", "నాలుగు"],
-  correct: 3,
+  correct: 0,
   explanation: "King Dasharatha had three queens.", 
   explanationHindi: "दशरथ के तीन रानियाँ थीं।",
   explanationTelugu: "దశరథుడికి ముగ్గురు రాణులు ఉన్నారు."
@@ -355,7 +355,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ayodhya", "Mithila", "Lanka", "Kishkindha"],
   optionsHindi: ["अयोध्या", "मिथिला", "लंका", "किष्किंधा"],
   optionsTelugu: ["అయోధ్య", "మిథిల", "లంక", "కిష్కింధ"],
-  correct: 1,
+  correct: 0,
   explanation: "Lord Rama was born in Ayodhya.", 
   explanationHindi: "भगवान राम का जन्म अयोध्या में हुआ था।",
   explanationTelugu: "ప్రభు రాముడు అయోధ్యలో పుట్టారు."
@@ -370,7 +370,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Brahmastra", "Sudarshana Chakra", "Gandiva", "Trishul"],
   optionsHindi: ["ब्रह्मास्त्र", "सुदर्शन चक्र", "गांडीव", "त्रिशूल"],
   optionsTelugu: ["బ్రహ్మాస్త్రం", "సుదర్శన్ చక్రం", "గాండి‌వ", "త్రిశూలం"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama used the Brahmastra to kill Ravana.", 
   explanationHindi: "राम ने रावण को मारने के लिए ब्रह्मास्त्र का उपयोग किया।",
   explanationTelugu: "రాముడు రావణుణ్ని చంపడానికి బ్రహ్మాస్త్రం ఉపయోగించాడు."
@@ -385,7 +385,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Hanuman", "Jatayu", "Sugriva", "Angada"],
   optionsHindi: ["हनुमान", "जटायु", "सुग्रीव", "अंगद"],
   optionsTelugu: ["హనుమాన్", "జటాయు", "సుగ్రీవుడు", "అంగదుడు"],
-  correct: 2,
+  correct: 0,
   explanation: "Jatayu tried to stop Ravana from abducting Sita.", 
   explanationHindi: "जटायु ने रावण को सीता का अपहरण रोकने की कोशिश की।",
   explanationTelugu: "జటాయి రావణ ను ఆపడానికి ప్రయత్నించాడు."
@@ -400,7 +400,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Rama", "Lakshmana", "Hanuman", "Sugriva"],
   optionsHindi: ["राम", "लक्ष्मण", "हनुमान", "सुग्रीव"],
   optionsTelugu: ["రాముడు", "లక్ష్మణుడు", "హనుమాన్", "సుగ్రీవుడు"],
-  correct: 2,
+  correct: 0,
   explanation: "Lakshmana killed Indrajit in the war.", 
   explanationHindi: "लक्ष्मण ने युद्ध में इंद्रजीत को मारा।",
   explanationTelugu: "లక్ష్మణుడు యుద్ధంలో ఇంద్రజీతుడిని చంపాడు."
@@ -415,7 +415,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sanjeevani", "Tulsi", "Neem", "Amla"],
   optionsHindi: ["संजीवनी", "तुलसी", "नीम", "आंवला"],
   optionsTelugu: ["సంజీవనీ", "తులసి", "నిమ్మ", "ఆమ్ల"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman brought the Sanjeevani herb to revive Lakshmana.", 
   explanationHindi: "हनुमान ने संजीवनी बूटी लाई।",
   explanationTelugu: "హనుమాన్ సంజీవనీ మొక్కను తీసుకొచ్చాడు."
@@ -430,7 +430,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Anjana", "Sita", "Urmila", "Mandodari"],
   optionsHindi: ["अंजना", "सीता", "उर्मिला", "मंदोदरी"],
   optionsTelugu: ["అంజన", "సీత", "ఉర్మిళ", "మందోదరి"],
-  correct: 1,
+  correct: 0,
   explanation: "Anjana was the mother of Hanuman.", 
   explanationHindi: "अंजना हनुमान की माता थीं।",
   explanationTelugu: "అంజన హనుమాన్ తల్లి."
@@ -445,7 +445,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Trikuta", "Dvaita", "Sumeru", "Vindhya"],
   optionsHindi: ["त्रिकूट", "द्वैत", "सुमेरु", "विन्ध्य"],
   optionsTelugu: ["త్రికూట", "ద్వైత", "సుమేరు", "విండ్య"],
-  correct: 1,
+  correct: 0,
   explanation: "Lanka was located on Trikuta Island.", 
   explanationHindi: "लंका त्रिकूट द्वीप पर थी।",
   explanationTelugu: "లంక త్రికూట ద్వీపం మీద ఉంది."
@@ -460,7 +460,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["5", "6", "7", "8"],
   optionsHindi: ["5", "6", "7", "8"],
   optionsTelugu: ["5", "6", "7", "8"],
-  correct: 3,
+  correct: 0,
   explanation: "The Ramayana has seven Kandas.", 
   explanationHindi: "रामायण में सात कांड हैं।",
   explanationTelugu: "రామాయణంలో ఏడు కాండాలు ఉన్నాయి."
@@ -475,7 +475,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Guha", "Sugriva", "Vibhishana", "Jatayu"],
   optionsHindi: ["गुहा", "सुग्रीव", "विभीषण", "जटायु"],
   optionsTelugu: ["గుహా", "సుగ్రీవుడు", "విభీషణుడు", "జటాయి"],
-  correct: 1,
+  correct: 0,
   explanation: "Guha arranged boats to help Rama cross the Ganga at the start of his exile.", 
   explanationHindi: "वनवास की शुरुआत में गंगा पार करने में गुहा ने मदद की।",
   explanationTelugu: "వనవాస ప్రారంభంలో గంగా నదిని దాటించడానికి గుహా సహాయపడ్డాడు."
@@ -490,7 +490,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jambavan", "Sugriva", "Vali", "Akampana"],
   optionsHindi: ["जंबवन्", "सुग्रीव", "वालि", "अकम्पन"],
   optionsTelugu: ["జంబవన్", "సుగ్రీవుడు", "వాలి", "అకంపనుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Jambavan was the king of the bears who helped Rama’s army.", 
   explanationHindi: "जंबवन् भालुओं का राजा था जिन्होंने राम की सेना की मदद की।",
   explanationTelugu: "జంబవన్ రాముని సేనకు సహాయపడ్డ ఎద్దుల రాజు."
@@ -505,7 +505,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sampati", "Garuda", "Sugriva", "Angada"],
   optionsHindi: ["समपति", "गरुड़", "सुग्रीव", "अंगद"],
   optionsTelugu: ["సంపతి", "గరుడ", "సుగ్రీవుడు", "అంగదుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sampati was the brother of Jatayu in the Ramayana.", 
   explanationHindi: "रामायण में जटायु का भाई संपति था।",
   explanationTelugu: "రామాయణంలో జటాయువు సోదరుడు సంపతి."
@@ -520,7 +520,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Janaka", "Dasharatha", "Ravana", "Kubera"],
   optionsHindi: ["जनक", "दशरथ", "रावण", "कुबेर"],
   optionsTelugu: ["జనకుడు", "దశరథుడు", "రావణుడు", "కుబేరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "King Janaka was the father of Sita.", 
   explanationHindi: "राजा जनक सीता के पिता थे।",
   explanationTelugu: "రాజు జనకుడు సీత తండ్రి."
@@ -535,7 +535,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dandakaranya", "Aranya", "Panchavati", "Naimisha"],
   optionsHindi: ["दंडकारण्य", "अरण्य", "पंचवटी", "नैमिष"],
   optionsTelugu: ["దండकारण्य", "అరణ్య", "పంచవటి", "నైమిష"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama, Sita and Lakshmana lived in Dandakaranya during exile.", 
   explanationHindi: "वनवास के दौरान वे दंडकारण्य में रहे।",
   explanationTelugu: "వనవాస సమయంలో వారు దండకారణ్యంలో ఉన్నారు."
@@ -550,7 +550,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ikshvaku", "Solaras", "Lunaras", "Chola"],
   optionsHindi: ["इक्ष्वाकु", "सौर", "चंद्र", "चोल"],
   optionsTelugu: ["ఇక్ష్వాకు", "సౌర", "చంద్ర", "చోళ"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama belongs to the Ikshvaku dynasty in the Ramayana.", 
   explanationHindi: "राम इक्ष्वाकु वंश से हैं।",
   explanationTelugu: "రాముడు ఇక్ష్వాకు వంశానికి చెందిన వాడు."
@@ -565,7 +565,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sumitra", "Kausalya", "Kaikeyi", "Mandavi"],
     optionsHindi: ["सुमित्रा", "कौशल्या", "कैकेयी", "मांडवी"],
   optionsTelugu: ["సుమిత్ర", "కౌసల్య", "కైకేయి", "మాండవి"],
-  correct: 1,
+  correct: 0,
   explanation: "Lakshmana’s mother was Queen Sumitra.", 
   explanationHindi: "लक्ष्मण की माता सुमित्रा थीं।",
   explanationTelugu: "లక్ష్మణుని తల్లి సుమిత్ర."
@@ -580,7 +580,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pinaka", "Gandiva", "Sharanga", "Vishnu Dhanush"],
   optionsHindi: ["पिनाक", "गांडीव", "शारंग", "विष्णु धनुष"],
   optionsTelugu: ["పినాక", "గాండి‌వ", "శారంగ", "విష్ణు ధనుస్సు"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama lifted and broke the Pinaka bow at Sita’s swayamvara.", 
   explanationHindi: "राम ने पिनाक धनुष उठाया और तोड़ा।",
   explanationTelugu: "రాముడు పినాక ధనుస్సును ఎత్తాడు."
@@ -595,7 +595,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kubera", "Vibhishana", "Indrajit", "Sugriva"],
   optionsHindi: ["कुबेर", "विभीषण", "इंद्रजीत", "सुग्रीव"],
   optionsTelugu: ["కుబేరుడు", "విభీషణుడు", "ఇంద్రజీతుడు", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Kubera was the ruler before Ravana took over Lanka.", 
   explanationHindi: "कुबेर लंका के राजा थे।",
   explanationTelugu: "కుబేరుడు లంకను పాలించిన మొదటి రాజు."
@@ -610,7 +610,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Guha", "Sugriva", "Vibhishana", "Jatayu"],
   optionsHindi: ["गुहा", "सुग्रीव", "विभीषण", "जटायु"],
   optionsTelugu: ["గుహా", "సుగ్రీవుడు", "విభీషణుడు", "జటాయి"],
-  correct: 1,
+  correct: 0,
   explanation: "Guha arranged boats to help Rama cross the river Ganga at the start of his exile.", 
   explanationHindi: "गुहा ने वनवास की शुरुआत में गंगा पार करने में मदद की।",
   explanationTelugu: "గుహా వనవాసం ప్రారంభంలో గంగను దాటడానికి సహాయం చేశాడు."
@@ -625,7 +625,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jambavan", "Sugriva", "Angada", "Vali"],
   optionsHindi: ["जंबवन्", "सुग्रीव", "अंगद", "वालि"],
   optionsTelugu: ["జంబవన్", "సుగ్రీవుడు", "అంగదుడు", "వాలి"],
-  correct: 1,
+  correct: 0,
   explanation: "Jambavan was the king of the bears who helped Rama’s army.", 
   explanationHindi: "जंबवन् भालुओं का राजा था जिन्होंने राम की सेना की मदद की।",
   explanationTelugu: "జంబవన్ రాముని సేనకు సహాయం చేసిన ఎద్దుల రాజు."
@@ -640,7 +640,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sampati", "Garuda", "Sugriva", "Angada"],
   optionsHindi: ["समपति", "गरुड़", "सुग्रीव", "अंगद"],
   optionsTelugu: ["సంపతి", "గరుడ", "సుగ్రీవుడు", "అంగదుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sampati was the brother of Jatayu in the Ramayana.", 
   explanationHindi: "रामायण में जटायु का भाई संपति था।",
   explanationTelugu: "రామాయణంలో జటాయువు సోదరుడు సంపతి."
@@ -655,7 +655,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dandakaranya", "Panchavati", "Naimisha", "Aranya"],
   optionsHindi: ["दंडकारण्य", "पंचवटी", "नैमिष", "अरण्य"],
   optionsTelugu: ["దండకారణ్య", "పంచవటి", "నైమిష", "అరణ్య"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama, Sita and Lakshmana lived in Dandakaranya during exile.", 
   explanationHindi: "वनवास के दौरान वे दंडकारण्य में रहे।",
   explanationTelugu: "వనవాస సమయంలో వారు దండకారణ్యంలో ఉన్నారు."
@@ -670,7 +670,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Gudakesh", "Angada", "Vali", "Nala"],
   optionsHindi: ["गुडाकेश", "अंगद", "वालि", "नल"],
   optionsTelugu: ["గుడాకేష్", "అంగదుడు", "వాలి", "నల్"],
-  correct: 1,
+  correct: 0,
   explanation: "Gudakesh is another name of Lakshmana.", 
   explanationHindi: "गुडाकेश लक्ष्मण का एक अन्य नाम है।",
   explanationTelugu: "గుడాకేష్ లక్ష్మణుని మరో పేరు."
@@ -685,7 +685,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ideal rule", "Forest rule", "Demon rule", "Kingdom of Lanka"],
   optionsHindi: ["आदर्श शासन", "वन शासन", "राक्षस शासन", "लंका राज्य"],
   optionsTelugu: ["ఆదర్శ పాలనం", "అడవి పాలనం", "రాక్షస పాలనం", "లంక రాజ్యం"],
-  correct: 1,
+  correct: 0,
   explanation: "Ramrajya means the ideal rule of justice, prosperity and dharma.", 
   explanationHindi: "रामराज्य का अर्थ है आदर्श शासन।",
   explanationTelugu: "రామరాజ్యం అంటే ధర్మ, న్యాయం, శ్రేయస్సు పాలన."
@@ -700,7 +700,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sumantra", "Vasishta", "Narada", "Agastya"],
   optionsHindi: ["सुमंत्र", "वशिष्ठ", "नारद", "अगस्त्य"],
   optionsTelugu: ["సుమन्त्र", "వశిష్ఠుడు", "నారదుడు", "అగస్త్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sumantra served as the prime minister of Dasharatha.",
   explanationHindi: "सुमंत्र राजा दशरथ के प्रधानमंत्री थे।",
   explanationTelugu: "సుమంత్రుడు రాజు దశరథుడి ప్రధాని."
@@ -715,7 +715,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shanta", "Mandavi", "Urmila", "Shrutakirti"],
     optionsHindi: ["शान्ता", "मांडवी", "उर्मिला", "श्रुतकीर्ति"],
     optionsTelugu: ["శాంత", "మాండవి", "ఉర్మిళ", "శృతకీర్తి"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama’s sister was Shanta according to Ramayana tradition.",
   explanationHindi: "राम की बहन का नाम शान्ता था।",
   explanationTelugu: "రాముడికి చెల్లెడు శాంత."
@@ -730,7 +730,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Nala and Nila", "Sugriva and Angada", "Hanuman and Jambavan", "Vali and Sugriva"],
   optionsHindi: ["नल और नील", "सुग्रीव और अंगद", "हनुमान और जंबवन्", "वालि और सुग्रीव"],
   optionsTelugu: ["నల్ మరియు నిల్", "సుగ୍రీవుడు మరియు అంగదుడు", "హనుమాన్ మరియు జంబవన్", "వాలి మరియు సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "The engineers Nala and Nila helped build the bridge to Lanka.",
   explanationHindi: "नल और नील ने लंका तक पुल बनाने में मदद की।",
   explanationTelugu: "నల్ మరియు నిల్ లంకకు వంతెన నిర్మించడంలో సహాయపడ్డారు."
@@ -745,7 +745,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Hanuman", "Jatayu", "Sugriva", "Angada"],
   optionsHindi: ["हनुमान", "जटायु", "सुग्रीव", "अंगद"],
   optionsTelugu: ["హనుమాన్", "జటాయి", "సుగ్రీవుడు", "అంగదుడు"],
-  correct: 2,
+  correct: 0,
   explanation: "The vulture Jatayu tried to stop Ravana from abducting Sita.",
   explanationHindi: "जटायु ने रावण से सीता का अपहरण रोकने की कोशिश की।",
   explanationTelugu: "జటాయి రావణను అడ్డుకోవడానికి ప్రయత్నించాడు."
@@ -760,7 +760,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Rama", "Lakshmana", "Hanuman", "Bharata"],
   optionsHindi: ["राम", "लक्ष्मण", "हनुमान", "भरत"],
   optionsTelugu: ["రాముడు", "లక్ష్మణుడు", "హనుమాన్", "భరతుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama broke the Pinaka (Shiva’s bow) to win Sita’s hand.",
   explanationHindi: "राम ने सीता के लिए पिनाक धनुष तोड़ा।",
   explanationTelugu: "సీత కంటికి రాముడు పినాక ధనుస్సును విరించాడు."
@@ -775,7 +775,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["5", "6", "7", "8"],
   optionsHindi: ["5", "6", "7", "8"],
   optionsTelugu: ["5", "6", "7", "8"],
-  correct: 3,
+  correct: 0,
   explanation: "The Ramayana is divided into seven Kandas.",
   explanationHindi: "रामायण सात कांडों में विभाजित है।",
   explanationTelugu: "రామాయణం ఏడు కాండలుగా ఉంది."
@@ -790,7 +790,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sudarshana Chakra", "Gandiva", "Brahmastra", "Trishul"],
   optionsHindi: ["सुदर्शन चक्र", "गांडीव", "ब्रह्मास्त्र", "त्रिशूल"],
   optionsTelugu: ["సుదర్శన్ చక్రం", "గాండి‌వ", "బ్రహ్మాస్త్రం", "త్రిశూలం"],
-  correct: 3,
+  correct: 0,
   explanation: "Rama used the Brahmastra to kill Ravana. :contentReference[oaicite:10]{index=10}",
   explanationHindi: "राम ने रावण को मारने के लिए ब्रह्मास्त्र का उपयोग किया। :contentReference[oaicite:11]{index=11}",
   explanationTelugu: "రాముడు రావణుణ్ని చంపడానికి బ్రహ్మాస్త్రం వాడాడు. :contentReference[oaicite:12]{index=12}"
@@ -805,7 +805,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Panchavati", "Dandakaranya", "Aranya", "Naimisha"],
   optionsHindi: ["पंचवटी", "दंडकारण्य", "अरण्य", "नैमिष"],
   optionsTelugu: ["పంచవటి", "దండకారణ్య", "అరణ్య", "నైమిష"],
-  correct: 2,
+  correct: 0,
   explanation: "They spent their exile in the Dandakaranya forest. :contentReference[oaicite:13]{index=13}",
   explanationHindi: "उन्होंने वान में दंडकारण्य में वनवास बिताया। :contentReference[oaicite:14]{index=14}",
   explanationTelugu: "వనవాసం దండకారణ్యంలో గడిపారు. :contentReference[oaicite:15]{index=15}"
@@ -820,7 +820,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kubera", "Vibhishana", "Indrajit", "Sugriva"],
   optionsHindi: ["कुबेर", "विभीषण", "इंद्रजीत", "सुग्रीव"],
   optionsTelugu: ["కుబేరుడు", "విభీషణుడు", "ఇంద్రజీతుడు", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Kubera was the ruler of Lanka before Ravana. :contentReference[oaicite:16]{index=16}",
   explanationHindi: "कुबेर रावण से पहले लंका के राजा थे। :contentReference[oaicite:17]{index=17}",
   explanationTelugu: "కుబేరుడు రావణుని ముందే లంకను పాలించాడు. :contentReference[oaicite:18]{index=18}"
@@ -835,7 +835,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kausalya", "Sunayana", "Kaikeyi", "Sumitra"],
   optionsHindi: ["कौशल्या", "सुनयना", "कैकेयी", "सुमित्रा"],
   optionsTelugu: ["కౌసల్య", "సునయన", "కైకేయి", "సుమిత్ర"],
-  correct: 2,
+  correct: 0,
   explanation: "According to some Ramayana GK sources, Sita’s mother is named as Sunayana. :contentReference[oaicite:19]{index=19}",
   explanationHindi: "रामायण जीके स्रोतों के अनुसार सीता की माता सुनयना थीं। :contentReference[oaicite:20]{index=20}",
   explanationTelugu: "రామాయణ జీకే ప్రకారం సీత తల్లి సునయన."
@@ -850,7 +850,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Angada and Hanuman", "Lava and Kush", "Sugriva and Vali", "Bharata and Shatrughna"],
   optionsHindi: ["अंगद और हनुमान", "लव और कुश", "सुग्रीव और वालि", "भरत और शत्रुघ्न"],
   optionsTelugu: ["అంగదుడు మరియు హనుమాన్", "లవ మరియు కుష", "సुग్రీవుడు మరియు వాలి", "భరతుడు మరియు శత్రుఘ్నుడు"],
-  correct: 2,
+  correct: 0,
   explanation: "Rama and Sita had two sons: Lava and Kush. :contentReference[oaicite:21]{index=21}",
   explanationHindi: "राम और सीता के पुत्र लव और कुश थे। :contentReference[oaicite:22]{index=22}",
   explanationTelugu: "రాముడు మరియు సీతకు లవ మరియు కుష కుమారులు ఉన్నారు. :contentReference[oaicite:23]{index=23}"
@@ -865,7 +865,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Diwali", "Holi", "Dussehra", "Raksha Bandhan"],
   optionsHindi: ["दिवाली", "होली", "दशहरा", "रक्षा बंधन"],
   optionsTelugu: ["దీపావళి", "హోలీ", "దశరా", "రక్షాబంధన్"],
-  correct: 3,
+  correct: 0,
   explanation: "The festival of Dussehra celebrates Rama’s victory over Ravana. :contentReference[oaicite:24]{index=24}",
   explanationHindi: "दशहरा राम की विजय का उत्सव है। :contentReference[oaicite:25]{index=25}",
   explanationTelugu: "దశరా రాముడు రావణునిపై విజయం సాధించిన పండుగ."
@@ -880,7 +880,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vishrava", "Pulatsya", "Kubera", "Indra"],
   optionsHindi: ["विष्रव", "पुलस्त्य", "कुबेर", "इंद्र"],
   optionsTelugu: ["విశ్రవుడు", "పులస్త్యుడు", "కుబేరుడు", "ఇంద్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ravana was the son of sage Vishrava.",
   explanationHindi: "रावण ऋषि विष्रव के पुत्र थे।",
   explanationTelugu: "రావణుడు ఋషి విశ్రవుడి కుమారుడు."
@@ -895,7 +895,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dronagiri", "Himalaya", "Vindhya", "Aruna"],
   optionsHindi: ["द्रोणगिरि", "हिमालय", "विंध्य", "अरुण"],
   optionsTelugu: ["ద్రోణగిరి", "హిమాలయ", "వింధ్య", "అరుణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman brought the Sanjeevani herb from Mount Dronagiri.",
   explanationHindi: "हनुमान संजीवनी बूटी द्रोणगिरि पर्वत से लाए।",
   explanationTelugu: "హనుమాన్ సంజీవనీ ఔషధాన్ని ద్రోణగిరి నుంచి తీసుకువచ్చాడు."
@@ -910,7 +910,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Surpanakha", "Tataka", "Trijata", "Mandodari"],
   optionsHindi: ["शूर्पणखा", "ताटका", "त्रिजटा", "मंदोदरी"],
   optionsTelugu: ["శూర్పణఖ", "తాటక", "త్రిజట", "మందోదరీ"],
-  correct: 1,
+  correct: 0,
   explanation: "Lakshmana cut Surpanakha’s nose after she attacked Sita.",
   explanationHindi: "लक्ष्मण ने शूर्पणखा का नाक काटा। ",
   explanationTelugu: "లక్ష్మణుడు శూర్పణఖ ముక్కుని కత్తిరించాడు."
@@ -925,7 +925,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jatayu", "Sampati", "Garuda", "Hanuman"],
   optionsHindi: ["जटायु", "समपति", "गरुड़", "हनुमान"],
   optionsTelugu: ["జటాయి", "సంపతి", "గరుడ", "హనుమాన్"],
-  correct: 1,
+  correct: 0,
   explanation: "The vulture Jatayu informed Rama about Sita’s abduction.",
   explanationHindi: "जटायु ने राम को सीता के अपहरण के बारे में बताया।",
   explanationTelugu: "జటాయి సీత అపహరణను రామునికి తెలియజేశాడు."
@@ -940,7 +940,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Nala and Nila", "Hanuman and Angada", "Sugriva and Vali", "Jambavan and Sugriva"],
   optionsHindi: ["नल और नील", "हनुमान और अंगद", "सुग्रीव और वालि", "जंबवन् और सुग्रीव"],
   optionsTelugu: ["నల్ మరియు నిల్", "హనుమాన్ మరియు అంగదుడు", "సుగ్రీవుడు మరియు వాలి", "జంబవన్ మరియు సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Nala and Nila helped build the bridge to Lanka.",
   explanationHindi: "नल और नील ने पुल बनाने में मदद की।",
   explanationTelugu: "నల్ మరియు నిల్ లంకకు వంతెన నిర్మించడంలో సహాయపడ్డారు."
@@ -955,7 +955,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Indrajit", "Akshayakumara", "Atikaya", "Devantaka"],
   optionsHindi: ["इंद्रजीत", "अक्षयकुमार", "अतिकाय", "देवन्तक"],
   optionsTelugu: ["ఇంద్రజీతుడు", "అక్షయకుమారుడు", "అతికాయుడు", "దేవంతకుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Indrajit (Meghanada) was the eldest son of Ravana.",
   explanationHindi: "इंद्रजीत रावण का सबसे बड़ा पुत्र था।",
   explanationTelugu: "ఇండ్రజీతుడు రావణుని అతి పెద్ద కుమారుడు."
@@ -970,7 +970,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shurpanakha", "Mandodari", "Trijata", "Sunayana"],
   optionsHindi: ["शूर्पणखा", "मंदोदरी", "त्रिजटा", "सुनयना"],
   optionsTelugu: ["శూర్పణఖ", "మందోదరి", "త్రిజట", "సునయన"],
-  correct: 1,
+  correct: 0,
   explanation: "Shurpanakha was Ravana’s sister.",
   explanationHindi: "शूर्पणखा रावण की बहन थीं।",
   explanationTelugu: "శూర్పణఖ రావణుని చెల్లి."
@@ -985,7 +985,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sampati", "Jatayu", "Garuda", "Hanuman"],
   optionsHindi: ["समपति", "जटायु", "गरुड़", "हनुमान"],
   optionsTelugu: ["సంపతి", "జటాయి", "గరుడ", "హనుమాన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Sampati offered to show Rama the direction to Lanka.",
   explanationHindi: "समपति ने राम को लंका का रास्ता दिखाने की पेशकश की।",
   explanationTelugu: "సంపతి రామునికి లంక దిశను చూపించాడు."
@@ -1000,7 +1000,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Guha", "Sugriva", "Vibhishana", "Jatayu"],
   optionsHindi: ["गुहा", "सुग्रीव", "विभीषण", "जटायु"],
   optionsTelugu: ["గుహా", "సుగ్రీవుడు", "విభీషణుడు", "జటాయి"],
-  correct: 1,
+  correct: 0,
   explanation: "Guha helped Rama cross the river Ganga at the start of his exile.",
   explanationHindi: "गुहा ने वनवास की शुरुआत में राम को गंगा पार करने में मदद की।",
   explanationTelugu: "వనవాసం ప్రారంభంలో గంగను దాటడానికి గుహా సహాయపడ్డాడు."
@@ -1015,7 +1015,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jambavan", "Sugriva", "Vali", "Hanuman"],
   optionsHindi: ["जंबवन्", "सुग्रीव", "वालि", "हनुमान"],
   optionsTelugu: ["జంబవన్", "సుగ్రీవుడు", "వాలి", "హనుమాన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Jambavan was the king of bears who helped Rama’s army.",
   explanationHindi: "जंबवन् वह भालुओं का राजा था जिसने राम की सेना की मदद की।",
   explanationTelugu: "జంబవన్ రాముని సేనకు సహాయం చేసిన ఎద్దుల రాజు."
@@ -1030,7 +1030,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sampati", "Garuda", "Hanuman", "Sugriva"],
   optionsHindi: ["समपति", "गरुड़", "हनुमान", "सुग्रीव"],
   optionsTelugu: ["సంపతి", "గరుడు", "హనుమాన్", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sampati was Jatayu’s elder brother who informed Rama about Sita’s abduction.",
   explanationHindi: "समपति जटायु का बड़ा भाई था जिसने राम को सीता के अपहरण के बारे में बताया।",
   explanationTelugu: "సంపతి జటాయుకు పెద్ద సోదరుడు, ఆయన రామునికి సీత అపహరణని చెప్పారు."
@@ -1045,7 +1045,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ikshvaku", "Lunar", "Solaras", "Chola"],
   optionsHindi: ["इक्ष्वाकु", "चंद्र", "सौर", "चोल"],
   optionsTelugu: ["ఇక్ష్వాకు", "చంద్ర", "సౌర", "చోళ"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama belonged to the Ikshvaku dynasty.",
   explanationHindi: "राम इक्ष्वाकु वंश के थे।",
   explanationTelugu: "రాముడు ఇక్ష్వాక్ వంశానికి చెందేవాడు."
@@ -1060,7 +1060,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["5", "6", "7", "8"],
   optionsHindi: ["5", "6", "7", "8"],
   optionsTelugu: ["5", "6", "7", "8"],
-  correct: 3,
+  correct: 0,
   explanation: "There are seven Kandas in the Ramayana.",
   explanationHindi: "रामायण में सात कांड हैं।",
   explanationTelugu: "రామాయణంలో ఏడు కాండలు ఉన్నాయి."
@@ -1075,7 +1075,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dasharatha", "Janaka", "Ravana", "Vishrava"],
   optionsHindi: ["दशरथ", "जनक", "रावण", "विष्रव"],
   optionsTelugu: ["దశరథుడు", "జనకుడు", "రావణుడు", "విశ్రవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "King Dasharatha was the father of Rama.",
   explanationHindi: "राजा दशरथ राम के पिता थे।",
   explanationTelugu: "రాజు దశరథుడు రాముని తండ్రి."
@@ -1090,7 +1090,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kubera", "Vibhishana", "Indrajit", "Sugriva"],
   optionsHindi: ["कुबेर", "विभीषण", "इंद्रजीत", "सुग्रीव"],
   optionsTelugu: ["కుబేరుడు", "విభీషణుడు", "ఇంద్రజీతుడు", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Kubera was the ruler of Lanka before Ravana.",
   explanationHindi: "कुबेर रावण से पहले लंका के शासक थे।",
   explanationTelugu: "కుబేరుడు రావణుని ముందు లంకను పాలించాడు."
@@ -1105,7 +1105,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Indrajit", "Atikaya", "Akshaya Kumara", "Devantaka"],
   optionsHindi: ["इंद्रजीत", "अतिकाय", "अक्षयकुमार", "देवन्तक"],
   optionsTelugu: ["ఇంద్రజీతుడు", "అతికాయుడు", "అక్షయకుమారుడు", "దేవంతకుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Indrajit (Meghanada) was the eldest son of Ravana.",
   explanationHindi: "इंद्रजीत रावण का सबसे बड़ा पुत्र था।",
   explanationTelugu: "ఇంద్రజీతుడు రావణుని అతి పెద్ద కుమారుడు."
@@ -1120,7 +1120,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Trijata", "Surpanakha", "Mandodari", "Tara"],
   optionsHindi: ["त्रिजटा", "शूर्पणखा", "मंदोदरी", "तारा"],
   optionsTelugu: ["త్రిజట", "శూర్పణఖ", "మందోదరి", "తారా"],
-  correct: 1,
+  correct: 0,
   explanation: "Trijata was a rakshasi who guarded Sita in Lanka.",
   explanationHindi: "त्रिजटा लंका में सीता की रक्षक थीं।",
   explanationTelugu: "త్రిజట లంకలో సీతను రక్షించినది."
@@ -1135,7 +1135,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Anjana", "Sunayana", "Kausalya", "Sumitra"],
   optionsHindi: ["अंजना", "सुनयना", "कौशल्या", "सुमित्रा"],
   optionsTelugu: ["అంజన", "సునయన", "కౌసల్య", "సుమిత్ర"],
-  correct: 1,
+  correct: 0,
   explanation: "Anjana was the mother of Hanuman.",
   explanationHindi: "अंजना हनुमान की माता थीं।",
   explanationTelugu: "అంజన హనుమాన్ తల్లి."
@@ -1150,7 +1150,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Guha", "Jabali", "Sugriva", "Hanuman"],
   optionsHindi: ["गुहा", "जाबली", "सुग्रीव", "हनुमान"],
   optionsTelugu: ["గుహా", "జాబలి", "సుగ్రీవుడు", "హనుమాన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Guha was the king of the Nishadas who helped Rama, Sita and Lakshmana cross the river Ganga.",
   explanationHindi: "गुहा निशादों के राजा थे जिन्होंने राम, सीता और लक्ष्मण को गंगा पार करने में मदद की।",
   explanationTelugu: "గుహా నిషాదుల రాజు, రాముని, సీత మరియు లక్ష్మణుని గంగను దాటడంలో సహాయపడ్డాడు."
@@ -1165,7 +1165,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jabali", "Manthara", "Vibhishana", "Jambavan"],
   optionsHindi: ["जाबली", "मंथरा", "विभीषण", "जंबवन्"],
   optionsTelugu: ["జాబలి", "మంతర", "విభీషణుడు", "జంబవన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Jabali was a priest who tried to persuade Rama to give up his exile by using rational arguments.",
   explanationHindi: "जाबली एक पुरोहित थे जिन्होंने राम को तर्कपूर्ण कारण देकर वनवास छोड़ने को कहा।",
   explanationTelugu: "జాబలి ఒక పూజారి, అతను రాముని వనవాసం వదిలివేయమని తార్కిక వాదాలతో ఒప్పించడానికి ప్రయత్నించాడు."
@@ -1180,7 +1180,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Tara", "Urmila", "Mandavi", "Shanta"],
   optionsHindi: ["तारा", "उर्मिला", "मांडवी", "शान्ता"],
   optionsTelugu: ["తారా", "ఉర్మిళ", "మాండవి", "శాంత"],
-  correct: 1,
+  correct: 0,
   explanation: "Tara, the wife of Vali, is considered one of the Pancha Kanyas, the five revered women in Hindu tradition.",
   explanationHindi: "वाली की पत्नी तारा को पँच-कन्याओं में से एक माना जाता है।",
   explanationTelugu: "వాలి భార్య తారా ని పంచ కన్యల్లో ఒకరుగా భావిస్తారు."
@@ -1195,7 +1195,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["She influenced Kaikeyi to demand exile", "She helped build the bridge to Lanka", "She advised Rama in battle", "She revealed Sita’s location"],
   optionsHindi: ["उन्होंने कैकेयी को वनवास की मांग करने के लिए प्रभावित किया", "उन्होंने लंका तक पुल बनाने में मदद की", "उन्होंने युद्ध में राम को सलाह दी", "उन्होंने सीता का स्थान प्रकट किया"],
   optionsTelugu: ["ఆమె కైకేయిని వనవాసం కోరడానికి ప్రేరేపించింది", "ఆమె లంకకు వంతెన నిర్మించడంలో సహాయపడింది", "ఆమె యుద్ధంలో రామునికి సలహా ఇచ్చింది", "ఆమె సీత యొక్క స్థానం వెల్లడించింది"],
-  correct: 1,
+  correct: 0,
   explanation: "Manthara was the servant who influenced Kaikeyi to demand Rama’s exile.",
   explanationHindi: "मंथरा वह सेविका थीं जिन्होंने कैकेयी को राम के वनवास की मांग करने के लिए प्रभावित किया।",
   explanationTelugu: "మంతర, కైకేయిని రాముని వనవాసం కోరమని ప్రభావితం చేసిన సేవకురాలు."
@@ -1210,7 +1210,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jambavan", "Sugriva", "Vali", "Hanuman"],
   optionsHindi: ["जंबवन्", "सुग्रीव", "वालि", "हनुमान"],
   optionsTelugu: ["జంబవన్", "సుగ్రీవుడు", "వాలి", "హనుమాన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Jambavan was the king of the bears who helped the Vanara army and Hanuman during the search for Sita and the battle against Ravana.",
   explanationHindi: "जंबवन् वह भालुओं के राजा थे जिन्होंने वानर सेना और हनुमान की मदद की।",
   explanationTelugu: "జంబవన్ వానర సేన మరియు హనుమాన్ కు సహాయం చేసిన ఎద్దుల రాజు."
@@ -1225,7 +1225,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["An illusionary Sita who was abducted", "Sita’s sister", "Sita’s friend in Lanka", "A demon disguised as Sita"],
   optionsHindi: ["अपहरण की गई माया सीता", "सीता की बहन", "लंका में सीता की मित्र", "सीता के रूप में राक्षस"],
   optionsTelugu: ["అపహరణకు గురైన మాయ సీత", "సీత చెల్లెడు", "లంకలో సీత స్నేహితురాలు", "సీత రూపంలో రాక్షసుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "In some later versions and regional tellings, Maya Sita refers to an illusionary duplicate of Sita who is abducted in place of the real Sita.",
   explanationHindi: "कुछ संस्करणों में माया सीता वह माया रूप सीता है जिसे वास्तविक सीता की जगह अपहरण किया जाता है।",
   explanationTelugu: "కొన్ని కథల్లో మాయా సీత ఒక మాయ రూపం, నిజమైన సీతకు బదులుగా అపహరించబడింది."
@@ -1240,7 +1240,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Atikaya", "Meghanada", "Akshayakumara", "Devantaka"],
   optionsHindi: ["अतिकाय", "मेघनाद", "अक्षयकुमार", "देवन्तक"],
   optionsTelugu: ["అతికాయుడు", "మెఘనాదుడు", "అక్షయకుమారుడు", "దేవంతకుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Atikaya was a son of Ravana who was slain by Lakshmana using a powerful weapon, the Brahmastra.",
   explanationHindi: "अतिकाय रावण का पुत्र था जिसे लक्ष्मण ने ब्रह्मास्त्र से मारा था।",
   explanationTelugu: "అతికాయుడు రావణుని అగా కుమారుడు, ఆయనను లక్ష్మణుడు బ్రహ్మాస్త్రం తో చంపాడు."
@@ -1255,7 +1255,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Simhika", "Surasa", "Lankini", "Tataka"],
   optionsHindi: ["सिंहिका", "सुरसा", "लंकिनी", "ताड़का"],
   optionsTelugu: ["సింహికా", "సురస", "లంకినీ", "తాటక"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman killed the rakshasi Simhika who tried to capture him by grabbing his shadow in the ocean.",
   explanationHindi: "समुद्र में हनुमान ने सिंहिका नाम की राक्षसी को मारा जिसने उनकी छाया पकड़ने की कोशिश की थी।",
   explanationTelugu: "సముద్రంలో హనుమాన్ తన నీరాజాన్ని పట్టుకుందాం అని ప్రయత్నించిన సింహికా అనే రాక్షసిని హనుమాన్ హినించాడు."
@@ -1270,7 +1270,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kevat", "Guha", "Jatayu", "Sugriva"],
   optionsHindi: ["केवट", "गुहा", "जटायु", "सुग्रीव"],
   optionsTelugu: ["కేవట", "గుహా", "జటాయు", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Kevat was the boatman who ferried Rama, Sita and Lakshmana across the Ganga river.",
   explanationHindi: "केवट वह नाविक था जिसने राम, सीता और लक्ष्मण को गंगा नदी पार करने में मदद की।",
   explanationTelugu: "కేవటే ఆ నావికుడు, అతను రాముడిని, సీతను మరియు లక్ష్మణునిని గంగా నది దాటించాడ."
@@ -1285,7 +1285,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ruma", "Tara", "Mandavi", "Urmila"],
   optionsHindi: ["रूमा", "तारा", "मांडवी", "उर्मिला"],
   optionsTelugu: ["రూమా", "తారా", "మాండవి", "ఉర్మిళ"],
-  correct: 1,
+  correct: 0,
   explanation: "Ruma was the wife of Vanara king Sugriva.",
   explanationHindi: "रूमा वानर राजा सुग्रीव की पत्नी थीं।",
   explanationTelugu: "రూమా వానర రాజు సుగ్రీవుడి భార్య."
@@ -1300,7 +1300,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Lankini", "Surasa", "Simhika", "Tataka"],
   optionsHindi: ["लंकिनी", "सुरसा", "सिंहिका", "ताड़का"],
   optionsTelugu: ["లంకినీ", "సురస", "సింహికా", "తాటక"],
-  correct: 1,
+  correct: 0,
   explanation: "Lankini was the demoness guarding the gates of Lanka whom Hanuman encountered.",
   explanationHindi: "लंकिनी वह राक्षसी थी जो लंका के द्वार की रक्षा करती थी और हनुमान उससे मिले।",
   explanationTelugu: "లంకినీ ఆ లంక ద్వారానికి సంరక్షక రాక్షసి, ఆమెను హనుమాన్ కలుసుకున్నారు."
@@ -1315,7 +1315,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Subahu", "Maricha", "Tataka", "Simhika"],
   optionsHindi: ["सुबाहु", "मारीच", "ताटका", "सिंहिका"],
   optionsTelugu: ["సుబాహు", "మారీచుడు", "తాటకా", "సింహికా"],
-  correct: 1,
+  correct: 0,
   explanation: "Subahu was a demon killed by Rama in Dandakaranya while protecting sages.",
   explanationHindi: "सुबाहु वह राक्षस था जिसे जंगल दंडकारण्य में राम ने मारा था।",
   explanationTelugu: "సుబాహు ఆ రాక్షసుడు, అతను దండకారణ్యంలో ఋषుల రక్షణలో రాముడు హనించాడు."
@@ -1330,7 +1330,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Meghanada", "Atikaya", "Akshayakumara", "Devantaka"],
   optionsHindi: ["मेघनाद", "अतिकाय", "अक्षयकुमार", "देवान्तक"],
   optionsTelugu: ["మెఘనాదుడు", "అతికాయుడు", "అక్షయ కుమారుడు", "దేవంతకుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Meghanada, also known as Indrajit, defeated Indra in battle.",
   explanationHindi: "मेघनाद जिसे इंद्रजीत के नाम से भी जाना जाता है, इंद्र को युद्ध में हराया था।",
   explanationTelugu: "మెఘనాదుడు, ఇంద్రజీత్ గా కూడా పిలవబడు, యుద్ధంలో ఇంద్రుడిని ఓడించాడు."
@@ -1345,7 +1345,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Trijata", "Surpanakha", "Tara", "Mandodari"],
   optionsHindi: ["त्रिजटा", "शूर्पणखा", "तारा", "मंदोदरी"],
   optionsTelugu: ["త్రిజటా", "శూర్పణఖ", "తారా", "మందోదరి"],
-  correct: 1,
+  correct: 0,
   explanation: "Trijata was the rakshasi assigned to comfort and watch over Sita in Lanka.",
   explanationHindi: "त्रिजटा वह राक्षसी थी जिसे लंका में सीता की देखभाल और सांत्वना देने के लिए नियुक्त किया गया था।",
   explanationTelugu: "త్రిజటా ఆ రాక్షసి, ఆమెను లంకలో సీతను చూస్తూ సాంత్వన ఇచ్చేందుకు నియమించారు."
@@ -1360,7 +1360,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vibhishana", "Sugriva", "Hanuman", "Bali"],
   optionsHindi: ["विभीषण", "सुग्रीव", "हनुमान", "बालि"],
   optionsTelugu: ["విభీషణుడు", "సుగ్రీవుడు", "హనుమాన్", "బాలి"],
-  correct: 1,
+  correct: 0,
   explanation: "Vibhishana, Ravana’s brother who sided with Rama, was made king of Lanka after Ravana was defeated.",
   explanationHindi: "विभीषण, जो राम के पक्ष में गया था, रावण के पराजय के बाद लंका का राजा बनाया गया था।",
   explanationTelugu: "విభీషణుడు, రావణుని అన్న, రామపక్షానికి వెళ్లాడు, అప్పుడు లంకను పాలించాడు."
@@ -1375,7 +1375,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Vali and messenger of Rama", "Ravana’s commander", "Father of Sugriva", "Sita’s brother"],
   optionsHindi: ["वालि के पुत्र और राम के दूत", "रावण के कमांडर", "सुग्रीव के पिता", "सीता के भाई"],
   optionsTelugu: ["వాలి కుమారుడు మరియు రాముడి సందేశదారు", "రావణుని సేనాధిపతి", "సుగ్రీవుని తండ్రి", "సీత అన్న"],
-  correct: 1,
+  correct: 0,
   explanation: "Angada was the son of Vali and served as a loyal vanara warrior and messenger for Rama.",
   explanationHindi: "अंगद वलि के पुत्र थे और राम के लिए एक निष्ठावान वानर योद्धा तथा दूत के रूप में सेवा करते थे।",
   explanationTelugu: "అంగదుడు వాలి కుమారుడుగా రాముని కోసం నమ్మదగిన వానర యోధుడుగా మరియు సందేశదారుగా ఉన్నాడు."
@@ -1390,7 +1390,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vanara commander in Sugriva’s army", "King of Lanka", "Sage who blessed Rama", "Ravana’s son"],
   optionsHindi: ["सुग्रीव की सेना में वानर कमांडर", "लंका का राजा", "राम को आशीर्वाद देने वाले ऋषि", "रावण का पुत्र"],
   optionsTelugu: ["సుగ్రీవు సేనలో వానర కమాండర్", "లంకా రాజు", "రాముని ఆశీర్వదించిన ఋషి", "రవణుని కుమారుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Nila was a vanara commander in Sugriva’s army who fought against Ravana’s forces.",
   explanationHindi: "नीला सुग्रीव की सेना में एक वानर कमांडर थे जिन्होंने रावण की सेनाओं के खिलाफ युद्ध में भाग लिया।",
   explanationTelugu: "నీలా సుగ్రీవు సేనలో వానరాధిపతి, రావణుని సేనతో యుద్ధంలో పాల్గొన్నారు."
@@ -1405,7 +1405,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Prime minister of Dasharatha and later Rama", "Teacher of Lakshmana", "Vanara king", "Father of Sita"],
   optionsHindi: ["दशरथ और बाद में राम के प्रधानमंत्री", "लक्ष्मण के शिक्षक", "वानर राजा", "सीता के पिता"],
   optionsTelugu: ["దశరథుడికి మరియు తరువాత రామునికి ప్రధాని", "లక్ష్మణుడి గురువు", "వానర రాజు", "సీత తండ్రి"],
-  correct: 1,
+  correct: 0,
   explanation: "Sumantra was the trusted minister of King Dasharatha and later served Rama.",
   explanationHindi: "सुमंत्र राजा दशरथ के विश्वासपात्र मंत्री थे और बाद में राम के सेवा में भी रहे।",
   explanationTelugu: "సుమంత్రుడు రాజు దశరథుని విశ్వసనీయ మంత్రిగా, తరువాత రాముని సేవలో ఉన్నాడు."
@@ -1420,7 +1420,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pinaka", "Kodanda", "Sharanga", "Gandiva"],
   optionsHindi: ["पिनाक", "कोदंड", "शारंग", "गांडीव"],
   optionsTelugu: ["పినాక", "కోదండ", "శారంగ", "గాండి‌వ"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama broke the bow called Pinaka to win Sita’s hand in marriage.",
   explanationHindi: "राम ने सीता से विवाह करने के लिए पिनाक नामक धनुष को तोड़ा था।",
   explanationTelugu: "రాముడు వివాహ కోసం పినాక ధనుస్సును విరజేశాడు."
@@ -1435,7 +1435,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dandakaranya", "Mithila", "Ayodhya", "Panchavati"],
   optionsHindi: ["दंडकारण्य", "मिथिला", "अयोध्या", "पंचवटी"],
   optionsTelugu: ["దండకారణ్య", "మిథిల", "అయోధ్య", "పంచవటి"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama, Sita and Lakshmana spent their exile years in the forest of Dandakaranya.",
   explanationHindi: "राम, सीता और लक्ष्मण ने अपने वनवास के वर्षों दंडकारण्य के जंगल में बिताए।",
   explanationTelugu: "రాముడు, సీత మరియు లక్ష్మణుడు వనవాసం గడిపిన అడవిని దండకారణ్య అంటారు."
@@ -1450,7 +1450,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Narada", "Vasishta", "Agastya", "Bharadwaja"],
   optionsHindi: ["नारद", "वशिष्ठ", "अगस्त्य", "भरद्वाज"],
   optionsTelugu: ["నారదుడు", "వశిష్ఠుడు", "అగస్త్యుడు", "భరద్వాజ ఋషి"],
-  correct: 1,
+  correct: 0,
   explanation: "Sage Narada narrated the story of Rama to Valmiki, who composed the Ramayana.",
   explanationHindi: "नारद मुनि ने वाल्मीकि को रामायण की कथा सुनाई।",
   explanationTelugu: "నారదుడు వాల్మీకికి రామాయణ కథను చెప్పాడు."
@@ -1465,7 +1465,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vishrava", "Pulastya", "Kubera", "Indra"],
   optionsHindi: ["विष्रव", "पुलस्त्य", "कुबेर", "इंद्र"],
   optionsTelugu: ["విశ్రవుడు", "పులస్త్యుడు", "కుబేరుడు", "ఇంద్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ravana’s father was the sage Vishrava in the Ramayana.",
   explanationHindi: "रामायण में रावण के पिता ऋषि विष्रव थे।",
   explanationTelugu: "రామాయణంలో రావణుని తండ్రి విశ్రవుడు."
@@ -1480,7 +1480,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Wife of Sugriva", "Sita’s cousin", "Vali’s mother", "Hanuman’s sister"],
   optionsHindi: ["सुग्रीव की पत्नी", "सीता की चचेरी बहन", "वालि की माता", "हनुमान की बहन"],
   optionsTelugu: ["సుగ్రీవు భార్య", "సీత మైత్రీ", "వాలి తల్లి", "హనుమాన్ చెల్లలు"],
-  correct: 1,
+  correct: 0,
   explanation: "Rumā was the wife of Sugriva in the Ramayana.",
   explanationHindi: "रामायण में रूमा सुग्रीव की पत्नी थीं।",
   explanationTelugu: "రామాయణంలో రూమా సుగ్రీవుడి భార్య."
@@ -1495,7 +1495,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sage who performed Ashwamedha for Dasharatha", "Vanara warrior", "King of Lanka", "Sita’s brother"],
   optionsHindi: ["दशरथ के अश्वमेध यज्ञ के लिए यज्ञ अधिकारी", "वानर योद्धा", "लंका का राजा", "सीता का भाई"],
   optionsTelugu: ["దశరథుని అశ్వమేధ యజ్ఞం నిర్వహించిన ఋషి", "వానర యోధుడు", "లంకా రాజు", "సీత అన్న"],
-  correct: 1,
+  correct: 0,
   explanation: "Rishyasringa was the sage chosen to perform King Dasharatha’s Ashwamedha yajna.",
   explanationHindi: "ऋष्यश्रिंग वह ऋषि थे जिन्होंने दशरथ के अश्वमेध यज्ञ का संचालन किया।",
   explanationTelugu: "ఋష్యశ్రింగుడు దశరథుని అశ్వమేధ యజ్ఞం నిర్వహించిన ఋషి."
@@ -1510,7 +1510,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kausalya", "Sumitra", "Kaikeyi", "Sunayana"],
   optionsHindi: ["कौशल्या", "सुमित्रा", "कैकेयी", "सुनयना"],
   optionsTelugu: ["కౌశల్య", "సుమిత్ర", "కైకేయి", "సునయన"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama’s mother was Queen Kausalya of Ayodhya.",
   explanationHindi: "राम की माता अयोध्या की रानी कौशल्या थीं।",
   explanationTelugu: "రాముని తల్లి అయోధ్య రాణి కౌశల్య."
@@ -1525,7 +1525,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Indrajit", "Atikaya", "Akshaya Kumara", "Devantaka"],
   optionsHindi: ["इंद्रजीत", "अतिकाय", "अक्षय कुमार", "देवन्तक"],
   optionsTelugu: ["ఇంద్రజీత్", "అతికాయుడు", "అక్షయ కుమారుడు", "దేవంతకుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Indrajit (also called Meghanada) was Ravana’s eldest son and earned his name by defeating Indra.",
   explanationHindi: "इंद्रजीत (मेघनाद) रावण के सबसे बड़े पुत्र थे और इंद्र को हराकर यह नाम पाया था।",
   explanationTelugu: "ఇంద్రజీత్ (మెఘనాదుడు) రావణుని పెద్ద కుమారుడు, ఇంద్రుణ్ని ఓడించి పేరు సంపాదించాడు."
@@ -1540,7 +1540,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Brother of Ravana who kidnapped Rama", "Vanara warrior", "King of Mithila", "Sage of forest"],
   optionsHindi: ["राम को अपहरण करने वाला रावण का भाई", "वानर योद्धा", "मिथिला का राजा", "जंगल का ऋषि"],
   optionsTelugu: ["రాముని అపహరించిన రావణుని అన్న", "వానర యోధుడు", "మిథిల రాజు", "అడవి ఋషి"],
-  correct: 1,
+  correct: 0,
   explanation: "Ahiravana (or Mahiravana) is described in some Ramayana versions as Ravana’s brother who abducted Rama and Lakshmana.",
   explanationHindi: "अहिरावण रामायण के कुछ संस्करणों में रावण का भाई बताया गया है जिसने राम और लक्ष्मण का अपहरण किया।",
   explanationTelugu: "అహిరావణుడు కొన్ని రామాయణాలలో రావణుని అన్నగా, రాముని మరియు లక్ష్మణుని అపహరించినవాడుగా చెప్పబడుతున్నాడు."
@@ -1555,7 +1555,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Maricha sent to stop Hanuman", "King of Lanka", "Father of Sugriva", "Vanara commander"],
   optionsHindi: ["हनुमान को रोकने के लिए भेजा गया मारीच का पुत्र", "लंका का राजा", "सुग्रीव के पिता", "वानर कमांडर"],
   optionsTelugu: ["హనుమాన్‌ను ఆపడానికి పంపిన మారీచుని కుమారుడు", "లంకా రాజు", "సుగ్రీవుని తండ్రి", "వానర కమాండర్"],
-  correct: 1,
+  correct: 0,
   explanation: "Kalanemi is described in some adaptations as the son of Maricha sent by Ravana to stop Hanuman.",
   explanationHindi: "कुछ रूपांतरों में कालनेमि को रावण द्वारा हनुमान को रोकने के लिए भेजा गया मारीच का पुत्र बताया जाता है।",
   explanationTelugu: "కొన్ని కథనాలలో కాలనేమి, హనుమాన్‌ను ఆపడానికి రావణుడు పంపిన మారీచుని కుమారుడని చెప్పబడ్డాడు."
@@ -1570,7 +1570,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Chief commander of Ravana’s army", "King of Ayodhya", "Sita’s brother", "Vanara healer"],
   optionsHindi: ["रावण की सेना के मुख्य सेनापति", "अयोध्या का राजा", "सीता का भाई", "वानर चिकित्सक"],
   optionsTelugu: ["రావణ సేన ప్రధాన సేనాధిపతి", "అయోధ్య రాజు", "సీత అన్న", "వానర వైద్యం"],
-  correct: 1,
+  correct: 0,
   explanation: "Prahasta was a powerful rakshasa warrior and chief commander of Ravana’s army.",
   explanationHindi: "प्रहस्त एक शक्तिशाली राक्षस योद्धा और रावण की सेना के मुख्य सेनापति थे।",
   explanationTelugu: "ప్రహస్తుడు ఒక శక్తివంతమైన రాక్షస యోధుడు మరియు రావణుని సేనాధిపతి."
@@ -1585,7 +1585,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kesari", "Vishrava", "Dasharatha", "Sugriva"],
   optionsHindi: ["केसरी", "विष्रव", "दशरथ", "सुग्रीव"],
   optionsTelugu: ["కేసరి", "విశ్రవుడు", "దశరథుడు", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman’s father was Kesari, a vanara chief.",
   explanationHindi: "हनुमान के पिता वानर नेता केसरी थे।",
   explanationTelugu: "హనుమాన్ తండ్రి కేసరి, ఒక వానర నేత."
@@ -1600,7 +1600,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Anjana", "Kaushalya", "Sumitra", "Mandodari"],
   optionsHindi: ["अंजना", "कौशल्या", "सुमित्रा", "मंदोदरी"],
   optionsTelugu: ["అంజన", "కౌశల్య", "సుమిత్ర", "మందోదరి"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman’s mother was Anjana, a vanara lady.",
   explanationHindi: "हनुमान की माता अंजना थीं, जो एक वानर महिला थीं।",
   explanationTelugu: "హనుమాన్ తల్లి అంజనా, ఒక వానర మహిళ."
@@ -1615,7 +1615,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Trijata", "Surpanakha", "Lankini", "Simhika"],
   optionsHindi: ["त्रिजटा", "शूर्पणखा", "लंकिनी", "सिंहिका"],
   optionsTelugu: ["త్రిజట", "శూర్పణఖ", "లంకినీ", "సింహికా"],
-  correct: 1,
+  correct: 0,
   explanation: "Trijata was the rakshasi who looked after and comforted Sita in Lanka.",
   explanationHindi: "त्रिजटा वह राक्षसी थी जो लंका में सीता की देखभाल और सांत्वना देती थी।",
   explanationTelugu: "త్రిజటా లంకలో సీతను చూసి సాంత్వన ఇచ్చిన రాక్షసి."
@@ -1630,7 +1630,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mandodari", "Kaikesi", "Sulochana", "Anjana"],
   optionsHindi: ["मंदोदरी", "कैकेसी", "सुलोचना", "अंजना"],
   optionsTelugu: ["మందోదరి", "కైకేసి", "సులోచన", "అంజనా"],
-  correct: 1,
+  correct: 0,
   explanation: "Ravana’s wife was Mandodari, known for her wisdom and righteous counsel.",
   explanationHindi: "रावण की पत्नी मंदोदरी थीं, जो अपनी बुद्धिमत्ता और धर्मपरायण विचारों के लिए जानी जाती थीं।",
   explanationTelugu: "రవణుని భార్య మందోదరి, ఆమె జ్ఞానం మరియు సత్యపరమైన సూచనల కోసం ప్రసిద్ధ."
@@ -1645,7 +1645,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kubera", "Indrajit", "Vali", "Sugriva"],
   optionsHindi: ["कुबेर", "इंद्रजीत", "वालि", "सुग्रीव"],
   optionsTelugu: ["కుబేరుడు", "ఇంద్రజీత్", "వాలి", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Before Ravana took over Lanka, the city was ruled by Kubera, the god of wealth.",
   explanationHindi: "रावण से पहले लंका का शासन कुबेर, धन के देवता, के पास था।",
   explanationTelugu: "రవణుని ముందుగా లంకను సంపద దేవుడు కుబేరుడు పాలించాడు."
@@ -1660,7 +1660,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pushpaka Vimana", "Chariot of Indra", "Vijaya Vimana", "Agni Vimana"],
   optionsHindi: ["पुष्पक विमान", "इंद्र का रथ", "विजय विमान", "अग्नि विमान"],
   optionsTelugu: ["పుష్పక విమాన", "ఇంద్ర రథం", "విజయ విమాన", "అగ్ని విమాన"],
-  correct: 1,
+  correct: 0,
   explanation: "The magical flying chariot used by Rama and his allies to return to Ayodhya after defeating Ravana was the Pushpaka Vimana.",
   explanationHindi: "रावण को हराने के बाद राम और उनके साथियों ने अयोध्या वापस जाने के लिए पुष्पक विमान का इस्तेमाल किया।",
   explanationTelugu: "రావణుని ఓడించిన తర్వాత రాముడు మరియు అతని సంయోధులు అయోధ్యకు తిరిగేందుకు ఉపయోగించిన మహత్త్మ పుష్పక విమానం."
@@ -1675,7 +1675,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Prahasta", "Kumbhakarna", "Indrajit", "Maricha"],
     optionsHindi: ["प्रहस्त", "कुंभकर्ण", "इंद्रजीत", "मारीच"],
     optionsTelugu: ["ప్రహస్తుడు", "కుంభకర్ణుడు", "ఇంద్రజీతుడు", "మారీచుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Prahasta was a chief commander in Ravana’s army and was slain by Vibhishana.",
     explanationHindi: "प्रहस्थ रावण की सेना के मुख्य सेनापति थे और उन्हें विभीषण ने मारा था।",
     explanationTelugu: "ప్రహస్తుడు రవణుని సేనకు ముఖ్య సేనాధిపతిగా ఉన్నాడు మరియు విబీషణుడు అతన్ని హనించాడు."
@@ -1690,7 +1690,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Jatayu", "Lakshmana", "Hanuman", "Sugriva"],
     optionsHindi: ["जटायु", "लक्ष्मण", "हनुमान", "सुग्रीव"],
     optionsTelugu: ["జటాయి", "లక్ష్మణుడు", "హనుమాన్", "సుగ్రీవుడు"],
-    correct: 2,
+    correct: 0,
     explanation: "Lakshmana warned Rama that the golden deer might be dangerous.",
     explanationHindi: "लक्ष्मण ने राम को सुनहरे हिरण के खतरे के बारे में चेताया।",
     explanationTelugu: "లక్ష్మణుడు రామునికి బంగారు జింక ప్రమాదం ఉన్నదని చెప్పాడు."
@@ -1705,7 +1705,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Angada", "Hanuman", "Sugriva", "Lakshmana"],
     optionsHindi: ["अंगद", "हनुमान", "सुग्रीव", "लक्ष्मण"],
     optionsTelugu: ["అంగదుడు", "హనుమాన్", "సుగ్రీవుడు", "లక్ష్మణుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Angada boldly confronted Ravana and urged him to return Sita peacefully.",
     explanationHindi: "अंगद ने रावण के साथ युद्ध करके सीता को शांतिपूर्वक लौटाने का आग्रह किया।",
     explanationTelugu: "అంగదుడు రావణుని సీతను శాంతియుతంగా విడిచి పెట్టడానికి యుద్ధం చేసి చెప్పాడు."
@@ -1720,7 +1720,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Hanuman", "Sampati", "Jambavan", "Angada"],
     optionsHindi: ["हनुमान", "समपति", "जंबवन्", "अंगद"],
     optionsTelugu: ["హనుమాన్", "సంపతి", "జంబవన్", "అంగదుడు"],
-    correct: 2,
+    correct: 0,
     explanation: "Sampati, Jatayu’s brother, told Rama’s army where to search for Sita.",
     explanationHindi: "समपति, जटायु के भाई ने राम की सेना को सीता के लिए खोजने के लिए जगह बताई।",
     explanationTelugu: "జటాయువు అన్న అయిన సంపతి రాముని సేనకు సీత కోసం ఎక్కడ శోధించాలో చెప్పాడు."
@@ -1735,7 +1735,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Brahmastra", "Arrow of Vayu", "Sudarshana Chakra", "Arrow of Water"],
     optionsHindi: ["ब्रह्मास्त्र", "वायु का बाण", "सुदर्शन चक्र", "जल बाण"],
     optionsTelugu: ["బ్రహ్మాస్త్ర", "వాయు బాణం", "సుదర్శన చక్ర", "నీటి బాణం"],
-    correct: 1,
+    correct: 0,
     explanation: "Lakshmana used the powerful Brahmastra to slay Atikaya, Ravana’s son.",
     explanationHindi: "लक्ष्मण ने रावण के पुत्र अतिकाय को मारने के लिए ब्रह्मास्त्र का प्रयोग किया।",
     explanationTelugu: "లక్ష్మణుడు రావణుని పుత్రుడైన అటికాయుని హతమార్చడానికి బ్రహ్మాస్త్రను ఉపయోగించడం."
@@ -1750,7 +1750,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Ashoka Vatika", "Mandodari Hall", "Ravana Kuthi", "Lanka Fort"],
     optionsHindi: ["अशोक वाटिका", "मंदोदरी हॉल", "रावण कुटी", "लंका किला"],
     optionsTelugu: ["అశోక వాటిక", "మందోదరి హాల్", "రావణ కుటీ", "లంక కోట"],
-    correct: 1,
+    correct: 0,
     explanation: "Sita was held in captivity in Ashoka Vatika in Lanka.",
     explanationHindi: "सीता को लंका में अशोक वाटिका में बंदी के रूप में रखा गया था।",
     explanationTelugu: "సీతను లంకలో అశోక వాటికలో బందీగా ఉన్నట్లు పేర్కొనబడినది."
@@ -1765,7 +1765,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Jambavan", "Nala", "Nila", "Sugriva"],
     optionsHindi: ["जंबवन्", "नल", "नील", "सुग्रीव"],
     optionsTelugu: ["జంబవన్", "నల", "నీల", "సుగ్రీవుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Jambavan advised spreading the search for Sita in all directions.",
     explanationHindi: "जंबवन ने सीता के लिए सभी दिशाओं में खोज करने का सुझाव दिया।",
     explanationTelugu: "జాంబవంతుడు సీత కోసం అన్ని దిక్కులో శోధించడానికి సూచించాడు."
@@ -1780,7 +1780,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Brahmastra", "Indrastra", "Agneyastra", "Varunastra"],
     optionsHindi: ["ब्रह्मास्त्र", "इंद्रास्त्र", "अग्न्यास्त्र", "वरुणास्त्र"],
     optionsTelugu: ["బ్రహ్మాస్త్ర", "ఇంద్రాస్త్ర", "అగ్న్యాస్త్ర", "వరుణాస్త్ర"],
-    correct: 1,
+    correct: 0,
     explanation: "Rama used the mighty Brahmastra to finally slay Ravana.",
     explanationHindi: "राम ने रावण को मारने के लिए ब्रह्मास्त्र का प्रयोग किया।",
     explanationTelugu: "రాముడు రావణుని హతమార్చడానికి బ్రహ్మాస్త్రను ఉపయోగించడం."
@@ -1795,7 +1795,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Sushena", "Hanuman", "Sugriva", "Vibhishana"],
     optionsHindi: ["सुषेण", "हनुमान", "सुग्रीव", "विभीषण"],
     optionsTelugu: ["సుశెన", "హనుమాన్", "సుగ్రీవుడు", "విభీషణుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Sushena, the vanara physician, identified the correct Sanjeevani herb.",
     explanationHindi: "सुषेण, वानर चिकित्सक, सही संजीवनी जड़ी को पहचाना।",
     explanationTelugu: "సుశెన్ వానర చికిత్సకుడు, సరైన సంజీవని మూలికను గుర్తించాడు."
@@ -1810,7 +1810,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Lanka", "Ayodhya", "Mithila", "Kishkindha"],
     optionsHindi: ["लंका", "अयोध्या", "मिथिला", "किष्किंधा"],
     optionsTelugu: ["లంక", "అయోధ్య", "మిథిల", "కిష్కింధ"],
-    correct: 1,
+    correct: 0,
     explanation: "Ravana was the king of Lanka.",
     explanationHindi: "रावण लंका का राजा था।",
     explanationTelugu: "రవణుడు లంక నగరం నుండి పాలించేవాడు."
@@ -1825,7 +1825,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Rishyamukha", "Dandakaranya", "Panchavati", "Ayodhya"],
     optionsHindi: ["ऋष्यमुख", "दंडकारण्य", "पंचवटी", "अयोध्या"],
     optionsTelugu: ["ఋష్యముఖ", "దండకారణ్య", "పంచవటి", "అయోధ్య"],
-    correct: 1,
+    correct: 0,
     explanation: "Rama first met Sugriva at the mountain Rishyamukha.",
     explanationHindi: "राम ने सुग्रीव को रिष्यमुख पर पहली बार मिला।",
     explanationTelugu: "రాముడు మొదటగా సుగ్రీవును ఋష్యముఖ పర్వతంలో కలిగసాడు."
@@ -1840,7 +1840,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Lakshmana", "Hanuman", "Sugriva", "Jambavan"],
     optionsHindi: ["लक्ष्मण", "हनुमान", "सुग्रीव", "जंबवन्"],
     optionsTelugu: ["లక్ష్మణుడు", "హనుమాన్", "సుగ్రీవుడు", "జంబవన్"],
-    correct: 1,
+    correct: 0,
     explanation: "Lakshmana built the hut for Rama, Sita and himself in Panchavati.",
     explanationHindi: "लक्ष्मण ने पंचवटी में राम, सीता और अपने लिए कुटिया बनायी।",
     explanationTelugu: "లక్ష్మణుడు పంచవటిలో రాముని, సీతను మరియు తనకు కుటీరం నిర్మించాడు."
@@ -1855,7 +1855,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Rama himself", "Vibhishana", "Dasharatha", "Agni"],
     optionsHindi: ["राम स्वयं", "विभीषण", "दशरथ", "अग्नि"],
     optionsTelugu: ["రాముడు స్వయంగా", "విభీషణుడు", "దశరథుడు", "అగ్ని"],
-    correct: 1,
+    correct: 0,
     explanation: "After returning, Rama himself undertook the Ashwamedha yajna.",
     explanationHindi: "वापसी के बाद राम ने स्वयं अश्वमेध यज्ञ करने का प्रयास किया।",
     explanationTelugu: "తిరిగి వచ్చినపుడు రాముడు స్వయంగా అశ్వమేధ యజ్ఞం నిర్వహించాడు."
@@ -1870,7 +1870,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Surasa", "Simhika", "Lankini", "Tataka"],
     optionsHindi: ["सुरसा", "सिंहिका", "लंकिनी", "ताटका"],
     optionsTelugu: ["సురస", "సింహికా", "లంకినీ", "తాటక"],
-    correct: 2,
+    correct: 0,
     explanation: "Simhika tried to grab Hanuman from below during his leap to Lanka.",
     explanationHindi: "सिंहिका ने हनुमान को लंका की ओर कूदते समय नीचे से पकड़ने का प्रयास किया।",
     explanationTelugu: "సింహికా హనుమాన్‌ను లంకకు కుప్పకూలుతున్నప్పుడు కింద నుండి తలెత్తడానికి ప్రయత్నింది."
@@ -1885,7 +1885,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Mandodari", "Vibhishana", "Kubera", "Maricha"],
     optionsHindi: ["मंदोदरी", "विभीषण", "कुबेर", "मारीच"],
     optionsTelugu: ["మందోదరి", "విభీషణుడు", "కుబేరుడు", "మారీచుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Mandodari advised Ravana against abducting Sita.",
     explanationHindi: "मंदोदरी ने रावण को सीता को अपहरण करने से रोकने की सलाह दी।",
     explanationTelugu: "మందోదరి రావణునికి సీతను అపహరించకూడదని చెబుతున్నది."
@@ -1900,7 +1900,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Lankini", "Ravana’s son", "Kala", "Indrajit"],
     optionsHindi: ["लंकिनी", "रावण का पुत्र", "काला", "इंद्रजीत"],
     optionsTelugu: ["లంకినీ", "రవణుని కుమారుడు", "కళ", "ఇంద్రజీతుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Lankini was the guardian demoness sent to challenge Hanuman at Lanka’s gates.",
     explanationHindi: "लंकिनी लंका के दरवाजों पर हनुमान के सामने भेजी गई रक्षा राक्षसी थी।",
     explanationTelugu: "లంకినీ లంక దరవాజల్లో హనుమాన్‌ను పరీక్షించడానికి పంపబడ్డ రాక్షసి."
@@ -1915,7 +1915,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Sugriva", "Vali", "Hanuman", "Angada"],
     optionsHindi: ["सुग्रीव", "वालि", "हनुमान", "अंगद"],
     optionsTelugu: ["సుగ్రీవుడు", "వాలి", "హనుమాన్", "అంగదుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Sugriva coordinated the vanara army to build the bridge to Lanka.",
     explanationHindi: "सुग्रीव ने वानर सेना को लंका के पुल बनाने में सहायता करने के लिए निर्देशित किया।",
     explanationTelugu: "సుగ్రీవుడు వానర సేనను లంకకు పులనిర్మాణంలో సహాయించడానికి నడుతున్నది."
@@ -1930,7 +1930,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Khara and Dushana", "Indrajit forces", "Kumbhakarna troops", "Vali's army"],
     optionsHindi: ["खरा और दुषण", "इंद्रजीत की सेना", "कुंभकर्ण के सैनिक", "वालि की सेना"],
     optionsTelugu: ["ఖర మరియు దుషణ", "ఇంద్రజీత్ సేన", "కుంభకర్ణ్ సైన్యం", "వాలి సేన"],
-    correct: 1,
+    correct: 0,
     explanation: "Khara and Dushana led the rakshasa army that attacked Rama and Lakshmana near their hut in Panchavati.",
     explanationHindi: "खरा और दुषण ने पंचवटी में राम और लक्ष्मण के कुटिया के पास हमला किया था।",
     explanationTelugu: "ఖర మరియు దుషణ పంచవటిలో రాముని మరియు లక్ష్మణుని మీద దాడి చేసిన రాక్షస సేనను నడిపించారు."
@@ -1945,7 +1945,7 @@ export const quizQuestions: QuizQuestion[] = [
     options: ["Father of Sita", "King of Ayodhya", "Vanara warrior", "Ravana’s friend"],
     optionsHindi: ["सीता के पिता", "अयोध्या का राजा", "वानर योद्धा", "रावण के मित्र"],
     optionsTelugu: ["సీత తండ్రి", "అయోధ్య రాజు", "వానర యోధుడు", "ரவణుని స్నేహితుడు"],
-    correct: 1,
+    correct: 0,
     explanation: "Janaka was the King of Videha and the father of Sita.",
     explanationHindi: "जनक विदेह के राजा थे और सीता के पिता थे।",
     explanationTelugu: "జనకుడు విదేహ రాజు మరియు సీత తండ్రి."
@@ -1960,7 +1960,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of Sita", "Mother of Rama", "Rama’s sister", "Vanara queen"],
   optionsHindi: ["सीता की माता", "राम की माता", "राम की बहन", "वानर रानी"],
   optionsTelugu: ["సీత తల్లి", "రాముని తల్లి", "రాముని అక్క", "వానర రాణి"],
-  correct: 1,
+  correct: 0,
   explanation: "Sunayana was the queen and mother of Sita.",
   explanationHindi: "सुनयना सीता  की माता थीं।",
   explanationTelugu: "సునయన సీత తల్లి."
@@ -1975,7 +1975,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pinaka", "Kodanda", "Sharanga", "Gandiva"],
   optionsHindi: ["पिनाक", "कोदंड", "शारंग", "गांडीव"],
   optionsTelugu: ["పినాక", "కోదండ", "శారంగ", "గాండి‌వ"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama broke the mighty Pinaka bow at Sita’s swayamvara.",
   explanationHindi: "राम ने सीता के स्वयंवर में पिनाक धनुष को तोड़ा।",
   explanationTelugu: "రాముడు సీత స్వయంవరానికి పినాక ధనుస్సును విరిచాడు."
@@ -1990,7 +1990,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Agastya", "Vasishta", "Narada", "Atri"],
   optionsHindi: ["अगस्त्य", "वशिष्ठ", "नारद", "आत्रि"],
   optionsTelugu: ["అగస్త్యుడు", "వశిష్ఠుడు", "నారదుడు", "ఆత్రి"],
-  correct: 1,
+  correct: 0,
   explanation: "Sage Agastya gave Rama and Lakshmana celestial weapons.",
   explanationHindi: "ऋषि अगस्त्य ने राम और लक्ष्मण को दिव्य अस्त्र दिए।",
   explanationTelugu: "ఆగస్త్యుడు రాముని మరియు లక్ష్మణుని దివ్య ఆయుధాలు ఇచ్చాడు."
@@ -2005,7 +2005,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Rama", "Lakshmana", "Hanuman", "Sugriva"],
   optionsHindi: ["राम", "लक्ष्मण", "हनुमान", "सुग्रीव"],
   optionsTelugu: ["రాముడు", "లక్ష్మణుడు", "హనుమాన్", "సుగ్రీవుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama killed the demoness Tadaka to protect sages in the forest.",
   explanationHindi: "राम ने वन में ऋषियों की सुरक्षा के लिए राक्षसी ताडका को मारा।",
   explanationTelugu: "రాముడు వనంలో ఋషులను పాలించడానికి తాటక రాక్షసిని హతమార్చాడు.",
@@ -2020,7 +2020,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Viradha", "Tataka", "Kabandha", "Khara"],
   optionsHindi: ["वीराध", "ताडका", "कबन्ध", "खरा"],
   optionsTelugu: ["విరాధుడు", "తాడక", "కబంధ", "ఖర"],
-  correct: 1,
+  correct: 0,
   explanation: "Viradha was slain by Rama when he tried to impede him.",
   explanationHindi: "नदी में प्रवेश करने से रोकने की कोशिश में वीराध की मृत्यु हुई।",
   explanationTelugu: "నదిలో ప్రవేశించడానికి ప్రయత్నించినప్పుడు విరాధుడు రాముని అడ్డుకోవడానికి ప్రయత్నించాడు మరియు రాముడు అతన్ని హతமார்ச்சாடு."
@@ -2035,7 +2035,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Hanuman", "Sugriva", "Angada", "Jambavan"],
   optionsHindi: ["हनुमान", "सुग्रीव", "अंगद", "जंबवन्"],
   optionsTelugu: ["హనుమాన్", "సుగ్రీవుడు", "అంగదుడు", "జంబవన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Hanuman leapt across the sea in devotion to find Sita.",
   explanationHindi: "हनुमान ने सीता को खोजने के लिए समुद्र पार किया।",
   explanationTelugu: "హనుమాన్ సీతను కనుగొనడానికి సముద్రాన్ని దాటాడు.",
@@ -2050,7 +2050,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Agni Pariksha", "Varuna Pariksha", "Indra Pariksha", "Vayu Pariksha"],
   optionsHindi: ["अग्नि परीक्षा", "वरुण परीक्षा", "इंद्र परीक्षा", "वायु परीक्षा"],
   optionsTelugu: ["అగ్ని పరీక్ష", "వరుణ పరీక్ష", "ఇండ్ర పరీక్ష", "వాయు పరీక్ష"],
-  correct: 1,
+  correct: 0,
   explanation: "Sita underwent the Agni Pariksha to prove her chastity after the war.",
   explanationHindi: "सीता ने युद्ध के बाद अपनी पवित्रता साबित करने के लिए अग्नि परीक्षा दी।",
   explanationTelugu: "సీత యుద్ధం తర్వాత తన పవిత్రతను నిరూపించడానికి అగ్ని పరీక్షను అందుకుంది."
@@ -2065,7 +2065,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jabali", "Manthara", "Vibhishana", "Jambavan"],
   optionsHindi: ["जाबली", "मंथरा", "विभीषण", "जंबवन्"],
   optionsTelugu: ["జాబలి", "మంతర", "విభీషణుడు", "జంబవన్"],
-  correct: 1,
+  correct: 0,
   explanation: "Jabali tried to use rational arguments to convince Rama to abandon exile.",
   explanationHindi: "जाबली ने तर्कपूर्ण बहस करके राम को वनवास छोड़ने के लिए प्रयत्न किया।",
   explanationTelugu: "జాబలి తార్కిక వాదంతో రాముని వనవాసం వదిలించడానికి ప్రత్యర్పకతను చేశాడు.",
@@ -2080,7 +2080,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Jambavan", "Nila", "Nala", "Angada"],
   optionsHindi: ["जंबवन्", "नील", "नल", "अंगद"],
   optionsTelugu: ["జాంబవంతుడు", "నీల", "నల", "అంగదుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Jambavan was the wise old bear advising Rama and the vanara army.",
   explanationHindi: "जंबवन् बुद्धिमान बूढ़ा भालू था जिसने राम और वानर सेना को सलाह दी।",
   explanationTelugu: "జాంబవంతుడు తెలివైన వృద్ధగా ఉండే ఎలుగుబంటి మరియు రాముని సేనకు సలహా ఇచ్చాడు.",
@@ -2095,7 +2095,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Nala and Nila", "Sugriva and Angada", "Hanuman and Jambavan", "Lakshmana and Rama"],
   optionsHindi: ["नल और नीला", "सुग्रीव और अंगद", "हनुमान और जंबवन्", "लक्ष्मण और राम"],
   optionsTelugu: ["నల మరియు నీల", "సుగ్రీవుడు మరియు అంగదుడు", "హనుమాన్ మరియు జంబవన్", "లక్ష్మణుడు మరియు రాముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Nala and Nila were key engineers who helped in building the Rama Setu bridge.",
   explanationHindi: "नल और नील राम सेतु पुल निर्माण में सहायता करने वाले मुख्य वानर थे।",
   explanationTelugu: "నల మరియు నీల రామ సేతు వంతెన నిర్మాణంలో సహాయపడిన ముఖ్య వానరులు."
@@ -2110,7 +2110,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["King of Nishadas who helped Rama", "Sage in the forest", "Vanara commander", "Ravana’s friend"],
   optionsHindi: ["राम की मदद करने वाले निशादों के राजा", "जंगल के ऋषि", "वानर सेनापति", "रावण के मित्र"],
   optionsTelugu: ["రాముని సాయపడ్డ నిషాదుల రాజు", "అడవి ఋషి", "వానర సేనాధిపతి", "రవణుని స్నేహితుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Guha was the king of the Nishadas who helped Rama, Sita and Lakshmana cross the river Ganga and supported them early in exile.",
   explanationHindi: "गुहा निशादों के राजा थे जिन्होंने राम, सीता और लक्ष्मण को गंगा नदी पार करने में मदद की और वनवास के प्रारंभ में उनका समर्थन किया।",
   explanationTelugu: "గుహుడు నిషాదుల రాజు మరియు రాముని, సీతను మరియు లక్ష్మణుని గంగా నదిని దాటడానికి సహాయపడ్డాడు మరియు వనవాసంలో ప్రారంభంలో వారికి మద్దతు ఇచ్చాడు."
@@ -2125,7 +2125,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Bharata’s wife", "Sita’s friend", "Hanuman’s mother", "Vanara queen"],
   optionsHindi: ["भरत की पत्नी", "सीता की मित्र", "हनुमान की माता", "वानर रानी"],
   optionsTelugu: ["భరతుని భార్య", "సీత స్నేహితురాలు", "హనుమాన్ తల్లి", "వానర రాణి"],
-  correct: 1,
+  correct: 0,
   explanation: "Mandavi was the wife of Bharata and a princess of Mithila.",
   explanationHindi: "भरत की पत्नी और मिथिला की एक रानी थीं।",
   explanationTelugu: "భరతుని భార్య మరియు మితిల యువరాణి."
@@ -2140,7 +2140,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Illusionary duplicate of Sita", "Sita’s sister", "Ravana’s daughter", "Hanuman’s cousin"],
   optionsHindi: ["सीता की माया समान छाया", "सीता की बहन", "रावण की बेटी", "हनुमान का चचेरा भाई"],
   optionsTelugu: ["సీత యొక్క మాయా ప్రతిరూపం", "సీత చెల్లి", "రవణుని కుమార్తె", "హనుమాన్ చెల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "In some adaptations of the Ramayana, Maya Sita is an illusionary duplicate of Sita that is abducted instead of the real Sita.",
   explanationHindi: "कुछ रूपांतरों में माया सीता रामायण की पूरी कथा के अनुसार सीता की माया समान छाया होती हैं, जिसे वास्तविक सीता के बजाय अपहरण किया जाता है।",
   explanationTelugu: "మాయా సీత రామాయణంలోని కొన్ని రూపాంతరాలలో సీత యొక్క మాయా ప్రతిరూపం."
@@ -2155,7 +2155,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shatrughna’s wife", "Rama’s sister", "Sita’s mother", "Hanuman’s sister"],
   optionsHindi: ["शत्रुघ्न की पत्नी", "राम की बहन", "सीता की माता", "हनुमान की बहन"],
   optionsTelugu: ["శత్రుఘ్నుని భార్య", "రాముని అక్క", "సీత తల్లి", "హనుమాన్ అక్క"],
-  correct: 1,
+  correct: 0,
   explanation: "Shrutakirti was the wife of Shatrughna and a princess of Mithila.",
   explanationHindi: "श्रुतहकीरथी शत्रुघ्न की पत्नी और मिथिला की एक रानी थीं।",
   explanationTelugu: "శ్రుతకీర్తి శత్రుఘ్నుని భార్య మరియు మితిల యువరాణి."
@@ -2170,7 +2170,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Urmila", "Sita", "Mandavi", "Shrutakirti"],
   optionsHindi: ["उर्मिला", "सीता", "मांडवी", "श्रुतकीर्ति"],
   optionsTelugu: ["ఉర్మిళ", "సీత", "మాండవి", "శ్రుతకీర్తి"],
-  correct: 1,
+  correct: 0,
   explanation: "Urmila was the wife of Lakshmana.",
   explanationHindi: "उर्मिला लक्ष्मण की पत्नी थीं।",
   explanationTelugu: "ఉర్మిళ లక్ష్మణుని భార్య.",
@@ -2185,7 +2185,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Narada", "Vasishta", "Agastya", "Sumantra"],
   optionsHindi: ["नारद", "वशिष्ठ", "अगस्त्य", "सुमंत्र"],
   optionsTelugu: ["నారదుడు", "వశిష్ఠుడు", "అగస్త్యుడు", "సుమంత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "It was the sage Narada who narrated the story of Rama to Valmiki, inspiring him to compose the Ramayana.",
   explanationHindi: "यह ऋषि नारद थे जिन्होंने वाल्मीकि को राम की कथा सुनाई, जिससे उन्होंने रामायण की रचना की।",
   explanationTelugu: "వాల్మీకికి రాముని కథను చెప్పిన ఋషి నారదుడు, అతనిని రామాయణాన్ని రచించడానికి ప్రేరేపించాడు." 
@@ -2200,7 +2200,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Prime minister of Dasharatha and later Rama", "Teacher in the forest", "Vanara king", "Ravana’s follower"],
   optionsHindi: ["दशरथ और बाद में राम के प्रधानमंत्री", "जंगल में शिक्षक", "वानर राजा", "रावण के अनुयायी"],
   optionsTelugu: ["దశరథుని మరియు తరువాత రాముని ప్రధాని", "అడవిలో గురువు", "వానర రాజు", "రవణుని అనుచరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sumantra served as the prime minister of King Dasharatha and later assisted Rama’s court.",
   explanationHindi: "सुमंत्र राजा दशरथ के प्रधानमंत्री के रूप में सेवा करते थे और बाद में राम के दरबार की सहायता करते थे।",
   explanationTelugu: "సుమంత్రుడు దశరథుని ప్రధాని మరియు తరువాత రాముని కోర్టుకు సహాయం చేశాడు."
@@ -2215,7 +2215,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mandodari", "Sita", "Urmila", "Trijata"],
     optionsHindi: ["मंदोदरी", "सीता", "उर्मिला", "त्रिजटा"],
   optionsTelugu: ["మందోదరి", "సೀತ", "ఉర్మిళ", "త్రిజట"],
-  correct: 1,
+  correct: 0,
   explanation: "Mandodari was Ravana’s wife and queen of Lanka; Sita was captive but never made queen.",
   explanationHindi: "मंदोदरी रावण की पत्नी और लंका की रानी थीं; सीता कैद में थीं लेकिन कभी रानी नहीं बनीं।",
   explanationTelugu: "మందోదరి రావణుని భార్య మరియు లంక రాణి; సీత బంధువుగా ఉండేది కానీ ఎప్పుడూ రాణిగా మారలేదు."
@@ -2230,7 +2230,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mithila", "Ayodhya", "Kishkindha", "Lanka"],
   optionsHindi: ["मिथिला", "अयोध्या", "किष्किंधा", "लंका"],
   optionsTelugu: ["మిథిల", "అయోధ్య", "కిష్కింధ", "లంక"],
-  correct: 1,
+  correct: 0,
   explanation: "Sita was born in the ancient kingdom of Mithila as the daughter of King Janaka.",
   explanationHindi: "सीता का जन्म प्राचीन राज्य मिथिला में राजा जनक की पुत्री के रूप में हुआ था।",
   explanationTelugu: "సీత జననం ప్రాచీన మిథిల రాజ్యంలో రాజు జనకుని కుమార్తెగా జరిగింది."
@@ -2245,7 +2245,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Subahu", "Khara", "Dushana", "Tataka"],
   optionsHindi: ["सुबाहु", "खरा", "दुश्ना", "ताड़का"],
   optionsTelugu: ["సుబాహు", "ఖర", "దుశ్న", "తాడక"],
-  correct: 1,
+  correct: 0,
   explanation: "Rama slew Subahu, the demon disturbing the sages’ sacrificial rites when he first began his journey.",
   explanationHindi: "राम ने सुबाहु को मारा, जो यात्रा की शुरुआत में ऋषियों के यज्ञ कर्मों को बाधित कर रहा था।",
   explanationTelugu: "రాముడు సుబాహును హతమించాడు, అతను యాత్ర ప్రారంభంలో ఋషుల యజ్ఞ కర్మలను విఘటిస్తున్నాడు."
@@ -2260,7 +2260,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Hanuman", "Brother of Rama", "Vanara chief", "Sage of forest"],
   optionsHindi: ["हनुमान का पुत्र", "राम का भाई", "वानर प्रमुख", "जंगल का ऋषि"],
   optionsTelugu: ["హనుమాన్ కుమారుడు", "రాముని అన్న", "వానర నాయకుడు", "అడవి ఋషి"],
-  correct: 1,
+  correct: 0,
   explanation: "Makardhwaja was said to be the son of Hanuman, born from a drop of his sweat swallowed by a fish.",
   explanationHindi: "मकरध्वज हनुमान का पुत्र था, जो मछली द्वारा निगले गए उनके पसीने की बूंद से जन्मा था।",
   explanationTelugu: "మకరద్వాజుడు హనుమాన్ కుమారుడు అని చెప్పబడింది, అతను చేప ద్వారా నోచుకున్న అతని చెమట బిందువునుండి జన్మించాడు."
@@ -2275,7 +2275,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Yudhishthira", "Bhima", "Arjuna", "Nakula"],
   optionsHindi: ["युधिष्ठिर", "भीम", "अर्जुन", "नकुल"],
   optionsTelugu: ["యుధిష్ఠిర", "భీమ", "అర్జున", "నకుల"],
-  correct: 1,
+  correct: 0,
   explanation: "Yudhishthira was the eldest Pandava, known for his wisdom and righteousness.",
   explanationHindi: "युधिष्ठिर सबसे बड़े पांडव थे, जो अपनी बुद्धिमत्ता और धर्मपरायणता के लिए जाने जाते थे।",
   explanationTelugu: "యుధిష్ఠిరుడు అతిపెద్ద పాండవుడు, ఆయన బుద్ధి మరియు ధర్మప్రవణత కోసం ప్రసిద్ధి చెందాడు."
@@ -2290,7 +2290,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kunti", "Madri", "Satyavati", "Ambika"],
   optionsHindi: ["कुंती", "मद्री", "सत्यवती", "अम्बिका"],
   optionsTelugu: ["కుంతి", "మద్రి", "సత్యవతి", "అంబికా"],
-  correct: 1,
+  correct: 0,
   explanation: "Kunti was the mother of Bhima and also of Yudhishthira and Arjuna.",
   explanationHindi: "कुंती भीम की माता थीं और युधिष्ठिर और अर्जुन की भी माता थीं।",
   explanationTelugu: "కుంతి భీమ తల్లి, అలాగే యుధిష్ఠిరుడు మరియు అర్జున తల్లి కూడా."
@@ -2305,7 +2305,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dronacharya", "Bhishma", "Krishna", "Vyasa"],
   optionsHindi: ["द्रोणाचार्य", "भीष्म", "कृष्ण", "व्यास"],
   optionsTelugu: ["ద్రోణాచార్య", "భీష్మ", "కృష్ణ", "వ్యాస"],
-  correct: 1,
+  correct: 0,
   explanation: "Dronacharya was the royal teacher who trained both the Pandavas and Kauravas in martial arts.",
   explanationHindi: "द्रोणाचार्य वह राजकीय शिक्षक थे जिन्होंने पांडवों और कौरवों को युद्ध कला में प्रशिक्षित किया।",
   explanationTelugu: "ద్రోణాచార్యుడు రాజవంశీయులు అయిన పాండవులు మరియు కౌరవులను యుద్ధకళలలో శిక్షణ ఇచ్చిన గురువు."
@@ -2320,7 +2320,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Drupada", "Drona", "Bhishma", "Shantanu"],
   optionsHindi: ["द्रुपद", "द्रोण", "भीष्म", "शांतनु"],
   optionsTelugu: ["ద్రుపద", "ద్రోణ", "భీష్మ", "శాంతనువు"],
-  correct: 1,
+  correct: 0,
   explanation: "King Drupada of Panchala was the father of Draupadi.",
   explanationHindi: "पांचाल के राजा द्रुपद द्रौपदी के पिता थे।",
   explanationTelugu: "పంచాల రాజు ద్రుపదుడు ద్రౌపది తండ్రి."
@@ -2335,7 +2335,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dhrishtadyumna", "Arjuna", "Bhima", "Yudhishthira"],
   optionsHindi: ["धृष्टद्युम्न", "अर्जुन", "भीम", "युधिष्ठिर"],
   optionsTelugu: ["ధృష్టద్యుమ్న", "అర్జున", "భీమ", "యుధిష్ఠిర"],
-  correct: 1,
+  correct: 0,
   explanation: "Dronacharya was killed by Dhrishtadyumna during the Kurukshetra war.",
   explanationHindi: "कुरुक्षेत्र युद्ध में द्रष्टद्युम्न ने द्रोणाचार्य को मारा।",
   explanationTelugu: "కురుక్షేత్ర యుద్ధంలో ధృష్టద్యుమ్న ద్రోణాచార్యుని హతం చేసాడు."
@@ -2350,7 +2350,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of the Kauravas", "Wife of Bhima", "Sister of Krishna", "Draupadi’s mother"],
   optionsHindi: ["कौरवों की माता", "भीम की पत्नी", "कृष्ण की बहन", "द्रौपदी की माता"],
   optionsTelugu: ["కౌరవుల తల్లి", "భీముని భార్య", "కృష్ణ చెల్లి", "ద్రౌపది తల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "Gandhari was the queen of Hastinapur and the mother of the Kauravas, known for her devotion and sacrifice.",
   explanationHindi: "गंधारी हस्तिनापुर की रानी और कौरवों की माता थीं, जो अपनी भक्ति और बलिदान के लिए जानी जाती थीं.",
   explanationTelugu: "గంధారి హస్తినాపురం రాణి మరియు కౌరవుల తల్లి, ఆమె తన భక్తి మరియు త్యాగానికి ప్రఖ్యాతి చెందింది."
@@ -2365,7 +2365,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Krishna", "Bhima", "Duryodhana", "Draupadi"],
   optionsHindi: ["कृष्ण", "भीम", "दुर्योधन", "द्रौपदी"],
   optionsTelugu: ["కృష్ణ", "భీమ", "దుర్యోధన", "ద్రౌపది"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna spoke the Bhagavad Gita to Arjuna on the battlefield of Kurukshetra as guidance on dharma and duty.",
   explanationHindi: "कृष्ण ने कुरुक्षेत्र के युद्धभूमि में अर्जुन को धर्म और कर्तव्य का मार्ग दिखाते हुए भगवद गीता सुनाई.",
   explanationTelugu: "కృష్ణ కురుక్షేత్ర యుద్ధభూమిలో అర్జున్‌కు ధర్మం మరియు విధి గురించి భగవద్గీత చెప్పాడు."
@@ -2380,7 +2380,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Gandiv", "Pinaka", "Sharanga", "Kodanda"],
   optionsHindi: ["गांडीव", "पिनाक", "शारंग", "कोदंड"],
   optionsTelugu: ["గాండి‌వ్", "పినాక", "శారంగ", "కోదండ"],
-  correct: 1,
+  correct: 0,
   explanation: "Gandiv was the legendary bow wielded by Arjuna, known for its immense power on the battlefield.",
   explanationHindi: "गांडीव अर्जुन का प्रसिद्ध धनुष था, जो युद्ध में अपनी महान शक्ति के लिए प्रसिद्ध था.",
   explanationTelugu: "గాండి‌వ్ అర్జున్ యొక్క ప్రఖ్యాత ధనుస్సు, యుద్ధంలో దాని శక్తికి పేరొచ్చింది."
@@ -2395,7 +2395,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Bhishma Parva", "Adi Parva", "Vana Parva", "Anushasana Parva"],
   optionsHindi: ["भीष्म पर्व", "आदि पर्व", "वन पर्व", "अनुशासन पर्व"],
   optionsTelugu: ["భీష్మ పర్వం", "ఆది పర్వం", "వన పర్వం", "అనుశాసన పర్వం"],
-  correct: 1,
+  correct: 0,
   explanation: "The Bhagavad Gita is part of the Bhishma Parva, spoken by Krishna to Arjuna during the Kurukshetra War.",
   explanationHindi: "भगवद गीता भीष्म पर्व का हिस्सा है, जिसे कृष्ण ने अर्जुन को कुरुक्षेत्र युद्ध के दौरान सुनाई थी.",
   explanationTelugu: "భగవద్గీత భీష్మ పర్వంలో భాగం, కురుక్షేత్ర యుద్ధంలో అర్జున్‌కు కృష్ణ చెప్పింది."
@@ -2410,7 +2410,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Bhima", "Arjuna", "Yudhishthira", "Dhrishtadyumna"],
   optionsHindi: ["भीम", "अर्जुन", "युधिष्ठिर", "धृष्टद्युम्न"],
   optionsTelugu: ["భీమ", "అర్జున్", "యుధిష్ఠిర", "ధృష్టద్యుమ్న"],
-  correct: 4,
+  correct: 0,
   explanation: "Dhrishtadyumna was appointed as the commander‑in‑chief of the Pandava forces at the start of the Kurukshetra War. :contentReference[oaicite:0]{index=0}",
   explanationHindi: "धृष्टद्युम्न को कुरुक्षेत्र युद्ध की शुरुआत में पांडव सेना का सेनापति बनाया गया था.",
   explanationTelugu: "ధృష్టద్యుమ్నను కురుక్షేత్ర యుద్ధం ప్రారంభంలో పాండవ సేనాధిపతిగా నియమించారు."
@@ -2425,7 +2425,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pandu", "Dhritarashtra", "Vidura", "Bhishma"],
   optionsHindi: ["पांडु", "धृतराष्ट्र", "विदुर", "भीष्म"],
   optionsTelugu: ["పాందు", "ధృతరాష్ట్ర", "విదుర", "భీష్మ"],
-  correct: 1,
+  correct: 0,
   explanation: "Pandu was the father of the five Pandava brothers in the Mahabharata.",
   explanationHindi: "पांडु महाभारत में पांच पांडव भाइयों के पिता थे.",
   explanationTelugu: "పాందు మహాభారతంలో ఐదురు పాండవుల తండ్రి."
@@ -2440,7 +2440,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Duryodhana", "Dushasana", "Vikarna", "Yuyutsu"],
   optionsHindi: ["दुर्योधन", "दुशासन", "विकर्ण", "युयुत्सु"],
   optionsTelugu: ["దుర్యోధన", "దుశాసన", "వికర్ణ", "యుయుత్వ్సు"],
-  correct: 1,
+  correct: 0,
   explanation: "Duryodhana was the eldest of the one hundred Kaurava brothers in the Mahabharata.",
   explanationHindi: "दुर्योधन महाभारत में एक सौ कौरव भाइयों में सबसे बड़ा था.",
   explanationTelugu: "దుర్యోధన మహాభారతంలో వంద కౌరవులలో అతి పెద్దకాడు."
@@ -2455,7 +2455,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kunti", "Satyavati", "Gandhari", "Radha"],
   optionsHindi: ["कुंती", "सत्यवती", "गंधारी", "राधा"],
   optionsTelugu: ["కుంతి", "సత్యవతి", "గంధారి", "రాధా"],
-  correct: 1,
+  correct: 0,
   explanation: "Kunti was the mother of Yudhishthira, Bhima and Arjuna, while Madri was mother to Nakula and Sahadeva.",
   explanationHindi: "कुंती युधिष्ठिर, भीम और अर्जुन की माता थीं और माद्री नकुल एवं सहदेव की माता थीं.",
   explanationTelugu: "కుంతి యుధిష్ఠిరుడు, భీమ మరియు అర్జున తల్లి; మాద్రీ నకుల మరియు సహదేవ తల్లి."
@@ -2470,7 +2470,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Krishna", "Bhima", "Drona", "Bhishma"],
   optionsHindi: ["कृष्ण", "भीम", "द्रोण", "भीष्म"],
   optionsTelugu: ["కృష్ణ", "భీమ", "ద్రోణ", "భీష్మ"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna served as Arjuna’s charioteer and advisor during the Kurukshetra War.",
   explanationHindi: "कृष्ण कुरुक्षेत्र युद्ध के दौरान अर्जुन के सारथि और मार्गदर्शक थे.",
   explanationTelugu: "కురుక్షేత్ర యుద్ధంలో కృష్ణ అర్జున్ యొక్క రథవాహకుడిగా మరియు సలహాదారుగా సేవ చేసాడు."
@@ -2485,7 +2485,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Granduncle of both Pandavas and Kauravas", "Father of Pandavas", "King of Hastinapur", "Sage of forest"],
   optionsHindi: ["पांडवों और कौरवों के परदादा", "पांडवों के पिता", "हस्तिनापुर के राजा", "जंगल का ऋषि"],
   optionsTelugu: ["పాండవులు మరియు కౌరవుల మామగారుడు", "పాండవుల తండ్రి", "హస్తినాపూర్ రాజు", "అడవి మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma was the granduncle of both Pandavas and Kauravas, known for his vow of celibacy and loyalty to Hastinapur.",
   explanationHindi: "भीष्म पांडवों और कौरवों के परदादा थे, जो अपनी ब्रह्मचर्य और हस्तिनापुर के प्रति निष्ठा के लिए प्रसिद्ध थे।",
   explanationTelugu: "భీష్మ పాండవులు మరియు కౌరవుల మామగారుడు, బ్రహ్మచర్యం మరియు హస్తినాపూర్‌కి విశ్వాసం కోసం ప్రఖ్యాతుడు."
@@ -2500,7 +2500,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Wife of the Pandavas", "Sister of Krishna", "Queen of Kauravas", "Mother of Bhima"],
   optionsHindi: ["पांडवों की पत्नी", "कृष्ण की बहन", "कौरवों की रानी", "भीम की माता"],
   optionsTelugu: ["పాండవుల భార్య", "కృష్ణ చెల్లి", "కౌరవుల రాణి", "భీమ తల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "Draupadi was the common wife of the five Pandavas and played a central role in the Mahabharata.",
   explanationHindi: "द्रौपदी पांडवों की पत्नी थीं और महाभारत में महत्वपूर्ण भूमिका निभाई।",
   explanationTelugu: "ద్రౌపది ఐదు పాండవుల భార్యగా, మహాభారతంలో కీలక పాత్ర పోషించింది."
@@ -2515,7 +2515,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dhrishtadyumna", "Arjuna", "Bhima", "Karna"],
   optionsHindi: ["धृष्टद्युम्न", "अर्जुन", "भीम", "कर्ण"],
   optionsTelugu: ["ధృష్టద్యుమ్న", "అర్జున్", "భీమ", "కర్ణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Dhrishtadyumna killed Dronacharya in battle as part of the strategy to end the war favorably for the Pandavas.",
   explanationHindi: "धृष्टद्युम्न ने युद्ध में द्रोणाचार्य की हत्या पांडवों के पक्ष में युद्ध को समाप्त करने की रणनीति के तहत की।",
   explanationTelugu: "ధృష్టద్యుమ్న యుద్ధంలో ద్రోణాచార్యను హతమంచాడు, ఇది పాండవుల కోసం యుద్ధం సమర్థంగా ముగియడానికి వ్యూహ భాగం."
@@ -2530,7 +2530,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Kunti and Sun God, warrior of Kauravas", "Pandava prince", "Brother of Bhishma", "King of Matsya"],
   optionsHindi: ["कुंती और सूर्य देव के पुत्र, कौरवों के योद्धा", "पांडव राजकुमार", "भीष्म का भाई", "मत्स्य का राजा"],
   optionsTelugu: ["కుంతి మరియు సూర్య దేవుని కుమారుడు, కౌరవుల యోధుడు", "పాండవ యువరాజు", "భీష్మ సోదరుడు", "మత్స్య రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Karna was the eldest son of Kunti and the Sun God, who fought for the Kauravas and was a great archer.",
   explanationHindi: "कर्ण कुंती और सूर्य देव के पुत्र थे, जो कौरवों के लिए लड़े और महान धनुर्धर थे।",
   explanationTelugu: "కర్ణ కుంతి మరియు సూర్య దేవుని కుమారుడు, కౌరవుల కోసం యుద్ధం చేసాడు మరియు గొప్ప ధనుర్విద్యాగారు."
@@ -2545,7 +2545,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Maternal uncle of Duryodhana", "Father of Bhima", "King of Hastinapur", "Pandava advisor"],
   optionsHindi: ["दुर्योधन के मामा", "भीम के पिता", "हस्तिनापुर के राजा", "पांडवों के सलाहकार"],
   optionsTelugu: ["దుర్యోధన మామగారు", "భీమ తండ్రి", "హస్తినాపూర్ రాజు", "పాండవుల సలహాదారు"],
-  correct: 1,
+  correct: 0,
   explanation: "Shakuni was the maternal uncle of Duryodhana and was known for his cunning strategies against the Pandavas.",
   explanationHindi: "शकुनी दुर्योधन के मामा थे और पांडवों के खिलाफ अपनी चालाक रणनीतियों के लिए प्रसिद्ध थे।",
   explanationTelugu: "శకుని దుర్యోధన మామగారు, పాండవులపై తన చతుర్ వ్యూహాలకు ప్రసిద్ధి చెందాడు."
@@ -2560,7 +2560,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Wise counselor of Hastinapur", "Father of Pandavas", "King of Kuru", "Brother of Duryodhana"],
   optionsHindi: ["हस्तिनापुर के बुद्धिमान सलाहकार", "पांडवों के पिता", "कुरु का राजा", "दुर्योधन का भाई"],
   optionsTelugu: ["హస్తినాపూర్ యొక్క తెలివైన సలహాదారు", "పాండవుల తండ్రి", "కురు రాజు", "దుర్యోధన సోదరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vidura was the wise minister of Hastinapur and known for his integrity and advice to the Kuru family.",
   explanationHindi: "विदुर हस्तिनापुर के बुद्धिमान मंत्री थे और कुरु परिवार को दी जाने वाली सलाह और ईमानदारी के लिए प्रसिद्ध थे।",
   explanationTelugu: "విదురుడు హస్తినాపూర్ తెలివైన మంత్రి, కురు కుటుంబానికి ఇచ్చిన సలహా మరియు నిజాయితీ కోసం ప్రసిద్ధి."
@@ -2575,7 +2575,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Second eldest Kaurava brother", "Pandava friend", "Hastinapur sage", "Krishna’s cousin"],
   optionsHindi: ["दूसरा सबसे बड़ा कौरव भाई", "पांडवों का मित्र", "हस्तिनापुर का ऋषि", "कृष्ण का चचेरा भाई"],
   optionsTelugu: ["రెండవ పెద్ద కౌరవ్ సోదరుడు", "పాండవుల స్నేహితుడు", "హస్తినాపూర్ మహర్షి", "కృష్ణ మామగారు"],
-  correct: 1,
+  correct: 0,
   explanation: "Dushasana was the second eldest of the Kaurava brothers and played a key role in many conflicts against the Pandavas.",
   explanationHindi: "दुषासन कौरवों में दूसरा सबसे बड़ा भाई था और पांडवों के खिलाफ कई संघर्षों में मुख्य भूमिका निभाई।",
   explanationTelugu: "దుషాసన కౌరవులలో రెండవ పెద్ద సోదరుడు, పాండవులపై వివిధ పోరాటాల్లో ప్రధాన పాత్ర పోషించాడు."
@@ -2590,7 +2590,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ganga", "Yamuna", "Saraswati", "Godavari"],
   optionsHindi: ["गंगा", "यमुना", "सरस्वती", "गोदावरी"],
   optionsTelugu: ["గంగా", "యమునా", "సరస్వతి", "గోదావరి"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma chose to lie on a bed of arrows on the banks of the river Ganga and awaited the time of his death.",
   explanationHindi: "भीष्म ने गंगा के किनारे तीरों के बिछौने पर लेटना चुना और मृत्यु का समय प्रतीक्षा की।",
   explanationTelugu: "భీష్ముడు గంగా నది కుదిరిన ప్రక్కన బాణాల మాడుపై పడి, మరణానికి సమయం కోసం ఎదురుచూశాడు."
@@ -2605,7 +2605,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Arjuna", "Son of Bhima", "Kaurava prince", "King of Matsya"],
   optionsHindi: ["अर्जुन के पुत्र", "भीम के पुत्र", "कौरव राजकुमार", "मत्स्य के राजा"],
   optionsTelugu: ["అర్జున కుమారుడు", "భీమ కుమారుడు", "కౌరవ యువరాజు", "మత్స్య రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu was the son of Arjuna and Subhadra, known for his bravery and tragic death in the Chakravyuha.",
   explanationHindi: "अभिमन्यु अर्जुन और सुभद्रा के पुत्र थे, जो चक्रव्यूह में अपनी वीरता और दुखद मृत्यु के लिए जाने जाते हैं।",
   explanationTelugu: "అభిమన్యు అర్జున్ మరియు సుభద్ర కుమారుడు, చక్రవ్యుహంలో ధైర్యం మరియు దురదృష్టకర మరణం కోసం ప్రసిద్ధి."
@@ -2620,7 +2620,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Subhadra", "Draupadi", "Kunti", "Madri"],
   optionsHindi: ["सुभद्रा", "द्रौपदी", "कुंती", "माद्री"],
   optionsTelugu: ["సుభద్ర", "ద్రౌపది", "కుంతి", "మాద్రీ"],
-  correct: 1,
+  correct: 0,
   explanation: "Subhadra, the sister of Krishna, was the mother of Abhimanyu.",
   explanationHindi: "सुभद्रा, जो कृष्ण की बहन थीं, अभिमन्यु की माता थीं।",
   explanationTelugu: "కృష్ణ చెల్లి సుభద్ర అభిమన్యు తల్లి."
@@ -2635,7 +2635,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Cousin and charioteer of Arjuna", "King of Hastinapur", "Father of Bhima", "Sage of Kurukshetra"],
   optionsHindi: ["अर्जुन के चचेरा भाई और सारथि", "हस्तिनापुर के राजा", "भीम के पिता", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["అర్జున చెల్లెరి మరియు రథచారీ", "హస్తినాపూర్ రాజు", "భీమ తండ్రి", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna was the cousin of the Pandavas and served as Arjuna’s charioteer during the Kurukshetra war.",
   explanationHindi: "कृष्ण पांडवों के चचेरा भाई थे और कुरुक्षेत्र युद्ध में अर्जुन के सारथि के रूप में कार्य किया।",
   explanationTelugu: "కృష్ణ పాండవుల చెల్లెరి మరియు కురుక్షేత్ర యుద్ధంలో అర్జున రథచారీగా ఉన్నాడు."
@@ -2650,7 +2650,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Eldest Pandava, known for righteousness", "King of Kauravas", "Sage of Hastinapur", "Brother of Bhishma"],
   optionsHindi: ["पांडवों में सबसे बड़े, धर्म के लिए प्रसिद्ध", "कौरवों के राजा", "हस्तिनापुर के ऋषि", "भीष्म का भाई"],
   optionsTelugu: ["పాండవుల పెద్దతరహా, ధర్మానికి ప్రసిద్ధి", "కౌరవుల రాజు", "హస్తినాపూర్ మహర్షి", "భీష్మ సోదరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Yudhishthira was the eldest Pandava, known for his commitment to truth and righteousness.",
   explanationHindi: "युधिष्ठिर पांडवों में सबसे बड़े थे और सत्य और धर्म के लिए प्रसिद्ध थे।",
   explanationTelugu: "యుధిష్ఠిరుడు పాండవుల పెద్దతరహా, సత్యం మరియు ధర్మం కోసం ప్రసిద్ధి చెందాడు."
@@ -2665,7 +2665,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Second Pandava, known for strength", "King of Kauravas", "Krishna’s friend", "Sage of Kurukshetra"],
   optionsHindi: ["दूसरे पांडव, शक्ति के लिए प्रसिद्ध", "कौरवों के राजा", "कृष्ण के मित्र", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["రెండవ పాండవుడు, శక్తికి ప్రసిద్ధి", "కౌరవుల రాజు", "కృష్ణ మిత్రుడు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhima was the second Pandava, famous for his immense strength and valor in battles.",
   explanationHindi: "भीम दूसरे पांडव थे और अपनी विशाल शक्ति और वीरता के लिए प्रसिद्ध थे।",
   explanationTelugu: "భీముడు రెండవ పాండవుడు, అతని భారీ శక్తి మరియు వీరత్వం కోసం ప్రసిద్ధి చెందాడు."
@@ -2680,7 +2680,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Third Pandava, master archer", "King of Kauravas", "Sage of Kurukshetra", "Duryodhana’s friend"],
   optionsHindi: ["तीसरे पांडव, धनुर्विद्या में निपुण", "कौरवों के राजा", "कुरुक्षेत्र के ऋषि", "दुर्योधन का मित्र"],
   optionsTelugu: ["మూడవ పాండవుడు, ధనుర్విద్యలో నిపుణుడు", "కౌరవుల రాజు", "కురుక్షేత్ర మహర్షి", "దుర్యోధన మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Arjuna was the third Pandava, known for his skill in archery and central role in the Mahabharata war.",
   explanationHindi: "अर्जुन तीसरे पांडव थे और धनुर्विद्या में कुशल और महाभारत युद्ध में महत्वपूर्ण भूमिका निभाने वाले थे।",
   explanationTelugu: "అర్జున్ మూడవ పాండవుడు, ధనుర్విద్యలో నైపుణ్యం మరియు మహాభారత యుద్ధంలో ముఖ్య పాత్రకి ప్రసిద్ధి."
@@ -2695,7 +2695,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Fourth Pandava, twin of Sahadeva", "King of Kuru", "Father of Bhima", "Krishna’s brother"],
   optionsHindi: ["चौथे पांडव, सहदेव के जुड़वां भाई", "कुरु के राजा", "भीम के पिता", "कृष्ण के भाई"],
   optionsTelugu: ["నాల్గవ పాండవుడు, సహదేవుడి జంట సోదరుడు", "కురు రాజు", "భీమ తండ్రి", "కృష్ణ సోదరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Nakula was the fourth Pandava and twin brother of Sahadeva, known for his beauty and swordsmanship.",
   explanationHindi: "नकुल चौथे पांडव और सहदेव के जुड़वां भाई थे, सुंदरता और तलवारबाज़ी के लिए प्रसिद्ध।",
   explanationTelugu: "నకుల నాల్గవ పాండవుడు మరియు సహదేవ జంట సోదరుడు, అందం మరియు ఖడ్గకళలో ప్రసిద్ధి."
@@ -2710,7 +2710,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Fifth Pandava, twin of Nakula", "King of Kauravas", "Father of Arjuna", "Bhishma’s student"],
   optionsHindi: ["पाँचवे पांडव, नकुल के जुड़वां भाई", "कौरवों के राजा", "अर्जुन के पिता", "भीष्म के शिष्य"],
   optionsTelugu: ["ఐదవ పాండవుడు, నకుల జంట సోదరుడు", "కౌరవుల రాజు", "అర్జున తండ్రి", "భీష్మ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sahadeva was the fifth Pandava, twin brother of Nakula, known for his wisdom and knowledge of astrology.",
   explanationHindi: "सहदेव पाँचवे पांडव थे और नकुल के जुड़वां भाई, ज्ञान और ज्योतिष में कुशल।",
   explanationTelugu: "సహదేవ ఐదవ పాండవుడు, నకుల జంట సోదరుడు, జ్ఞానం మరియు జ్యోతిష్యానికి ప్రసిద్ధి."
@@ -2725,7 +2725,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Eldest Kaurava, main antagonist", "Pandava prince", "Sage of Hastinapur", "Bhishma’s son"],
   optionsHindi: ["सबसे बड़ा कौरव, मुख्य प्रतिपक्षी", "पांडव राजकुमार", "हस्तिनापुर के ऋषि", "भीष्म का पुत्र"],
   optionsTelugu: ["ఎల్లొక కౌరవ్, ప్రధాన ప్రతిపక్షి", "పాండవ యువరాజు", "హస్తినాపూర్ మహర్షి", "భీష్మ కుమారుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Duryodhana was the eldest Kaurava and the main antagonist in the Mahabharata, known for his ambition and rivalry with Pandavas.",
   explanationHindi: "दुर्योधन सबसे बड़े कौरव और महाभारत में मुख्य प्रतिपक्षी थे, महत्वाकांक्षा और पांडवों के साथ प्रतिद्वंद्विता के लिए प्रसिद्ध।",
   explanationTelugu: "దుర్యోధన ఎల్లొక కౌరవ్ మరియు మహాభారతంలో ప్రధాన ప్రతిపక్షి, ఆశ, పాండవులతో ప్రతిబంధకంగా ప్రసిద్ధి."
@@ -2740,7 +2740,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of Kauravas, wife of Dhritarashtra", "Mother of Pandavas", "Queen of Matsya", "Krishna’s sister"],
   optionsHindi: ["कौरवों की माता, धृतराष्ट्र की पत्नी", "पांडवों की माता", "मत्स्य की रानी", "कृष्ण की बहन"],
   optionsTelugu: ["కౌరవుల తల్లి, ధృతరాష్ట్ర భార్య", "పాండవుల తల్లి", "మత్స్య రాణి", "కృష్ణ చెల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "Gandhari was the mother of the Kauravas and wife of King Dhritarashtra, known for her blindfolded devotion.",
   explanationHindi: "गांधारी कौरवों की माता और धृतराष्ट्र की पत्नी थीं, जिन्होंने अंधेरे में अपनी भक्ति दिखाई।",
   explanationTelugu: "గంధారి కౌరవుల తల్లి, ధృతరాష్ట్ర భార్య, కూర్చున్న భక్తితో ప్రసిద్ధి."
@@ -2755,7 +2755,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Blind king of Hastinapur, father of Kauravas", "Father of Pandavas", "King of Matsya", "Sage of Kurukshetra"],
   optionsHindi: ["हस्तिनापुर के अंधे राजा, कौरवों के पिता", "पांडवों के पिता", "मत्स्य के राजा", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["హస్తినాపూర్ అంధ రాజు, కౌరవుల తండ్రి", "పాండవుల తండ్రి", "మత్స్య రాజు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Dhritarashtra was the blind king of Hastinapur and father of the Kauravas.",
   explanationHindi: "धृतराष्ट्र हस्तिनापुर के अंधे राजा और कौरवों के पिता थे।",
   explanationTelugu: "ధృతరాష్ట్రుడు హస్తినాపూర్ అంధ రాజు మరియు కౌరవుల తండ్రి."
@@ -2770,7 +2770,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of Pandavas", "Queen of Kauravas", "Sage of Kurukshetra", "Krishna’s mother"],
   optionsHindi: ["पांडवों की माता", "कौरवों की रानी", "कुरुक्षेत्र की ऋषि", "कृष्ण की माता"],
   optionsTelugu: ["పాండవుల తల్లి", "కౌరవుల రాణి", "కురుక్షేత్ర మహర్షి", "కృష్ణ తల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "Kunti was the mother of the Pandavas, known for her devotion and wisdom.",
   explanationHindi: "कुंती पांडवों की माता थीं और भक्ति तथा बुद्धिमत्ता के लिए प्रसिद्ध थीं।",
   explanationTelugu: "కుంతి పాండవుల తల్లి, భక్తి మరియు జ్ఞానానికి ప్రసిద్ధి."
@@ -2785,7 +2785,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Wife of the Pandavas", "Mother of Kauravas", "Krishna’s sister", "Queen of Matsya"],
   optionsHindi: ["पांडवों की पत्नी", "कौरवों की माता", "कृष्ण की बहन", "मत्स्य की रानी"],
   optionsTelugu: ["పాండవుల భార్య", "కౌరవుల తల్లి", "కృష్ణ చెల్లి", "మత్స్య రాణి"],
-  correct: 1,
+  correct: 0,
   explanation: "Draupadi was the shared wife of the five Pandavas and played a central role in the Mahabharata.",
   explanationHindi: "द्रौपदी पांडवों की पत्नी थीं और महाभारत में केंद्रीय भूमिका निभाई।",
   explanationTelugu: "ద్రౌపది పాండవుల భార్య, మహాభారతంలో కీలక పాత్ర పోషించింది."
@@ -2800,7 +2800,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Granduncle of Pandavas and Kauravas", "Father of Pandavas", "King of Matsya", "Krishna’s cousin"],
   optionsHindi: ["पांडवों और कौरवों के महाउपजया", "पांडवों के पिता", "मत्स्य के राजा", "कृष्ण के चचेरा भाई"],
   optionsTelugu: ["పాండవులు, కౌరవుల పెద్దచెట్టు", "పాండవుల తండ్రి", "మత్స్య రాజు", "కృష్ణ చెల్లెరి"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma was the granduncle of both Pandavas and Kauravas and the commander of the Kaurava army.",
   explanationHindi: "भीष्म पांडवों और कौरवों के महाउपजया थे और कौरव सेना के सेनापति।",
   explanationTelugu: "భీష్ముడు పాండవుల మరియు కౌరవుల పెద్దచెట్టు మరియు కౌరవుల సేనాపతి."
@@ -2815,7 +2815,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Royal teacher of Kuru princes", "Father of Arjuna", "King of Hastinapur", "Sage of Kurukshetra"],
   optionsHindi: ["कुरु राजकुमारों के शिक्षक", "अर्जुन के पिता", "हस्तिनापुर के राजा", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["కురు యువరాజుల ఉపాధ్యాయుడు", "అర్జున తండ్రి", "హస్తినాపూర్ రాజు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Drona was the royal teacher of the Kuru princes, skilled in archery and warfare.",
   explanationHindi: "द्रोण कुरु राजकुमारों के शिक्षक थे, धनुर्विद्या और युद्ध में निपुण।",
   explanationTelugu: "ద్రోణుడు కురు యువరాజుల ఉపాధ్యాయుడు, ధనుర్విద్య మరియు యుద్ధంలో నైపుణ్యం కలిగాడు."
@@ -2830,7 +2830,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Great warrior, friend of Duryodhana", "King of Pandavas", "Sage of Kurukshetra", "Krishna’s disciple"],
   optionsHindi: ["महान योद्धा, दुर्योधन के मित्र", "पांडवों के राजा", "कुरुक्षेत्र के ऋषि", "कृष्ण के शिष्य"],
   optionsTelugu: ["మహా యోధుడు, దుర్యోధన మిత్రుడు", "పాండవుల రాజు", "కురుక్షేత్ర మహర్షి", "కృష్ణ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Karna was a great warrior, loyal friend of Duryodhana, and rival of Arjuna.",
   explanationHindi: "कर्ण एक महान योद्धा और दुर्योधन के मित्र तथा अर्जुन के प्रतिद्वंद्वी थे।",
   explanationTelugu: "కర్ణుడు మహా యోధుడు, దుర్యోధన మిత్రుడు మరియు అర్జున ప్రత్యర్థి."
@@ -2845,7 +2845,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Maternal uncle of Kauravas", "King of Hastinapur", "Teacher of Pandavas", "Sage of Kurukshetra"],
   optionsHindi: ["कौरवों के मामा", "हस्तिनापुर के राजा", "पांडवों के शिक्षक", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["కౌరవుల మామ", "హస్తినాపూర్ రాజు", "పాండవుల ఉపాధ్యాయుడు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Shakuni was the maternal uncle of the Kauravas and known for his cunning and schemes.",
   explanationHindi: "शकुनि कौरवों के मामा थे और अपने चतुराई और योजना के लिए प्रसिद्ध।",
   explanationTelugu: "శకుని కౌరవుల మామ, చతుర్తా మరియు యోజనల కోసం ప్రసిద్ధి."
@@ -2860,7 +2860,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Arjuna, brave warrior", "Son of Duryodhana", "King of Matsya", "Sage of Kurukshetra"],
   optionsHindi: ["अर्जुन के पुत्र, वीर योद्धा", "दुर्योधन के पुत्र", "मत्स्य के राजा", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["అర్జున కుమారుడు, ధైర్యవంతుడు యోధుడు", "దుర్యోధన కుమారుడు", "మత్స్య రాజు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu was the son of Arjuna, known for his bravery and tragic death in the Chakravyuha formation.",
   explanationHindi: "अभिमन्यु अर्जुन के पुत्र थे और चक्रव्यूह में अपनी वीरता और दुखद मृत्यु के लिए प्रसिद्ध।",
   explanationTelugu: "అభిమన్యు అర్జున కుమారుడు, చక్రవ్యూహంలో ధైర్యం మరియు దురదృష్టమైన మరణం కోసం ప్రసిద్ధి."
@@ -2875,7 +2875,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Bhima, fought Kauravas", "King of Kuru", "Sage of Kurukshetra", "Krishna’s disciple"],
   optionsHindi: ["भीम के पुत्र, कौरवों से लड़े", "कुरु के राजा", "कुरुक्षेत्र के ऋषि", "कृष्ण के शिष्य"],
   optionsTelugu: ["భీమ కుమారుడు, కౌరవులను ఎదుర్కొన్నాడు", "కురు రాజు", "కురుక్షేత్ర మహర్షి", "కృష్ణ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ghatotkacha was Bhima’s son who fought valiantly for the Pandavas using his magical powers.",
   explanationHindi: "घटोत्कच भीम के पुत्र थे, जिन्होंने अपने जादुई शक्तियों से पांडवों के लिए वीरता दिखाई।",
   explanationTelugu: "ఘటోత్కచుడు భీమ కుమారుడు, తన మాంత్రిక శక్తులతో పాండవుల కోసం ధైర్యంగా పోరాడాడు."
@@ -2890,7 +2890,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ashwatthama", "Karna", "Abhimanyu", "Bhima"],
   optionsHindi: ["अश्वत्थामा", "कर्ण", "अभिमन्यु", "भीम"],
   optionsTelugu: ["అశ్వత్థామ", "కర్ణుడు", "అభిమన్యు", "భీముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ashwatthama was the son of Drona, known for his skills in warfare and later role in the war’s end.",
   explanationHindi: "अश्वत्थामा द्रोण के पुत्र थे, युद्ध कौशल और युद्ध के अंत में भूमिका के लिए प्रसिद्ध।",
   explanationTelugu: "అశ్వత్థాముడు ద్రోణుని కుమారుడు, యుద్ధ నైపుణ్యం మరియు యుద్ధ ముగింపులో పాత్ర కోసం ప్రసిద్ధి."
@@ -2905,7 +2905,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Wise minister of Hastinapur", "King of Kauravas", "Pandava warrior", "Krishna’s friend"],
   optionsHindi: ["हस्तिनापुर के ज्ञानी मंत्री", "कौरवों के राजा", "पांडव योद्धा", "कृष्ण के मित्र"],
   optionsTelugu: ["హస్తినాపూర్ జ్ఞాని మంత్రి", "కౌరవుల రాజు", "పాండవ యోధుడు", "కృష్ణ మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vidura was the wise minister of Hastinapur, known for his intelligence and ethical guidance.",
   explanationHindi: "विदुर हस्तिनापुर के ज्ञानी मंत्री थे, जो बुद्धिमत्ता और नैतिक मार्गदर्शन के लिए प्रसिद्ध थे।",
   explanationTelugu: "విదురుడు హస్తినాపూర్ జ్ఞాని మంత్రి, తెలివి మరియు నైతిక మార్గదర్శకత్వం కోసం ప్రసిద్ధి."
@@ -2920,7 +2920,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Charioteer and advisor to Dhritarashtra", "Father of Pandavas", "King of Matsya", "Bhishma’s student"],
   optionsHindi: ["धृतराष्ट्र के सारथि और सलाहकार", "पांडवों के पिता", "मत्स्य के राजा", "भीष्म के शिष्य"],
   optionsTelugu: ["ధృతరాష్ట్ర రథచారీ మరియు సలహాదారు", "పాండవుల తండ్రి", "మత్స్య రాజు", "భీష్మ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sanjaya was Dhritarashtra’s charioteer and advisor who narrated the events of the war to the blind king.",
   explanationHindi: "संजय धृतराष्ट्र के सारथि और सलाहकार थे, जिन्होंने अंधे राजा को युद्ध की घटनाएँ सुनाई।",
   explanationTelugu: "సంజయుడు ధృతరాష్ట్ర రథచారీ మరియు సలహాదారు, ఆయన అంధ రాజుకు యుద్ధం వివరించాడు."
@@ -2935,7 +2935,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Reincarnation of Amba, instrumental in Bhishma’s death", "King of Kauravas", "Father of Arjuna", "Sage of Kurukshetra"],
   optionsHindi: ["अंबा का पुनर्जन्म, भीष्म की मृत्यु में सहायक", "कौरवों के राजा", "अर्जुन के पिता", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["అంబా పునర్జన్మ, భీష్మ మరణంలో కీలక", "కౌరవుల రాజు", "అర్జున తండ్రి", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Shikhandi was the reincarnation of Amba and played a crucial role in Bhishma’s death during the war.",
   explanationHindi: "शिखंडी अंबा का पुनर्जन्म था और युद्ध में भीष्म की मृत्यु में महत्वपूर्ण भूमिका निभाई।",
   explanationTelugu: "శిఖండి అంబా పునర్జన్మ, యుద్ధంలో భీష్మ మరణంలో కీలక పాత్ర పోషించింది."
@@ -2950,7 +2950,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sage who composed Mahabharata", "King of Hastinapur", "Father of Kauravas", "Krishna’s disciple"],
   optionsHindi: ["महाभारत के रचयिता ऋषि", "हस्तिनापुर के राजा", "कौरवों के पिता", "कृष्ण के शिष्य"],
   optionsTelugu: ["మహాభారత రచయిత మహర్షి", "హస్తినాపూర్ రాజు", "కౌరవుల తండ్రి", "కృష్ణ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vyasa was the sage who composed the Mahabharata and guided the Pandavas and Kauravas.",
   explanationHindi: "व्यास वह ऋषि थे जिन्होंने महाभारत की रचना की और पांडवों और कौरवों को मार्गदर्शन दिया।",
   explanationTelugu: "వ్యాసుడు మహాభారతాన్ని రాసిన మహర్షి, పాండవులు మరియు కౌరవులను మార్గదర్శకుడు."
@@ -2965,7 +2965,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Duryodhana", "Dushasana", "Karna", "Shakuni"],
   optionsHindi: ["दुर्योधन", "दुषासन", "कर्ण", "शकुनि"],
   optionsTelugu: ["దుర్యోధన", "దుశాసన", "కర్ణ", "శకుని"],
-  correct: 1,
+  correct: 0,
   explanation: "Duryodhana was the eldest of the Kauravas, known for his rivalry with the Pandavas.",
   explanationHindi: "दुर्योधन कौरवों का सबसे बड़ा भाई था और पांडवों के साथ उसकी प्रतिद्वंद्विता के लिए प्रसिद्ध था।",
   explanationTelugu: "దుర్యోధన కౌరవులలో పెద్ద సోదరుడు, పాండవులతో ప్రతిభ కోసం ప్రసిద్ధి."
@@ -2980,7 +2980,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Second Kaurava, notorious for disrobing Draupadi", "King of Pandavas", "Sage of Kurukshetra", "Krishna’s friend"],
   optionsHindi: ["दूसरे कौरव, द्रौपदी को निर्वस्त्र करने के लिए कुख्यात", "पांडवों के राजा", "कुरुक्षेत्र के ऋषि", "कृष्ण के मित्र"],
   optionsTelugu: ["రెండవ కౌరవ్, ద్రౌపది ని అడ్డుకునేలో ప్రసిద్ధి", "పాండవుల రాజు", "కురుక్షేత్ర మహర్షి", "కృష్ణ మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Dushasana was the second Kaurava, infamous for attempting to disrobe Draupadi in the royal court.",
   explanationHindi: "दुषासन कौरवों में दूसरा था, जो शाही दरबार में द्रौपदी को निर्वस्त्र करने का प्रयास करने के लिए कुख्यात था।",
   explanationTelugu: "దుశాసనుడు రెండవ కౌరవ్, రాజ్య కోర్టులో ద్రౌపది ని అడ్డుకునేలో ప్రసిద్ధి."
@@ -2995,7 +2995,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Pandavas’ guide and charioteer of Arjuna", "King of Kauravas", "Sage of Kurukshetra", "Father of Bhima"],
   optionsHindi: ["पांडवों के मार्गदर्शक और अर्जुन के सारथि", "कौरवों के राजा", "कुरुक्षेत्र के ऋषि", "भीम के पिता"],
   optionsTelugu: ["పాండవుల మార్గదర్శకుడు, అర్జున రథచారి", "కౌరవుల రాజు", "కురుక్షేత్ర మహర్షి", "భీమ తండ్రి"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna served as a guide, strategist, and Arjuna’s charioteer, playing a key role in the Mahabharata.",
   explanationHindi: "कृष्ण पांडवों के मार्गदर्शक और रणनीतिकार तथा अर्जुन के सारथि थे।",
   explanationTelugu: "కృష్ణుడు పాండవుల మార్గదర్శకుడు, వ్యూహకర్త మరియు అర్జున రథచారి."
@@ -3010,7 +3010,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Brahmastra", "Gandiva", "Pinaka", "Sharanga"],
   optionsHindi: ["ब्रह्मास्त्र", "गांडीव", "पिनाक", "शारंग"],
   optionsTelugu: ["బ్రహ్మాస్త్ర", "గాండి‌వ", "పినాక", "శారంగ"],
-  correct: 2,
+  correct: 0,
   explanation: "Arjuna used his mighty bow Gandiva and divine weapons to defeat Karna in the Kurukshetra war.",
   explanationHindi: "अर्जुन ने कुरुक्षेत्र युद्ध में कर्ण को हराने के लिए अपने महाशक्तिशाली धनुष गांडीव का प्रयोग किया।",
   explanationTelugu: "అర్జునుడు కర్ణను కురుక్షేత్ర యుద్ధంలో గాండి‌వ ధనుస్సు మరియు దివ్య ఆయుధాలను ఉపయోగించి చంపాడు."
@@ -3025,7 +3025,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Strong Pandava warrior, son of Vayu", "Eldest Kaurava", "Krishna’s disciple", "King of Matsya"],
   optionsHindi: ["बलशाली पांडव योद्धा, वायु के पुत्र", "सबसे बड़ा कौरव", "कृष्ण के शिष्य", "मत्स्य के राजा"],
   optionsTelugu: ["శక్తివంతమైన పాండవ యోధుడు, వాయు కుమారుడు", "పెద్ద కౌరవ్", "కృష్ణ శిష్యుడు", "మత్స్య రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhima was the second Pandava, known for his immense strength and loyalty to his brothers.",
   explanationHindi: "भीम दूसरे पांडव थे, अपनी महान शक्ति और भाईयों के प्रति निष्ठा के लिए प्रसिद्ध।",
   explanationTelugu: "భీముడు రెండవ పాండవుడు, అతని అద్భుత శక్తి మరియు అన్నలకు ఆత్మీయత కోసం ప్రసిద్ధి."
@@ -3040,7 +3040,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["One of the Pandava twins, expert swordsman", "Father of Karna", "King of Kauravas", "Sage of Kurukshetra"],
   optionsHindi: ["पांडव जुड़वों में से एक, तलवारबाज़ विशेषज्ञ", "कर्ण के पिता", "कौरवों के राजा", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["పాండవ జంటలలో ఒకరు, ఖడ్గ నిపుణుడు", "కర్ణ తండ్రి", "కౌరవుల రాజు", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Nakula was one of the Pandava twins, skilled in swordsmanship and horse-keeping.",
   explanationHindi: "नकुल पांडव जुड़वों में से एक थे, तलवारबाज़ी और अश्व पालन में निपुण।",
   explanationTelugu: "నకులుడు పాండవ జంటలలో ఒకరు, ఖడ్గనైపుణ్యం మరియు గుర్రాల పరిరక్షణలో నైపుణ్యం కలిగాడు."
@@ -3055,7 +3055,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Youngest Pandava, wise and knowledgeable", "Krishna’s friend", "Father of Arjuna", "King of Kauravas"],
   optionsHindi: ["सबसे छोटे पांडव, बुद्धिमान और ज्ञानी", "कृष्ण के मित्र", "अर्जुन के पिता", "कौरवों के राजा"],
   optionsTelugu: ["చిన్న పాండవుడు, తెలివైన మరియు జ్ఞానవంతుడు", "కృష్ణ మిత్రుడు", "అర్జున తండ్రి", "కౌరవుల రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sahadeva was the youngest Pandava, known for his wisdom, astrology, and strategic thinking.",
   explanationHindi: "सहदेव सबसे छोटे पांडव थे, बुद्धि, ज्योतिष और रणनीतिक सोच के लिए प्रसिद्ध।",
   explanationTelugu: "సహదేవుడు చిన్న పాండవుడు, తెలివితేట మరియు వ్యూహాత్మక ఆలోచన కోసం ప్రసిద్ధి."
@@ -3070,7 +3070,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Eldest Pandava, known for truthfulness", "King of Kauravas", "Sage of Kurukshetra", "Father of Bhima"],
   optionsHindi: ["सबसे बड़े पांडव, सत्यनिष्ठा के लिए प्रसिद्ध", "कौरवों के राजा", "कुरुक्षेत्र के ऋषि", "भीम के पिता"],
   optionsTelugu: ["పాండవులలో పెద్ద, నిజాయితీకి ప్రసిద్ధి", "కౌరవుల రాజు", "కురుక్షేత్ర మహర్షి", "భీమ తండ్రి"],
-  correct: 1,
+  correct: 0,
   explanation: "Yudhishthira was the eldest Pandava, celebrated for his honesty, dharma, and leadership.",
   explanationHindi: "युधिष्ठिर सबसे बड़े पांडव थे, ईमानदारी, धर्म और नेतृत्व के लिए प्रसिद्ध।",
   explanationTelugu: "యుధిష్టిరుడు పెద్ద పాండవుడు, నిజాయితీ, ధర్మం మరియు నాయకత్వం కోసం ప్రసిద్ధి."
@@ -3085,7 +3085,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vasudeva", "Nanda", "Kamsa", "Shantanu"],
   optionsHindi: ["वासुदेव", "नंद", "कंस", "शांतनु"],
   optionsTelugu: ["వాసుదేవుడు", "నందుడు", "కంసుడు", "శాంతనువు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vasudeva was the biological father of Krishna in the Mahabharata and Puranic texts.",
   explanationHindi: "वासुदेव कृष्ण के जैविक पिता थे।",
   explanationTelugu: "వాసుదేవుడు కృష్ణ యొక్క జెనెటిక్ తండ్రి."
@@ -3100,7 +3100,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of Pandavas", "Wife of Duryodhana", "Sage of Kurukshetra", "Queen of Matsya"],
   optionsHindi: ["पांडवों की माता", "दुर्योधन की पत्नी", "कुरुक्षेत्र के ऋषि", "मत्स्य की रानी"],
   optionsTelugu: ["పాండవుల తల్లి", "దుర్యోధన భార్య", "కురుక్షేత్ర మహర్షి", "మత్స్య రాణి"],
-  correct: 1,
+  correct: 0,
   explanation: "Kunti was the mother of the Pandavas and known for her devotion and wisdom.",
   explanationHindi: "कुंती पांडवों की माता थीं और उनकी भक्ति और बुद्धिमत्ता के लिए प्रसिद्ध।",
   explanationTelugu: "కుంతి పాండవుల తల్లి, భక్తి మరియు జ్ఞానానికి ప్రసిద్ధి."
@@ -3115,7 +3115,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mother of Kauravas", "Mother of Pandavas", "Krishna’s mother", "Queen of Matsya"],
   optionsHindi: ["कौरवों की माता", "पांडवों की माता", "कृष्ण की माता", "मत्स्य की रानी"],
   optionsTelugu: ["కౌరవుల తల్లి", "పాండవుల తల్లి", "కృష్ణ తల్లి", "మత్స్య రాణి"],
-  correct: 1,
+  correct: 0,
   explanation: "Gandhari was the mother of the Kauravas, known for her blindfolded devotion to her husband.",
   explanationHindi: "गांधारी कौरवों की माता थीं, जिन्होंने अपने पति के प्रति अंध श्रद्धा दिखाई।",
   explanationTelugu: "గాంధారి కౌరవుల తల్లి, భర్త పట్ల అంధ భక్తి కోసం ప్రసిద్ధి."
@@ -3130,7 +3130,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["King of Madra, commander of Kaurava forces", "King of Matsya", "Father of Arjuna", "Krishna’s brother"],
   optionsHindi: ["मद्र के राजा, कौरव सेना के सेनापति", "मत्स्य के राजा", "अर्जुन के पिता", "कृष्ण के भाई"],
   optionsTelugu: ["మద్ర రాజు, కౌరవ్ సేనాధిపతి", "మత్స్య రాజు", "అర్జున తండ్రి", "కృష్ణ సోదరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Shalya was the king of Madra and commanded the Kaurava army during the Kurukshetra war.",
   explanationHindi: "शल्य मद्र के राजा थे और कुरुक्षेत्र युद्ध में कौरव सेना का नेतृत्व किया।",
   explanationTelugu: "శల్యుడు మద్ర రాజు, కురుక్షేత్ర యుద్ధంలో కౌరవ్ సేనను ఆదేశించాడు."
@@ -3145,7 +3145,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Skilled archer who learned secretly from Drona", "King of Matsya", "Father of Arjuna", "Krishna’s disciple"],
   optionsHindi: ["प्रवीण धनुर्धर जिन्होंने गुप्त रूप से द्रोण से सीखा", "मत्स्य के राजा", "अर्जुन के पिता", "कृष्ण के शिष्य"],
   optionsTelugu: ["ప్రావీణ్య धनుర్ధరి, ద్రోణ నుండి రహస్యంగా నేర్చుకున్నాడు", "మత్స్య రాజు", "అర్జున తండ్రి", "కృష్ణ శిష్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ekalavya was a skilled archer who learned archery secretly from Drona and offered his thumb as guru dakshina.",
   explanationHindi: "एकलव्य प्रवीण धनुर्धर थे, जिन्होंने गुप्त रूप से द्रोण से सीखा और गुरु दक्षिणा में अंगूठा दिया।",
   explanationTelugu: "ఏకలవ్యుడు ప్రావీణ్య ధనుర్ధరి, ద్రోణ నుండి రహస్యంగా నేర్చుకొని గురు దక్షిణగా తన అంగుళం ఇచ్చాడు."
@@ -3160,7 +3160,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Royal teacher and advisor to Kuru princes", "Father of Arjuna", "King of Matsya", "Krishna’s friend"],
   optionsHindi: ["कुरु राजकुमारों के शिक्षक और सलाहकार", "अर्जुन के पिता", "मत्स्य के राजा", "कृष्ण के मित्र"],
   optionsTelugu: ["కురు యువరాజుల ఉపాధ్యాయుడు మరియు సలహాదారు", "అర్జున తండ్రి", "మత్స్య రాజు", "కృష్ణ మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Kripa was a royal teacher and advisor to the Kuru princes, known for his archery and wisdom.",
   explanationHindi: "कृपाचार्य कुरु राजकुमारों के शिक्षक और सलाहकार थे, धनुर्विद्या और बुद्धिमत्ता में निपुण।",
   explanationTelugu: "కృపాచార్యుడు కురు యువరాజుల ఉపాధ్యాయుడు మరియు సలహాదారు, ధనుర్విద్య మరియు జ్ఞానంలో నైపుణ్యం."
@@ -3175,7 +3175,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Drona, warrior of Kauravas", "Father of Arjuna", "King of Matsya", "Krishna’s friend"],
   optionsHindi: ["द्रोण के पुत्र, कौरवों के योद्धा", "अर्जुन के पिता", "मत्स्य के राजा", "कृष्ण के मित्र"],
   optionsTelugu: ["ద్రోణ కుమారుడు, కౌరవ్ యోధుడు", "అర్జున తండ్రి", "మత్స్య రాజు", "కృష్ణ మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ashwatthama was Drona’s son, fought on the Kaurava side, and was known for his fierce loyalty and astras.",
   explanationHindi: "अश्वत्थामा द्रोण के पुत्र थे, कौरवों की ओर लड़े और अपने उत्साह और अस्त्रों के लिए प्रसिद्ध।",
   explanationTelugu: "అశ్వత్థాముడు ద్రోణ కుమారుడు, కౌరవ్ వైపు యుద్ధంలో పాల్గొని, తన విశేష భక్తి మరియు ఆయుధాలతో ప్రసిద్ధి."
@@ -3190,7 +3190,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Third Kaurava, opposed Duryodhana’s injustice", "King of Matsya", "Pandava warrior", "Krishna’s friend"],
   optionsHindi: ["तीसरे कौरव, दुर्योधन के अन्याय के खिलाफ", "मत्स्य के राजा", "पांडव योद्धा", "कृष्ण के मित्र"],
   optionsTelugu: ["మూడవ కౌరవ్, దుర్యోధన దుర్యాయానికి వ్యతిరేకంగా", "మత్స్య రాజు", "పాండవ యోధుడు", "కృష్ణ మిత్రుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vikarna was the third Kaurava who opposed the disrobing of Draupadi, showing his sense of justice.",
   explanationHindi: "विकर्ण तीसरे कौरव थे जिन्होंने द्रौपदी के निर्वस्त्र करने के विरोध में न्याय की भावना दिखाई।",
   explanationTelugu: "వికర్ణుడు మూడవ కౌరవ్, ద్రౌపది ని అడ్డుకునేలో న్యాయభావం చూపాడు."
@@ -3205,7 +3205,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Draupadi’s son Abhimanyu’s wife", "Krishna’s sister", "Queen of Matsya", "Pandava’s mother"],
   optionsHindi: ["द्रौपदी के पुत्र अभिमन्यु की पत्नी", "कृष्ण की बहन", "मत्स्य की रानी", "पांडवों की माता"],
   optionsTelugu: ["ద్రౌపది కుమారుడు అభిమన్యు భార్య", "కృష్ణ చెల్లి", "మత్స్య రాణి", "పాండవుల తల్లి"],
-  correct: 1,
+  correct: 0,
   explanation: "Uttara was the wife of Abhimanyu, the son of Arjuna, and mother of Parikshit.",
   explanationHindi: "उत्तरा अभिमन्यु की पत्नी और परीक्षित की माता थीं।",
   explanationTelugu: "ఉత్తర అబిమన్యు భార్య, పరిక్షిత తల్లి."
@@ -3220,7 +3220,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Son of Abhimanyu, successor of Pandavas", "Krishna’s son", "Father of Bhima", "King of Matsya"],
   optionsHindi: ["अभिमन्यु के पुत्र, पांडवों का उत्तराधिकारी", "कृष्ण का पुत्र", "भीम के पिता", "मत्स्य के राजा"],
   optionsTelugu: ["అభిమన్యు కుమారుడు, పాండవుల వారసుడు", "కృష్ణ కుమారుడు", "భీమ తండ్రి", "మత్స్య రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Parikshit was the son of Abhimanyu and the successor of the Pandavas’ lineage.",
   explanationHindi: "परीक्षित अभिमन्यु के पुत्र और पांडवों की पीढ़ी के उत्तराधिकारी थे।",
   explanationTelugu: "పరిక్షితుడు అబిమన్యు కుమారుడు మరియు పాండవుల వారసత్వం."
@@ -3235,7 +3235,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["King who blocked Pandavas, killed by Arjuna", "Krishna’s cousin", "Father of Bhima", "Sage of Kurukshetra"],
   optionsHindi: ["राजा जिसने पांडवों को रोका, अर्जुन ने मारा", "कृष्ण का चचेरा भाई", "भीम के पिता", "कुरुक्षेत्र के ऋषि"],
   optionsTelugu: ["రాజు, పాండవులను ఆపాడు, అర్జున చంపాడు", "కృష్ణ సోదరుడు", "భీమ తండ్రి", "కురుక్షేత్ర మహర్షి"],
-  correct: 1,
+  correct: 0,
   explanation: "Jayadratha was the king who blocked the Pandavas during the war and was slain by Arjuna to avenge Abhimanyu.",
   explanationHindi: "जयद्रथ वह राजा थे जिन्होंने युद्ध में पांडवों को रोका और अर्जुन ने अभिमन्यु की मृत्यु का बदला लेने के लिए मारा।",
   explanationTelugu: "జయదర్శుడు యుద్ధంలో పాండవులను ఆపిన రాజు, అర్జున అబిమన్యు కోసం చంపాడు."
@@ -3250,7 +3250,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Parashurama", "Drona", "Kripa", "Vishnu"],
   optionsHindi: ["परशुराम", "द्रोण", "कृपाचार्य", "विष्णु"],
   optionsTelugu: ["పరశురాముడు", "ద్రోణాచార్యుడు", "కృపాచార్యుడు", "విష్ణు"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma learned warfare, archery, and advanced combat skills under the guidance of Parashurama.",
   explanationHindi: "भीष्म ने युद्ध, धनुर्विद्या और उच्च स्तर की लड़ाई की कला परशुराम के मार्गदर्शन में सीखी।",
   explanationTelugu: "భీష్ముడు యుద్ధ, ధనుర్విద్య మరియు అత్యాధునిక యుద్ధ నైపుణ్యాలను పరశురాముని గైడ్‌లైన్‌లో నేర్చుకున్నాడు."
@@ -3265,7 +3265,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Loyalty to Duryodhana", "Hatred of Pandavas", "Desire for kingship", "Influence of Shakuni"],
   optionsHindi: ["दुर्योधन के प्रति निष्ठा", "पांडवों से द्वेष", "राजसत्ता की इच्छा", "शकुनी का प्रभाव"],
   optionsTelugu: ["దుర్యోధనకు నిబద్ధత", "పాండవులపై ద్వేషం", "రాజ్యం కోరుకోవడం", "శకుని ప్రభావం"],
-  correct: 1,
+  correct: 0,
   explanation: "Karna chose loyalty to Duryodhana, who had accepted and befriended him when others rejected him.",
   explanationHindi: "कर्ण ने दुर्योधन के प्रति निष्ठा दिखाई, जिन्होंने उसे स्वीकारा और मित्रता की जब अन्य लोग उसे अस्वीकार कर रहे थे।",
   explanationTelugu: "కర్ణుడు దుర్యోధనకు నిబద్ధత చూపాడు, ఇతరులు అతన్ని తిరస్కరించినప్పుడు దుర్యోధన్ అతన్ని స్వీకరించి స్నేహం చేసాడు."
@@ -3280,7 +3280,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sahadeva", "Bhima", "Arjuna", "Yudhishthira"],
   optionsHindi: ["सहदेव", "भीम", "अर्जुन", "युधिष्ठिर"],
   optionsTelugu: ["సహదేవుడు", "భీముడు", "అర్జునుడు", "యుధిష్టిరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Sahadeva was known for his deep understanding of astrology and strategic planning during battles.",
   explanationHindi: "सहदेव युद्धों के दौरान ज्योतिष और रणनीतिक योजना के लिए प्रसिद्ध थे।",
   explanationTelugu: "సహదేవుడు యుద్ధాల్లో జ్యోతిష్యం మరియు వ్యూహాత్మక ప్రణాళికకు ప్రసిద్ధి చెందాడు."
@@ -3295,7 +3295,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["The dice game against Kauravas", "Killing of Duryodhana", "Battle with Jarasandha", "Abduction of Draupadi"],
   optionsHindi: ["कौरवों के खिलाफ पासे का खेल", "दुर्योधन की हत्या", "जारासंध से युद्ध", "द्रौपदी का अपहरण"],
   optionsTelugu: ["కౌరవులతో సాట్ల ఆట", "దుర్యోధన హత్య", "జరాసంధతో యుద్ధం", "ద్రౌపది అపహరణ"],
-  correct: 1,
+  correct: 0,
   explanation: "The Pandavas lost the dice game to the Kauravas, which led to their 13-year exile.",
   explanationHindi: "पांडवों ने कौरवों के साथ पासे का खेल हारकर 13 वर्षों के वनवास का कारण बने।",
   explanationTelugu: "పాండవులు కౌరవులతో సాట్ల ఆటలో ఓడిపోయి 13 సంవత్సరాల వనవాసానికి కారణమయ్యారు."
@@ -3310,7 +3310,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dhrishtadyumna", "Arjuna", "Bhima", "Karna"],
   optionsHindi: ["धृष्टद्युम्न", "अर्जुन", "भीम", "कर्ण"],
   optionsTelugu: ["ధృష్టద్యుమ్నుడు", "అర్జునుడు", "భీముడు", "కర్ణుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Dhrishtadyumna beheaded Drona during the war as part of a strategic plan by the Pandavas.",
   explanationHindi: "धृष्टद्युम्न ने पांडवों की रणनीति के अनुसार युद्ध में द्रोण का सिर काटा।",
   explanationTelugu: "ధృష్టద్యుమ్నుడు పాండవుల వ్యూహానికి అనుగుణంగా యుద్ధంలో ద్రోణుని తల తొలగించాడు."
@@ -3325,7 +3325,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["To break Kaurava formations and protect Pandavas", "To fight Karna only", "To capture Duryodhana", "To test his own strength"],
   optionsHindi: ["कौरव की सेना को तोड़ने और पांडवों की रक्षा करने के लिए", "केवल कर्ण से लड़ने के लिए", "दुर्योधन को पकड़ने के लिए", "अपनी शक्ति की परीक्षा लेने के लिए"],
   optionsTelugu: ["కౌరవ్ దళాన్ని ధ్వంసం చేయడానికి మరియు పాండవులను రక్షించడానికి", "కేవలం కర్ణతో యుద్ధం చేయడానికి", "దుర్యోధన్‌ను పట్టుకోవడానికి", "తన శక్తిని పరీక్షించడానికి"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu entered the Chakravyuha to break the Kaurava formations and protect the Pandavas, but was trapped due to incomplete knowledge.",
   explanationHindi: "अभिमन्यु ने कौरव की सेना को तोड़ने और पांडवों की रक्षा करने के लिए चक्रव्यूह में प्रवेश किया, लेकिन अधूरी जानकारी के कारण फंस गए।",
   explanationTelugu: "అభిమన్యుడు కౌరవ్ దళాలను ధ్వంసం చేసి పాండవులను రక్షించడానికి చక్రవ్యూహంలో ప్రవేశించాడు, కానీ పూర్తీ జ్ఞానం లేకపోవడంతో పడ్డాడు."
@@ -3340,7 +3340,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vishnuastra", "Gandiva arrow", "Brahmastra", "Sharanga"],
   optionsHindi: ["विष्णुास्त्र", "गांडीव का बाण", "ब्रह्मास्त्र", "शारंग"],
   optionsTelugu: ["విష్ణుస్థ్ర", "గాండి‌వ బాణం", "బ్రహ్మాస్త్ర", "శారంగ"],
-  correct: 2,
+  correct: 0,
   explanation: "Arjuna used a precise arrow from his Gandiva bow to kill Jayadratha and fulfill the vow to avenge Abhimanyu.",
   explanationHindi: "अर्जुन ने अपने गांडीव धनुष से सटीक बाण चला कर जयद्रथ को मारा और अभिमन्यु का बदला लिया।",
   explanationTelugu: "అర్జునుడు తన గాండి‌వ ధనుస్సు నుండి ఖచ్చిత బాణాన్ని ఉపయోగించి జయదర్శుడిని చంపాడు మరియు అభిమన్యు ప్రతీకారం తీర్చాడు."
@@ -3355,7 +3355,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Kunti", "Gandhari", "Satyavati", "Ambika"],
   optionsHindi: ["कुंती", "गांधारी", "सत्यवती", "अंबिका"],
   optionsTelugu: ["కుంతి", "గాంధారి", "సత్యవతి", "అంబికా"],
-  correct: 1,
+  correct: 0,
   explanation: "Kunti was the mother of Karna, who had him before her marriage and had to abandon him.",
   explanationHindi: "कुंती कर्ण की माता थीं, जिन्होंने उसे विवाह से पहले जन्म दिया और छोड़ना पड़ा।",
   explanationTelugu: "కుంతి కర్ణ తల్లి, వివాహానికి ముందు జననం జరిగి వదిలేసారు."
@@ -3370,7 +3370,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shalya", "Arjuna", "Bhima", "Nakula"],
   optionsHindi: ["शल्य", "अर्जुन", "भीम", "नकुल"],
   optionsTelugu: ["శల్యుడు", "అర్జునుడు", "భీముడు", "నకులుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Shalya fought for the Kauravas due to circumstances, despite his personal feelings favoring Pandavas.",
   explanationHindi: "शल्य परिस्थितियों के कारण कौरवों के लिए लड़ा, भले ही उसकी निजी भावना पांडवों के पक्ष में थी।",
   explanationTelugu: "శల్యుడు పరిస్థితుల వల్ల కౌరవుల వైపు యుద్ధం చేశాడు, వ్యక్తిగత భావాలు పాండవులకే ఉంటూ."
@@ -3385,7 +3385,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vidura", "Kripa", "Drona", "Bhishma"],
   optionsHindi: ["विदुर", "कृपाचार्य", "द्रोण", "भीष्म"],
   optionsTelugu: ["విదుర", "కృపాచార్యుడు", "ద్రోణ", "భీష్మ"],
-  correct: 1,
+  correct: 0,
   explanation: "Vidura advised Yudhishthira wisely during the dice game, warning him against gambling.",
   explanationHindi: "विदुर ने पासे के खेल में युधिष्ठिर को बुद्धिमानी से सलाह दी और जुआ खेलने के खिलाफ चेताया।",
   explanationTelugu: "విదురుడు సాట్ల ఆటలో యుధిష్టిరుడికి తెలివితేటతో సూచనలు ఇచ్చాడు మరియు జూయాకు హెచ్చరిక ఇచ్చాడు."
@@ -3400,7 +3400,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Mace", "Bow and arrow", "Sword", "Spear"],
   optionsHindi: ["गदा", "धनुष और बाण", "तलवार", "भाला"],
   optionsTelugu: ["గదా", "ధనుస్సు మరియు బాణాలు", "ఖడ్గం", "కత్తి"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhima killed Dushasana using his mighty mace during the Kurukshetra war.",
   explanationHindi: "भीम ने कुरुक्षेत्र युद्ध में अपनी शक्तिशाली गदा का उपयोग करके दुष्टसना को मारा।",
   explanationTelugu: "భీముడు కురుక్షేత్ర యుద్ధంలో తన శక్తివంతమైన గదా ఉపయోగించి దుశాసనును చంపాడు."
@@ -3415,7 +3415,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Bhishma", "Drona", "Karna", "Shalya"],
   optionsHindi: ["भीष्म", "द्रोण", "कर्ण", "शल्य"],
   optionsTelugu: ["భీష్మ", "ద్రోణ", "కర్ణ", "శల్య"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma was appointed the commander of the Kaurava army at the start of the Kurukshetra war.",
   explanationHindi: "भीष्म कुरुक्षेत्र युद्ध के आरंभ में कौरव सेना का सेनापति नियुक्त किया गया था।",
   explanationTelugu: "భీష్ముడు కురుక్షేత్ర యుద్ధం ప్రారంభంలో కౌరవ సేనాపతిగా నియోజితవడబడ్డాడు."
@@ -3430,7 +3430,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Karna", "Bhishma", "Drona", "Ashwatthama"],
   optionsHindi: ["कर्ण", "भीष्म", "द्रोण", "अश्वत्थामा"],
   optionsTelugu: ["కర్ణ", "భీష్మ", "ద్రోణ", "అశ్వత్థామ"],
-  correct: 1,
+  correct: 0,
   explanation: "Karna pierced Arjuna’s chariot wheel during a crucial moment in the Kurukshetra war.",
   explanationHindi: "कर्ण ने कुरुक्षेत्र युद्ध के महत्वपूर्ण क्षण में अर्जुन के रथ के पहिये को भेद दिया।",
   explanationTelugu: "కురుక్షేత్ర యుద్ధంలో కర్ణ అర్జునుని రథం చక్రాన్ని త్రిచ్చాడు."
@@ -3445,7 +3445,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Arjuna", "Shikhandi", "Karna", "Drona"],
   optionsHindi: ["अर्जुन", "शिखंडी", "कर्ण", "द्रोण"],
   optionsTelugu: ["అర్జునుడు", "శికాండీ", "కర్ణ", "ద్రోణ"],
-  correct: 2,
+  correct: 0,
   explanation: "Bhishma was felled by Arjuna using Shikhandi as a shield, honoring Bhishma’s vow not to fight a woman or someone who was formerly female.",
   explanationHindi: "भीष्म को अर्जुन ने शिखंडी को ढाल के रूप में उपयोग करके मारा, जो भीष्म के उस वचन का सम्मान था कि वह किसी महिला या पूर्व महिला से नहीं लड़ेगा।",
   explanationTelugu: "మహిళ లేదా మునుపటి మహిళను పోరాడకూడదని భీష్మ యొక్క వాగ్దానాన్ని గౌరవిస్తూ, అర్జునుడు శికాండీని రక్షణగా ఉపయోగించి భీష్మును చంపాడు."
@@ -3460,7 +3460,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Brahmastra", "Gada", "Bow and arrow", "Spear"],
   optionsHindi: ["ब्रह्मास्त्र", "गदा", "धनुष और बाण", "भाला"],
   optionsTelugu: ["బ్రహ్మాస్రం", "గదా", "ధనుస్సు మరియు బాణాలు", "కత్తి"],
-  correct: 3,
+  correct: 0,
   explanation: "Drona used his expert archery skills with bow and arrows to break into the Pandava’s Chakravyuh formation.",
   explanationHindi: "द्रोण ने अपनी विशेष धनुष्यास्त्र कौशल का उपयोग करके पांडव सेना के चक्रव्यूह को तोड़ने में सफलता हासिल की।",
   explanationTelugu: "ద్రోణుడు పాండవుల చక్రవ్యూహాన్ని తీర్చడానికి అతని విశేష ధనువు వలన బలబద్ద మరకలను ఉపయోగించడం ద్వారా సదగతగల ధనువుతళకలను ఉదగడం.",
@@ -3475,7 +3475,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Dhrishtadyumna", "Bhima", "Arjuna", "Karna"],
   optionsHindi: ["धृष्टद्युम्न", "भीम", "अर्जुन", "कर्ण"],
   optionsTelugu: ["ధృష్టధ్యుమ్న", "భీముడు", "అర్జునుడు", "కర్ణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Dronacharya was killed by Dhrishtadyumna, fulfilling the oath to avenge his father Drupada.",
   explanationHindi: "द्रोणाचार्य को धृष्टद्युम्न ने मारा, जो उनके पिता द्रुपद की बालकी के लिए है।",
   explanationTelugu: "ద్రోణాచార్యుని ధృష్టద్యుమ్న చంపాడు, అతని పితల ద్రుపద వలన వలన వలన వలన వలన వలన వలన వలన వలన వలన వలన వలన వలన ঵లన ঵లన."
@@ -3490,7 +3490,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shalya", "Kripa", "Ashwatthama", "Bhishma"],
   optionsHindi: ["शल्य", "कृपाचार्य", "अश्वत्थामा", "भीष्म"],
   optionsTelugu: ["శల్య", "కృపాచార్యుడు", "అశ్వత్థామ", "భీష్మ"],
-  correct: 1,
+  correct: 0,
   explanation: "Shalya was appointed as the charioteer of Karna, which played a psychological role in the war against the Pandavas.",
   explanationHindi: "शल्य को कर्ण का सारथी नियुक्त किया गया था, जिसने पांडवों के खिलाफ युद्ध में मानसिक भूमिका निभाई।",
   explanationTelugu: "శల్యుడు కర్ణా రథసారధిగా నియమించబడ్డాడు, ఇది పాండవులపై యుద్ధంలో మానసిక పాత్ర పోషించింది."
@@ -3505,7 +3505,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Karna", "Drona", "Jayadratha", "Ashwatthama"],
   optionsHindi: ["कर्ण", "द्रोण", "जयद्रथ", "अश्वत्थामा"],
   optionsTelugu: ["కర్ణ", "ద్రోణ", "జయద్రథ", "అశ్వత్థామ"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu was killed by a combined attack led by Karna along with Drona, Jayadratha, and other Kauravas inside the Chakravyuh.",
   explanationHindi: "अभिमन्यु को कर्ण, द्रोण, जयद्रथ और अन्य कौरवों के संयुक्त हमले से चक्रव्यूह मे मारा गया।",
   explanationTelugu: "అభిమన్యుని కర్ణ, ద్రోణ, జయద్రథ మరియు మరో కౌరవుల కలిగిన సందర్శనతో, చక్రవ్యూహంలో చంపబడ్డాడు."
@@ -3520,7 +3520,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Indra", "Krishna", "Bhishma", "Drona"],
   optionsHindi: ["इंद्र", "कृष्ण", "भीष्म", "द्रोण"],
   optionsTelugu: ["ఇంద్రుడు", "కృష్ణుడు", "భీష్మ", "ద్రోణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Indra, Arjuna’s father, requested Karna’s Shakti weapon for Arjuna, preventing Karna from using it again.",
   explanationHindi: "इंद्र, अर्जुन के पिता, ने कर्ण के शक्ति अस्त्र को अर्जुन के लिए मांगा, जिससे कर्ण उसे फिर से इस्तेमाल नहीं कर सका।",
   explanationTelugu: "ఇంద్రుడు, అర్జునుని తండ్రి, అర్జునుని కోసం కర్ణ యొక్క శక్తి ఆయుధాన్ని అభ్యర్థించి, కర్ణను దాన్ని మళ్లీ ఉపయోగించకుండా నిరోధించాడు."
@@ -3535,7 +3535,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sahadeva", "Bhima", "Arjuna", "Dhrishtadyumna"],
   optionsHindi: ["सहदेव", "भीम", "अर्जुन", "धृष्टद्युम्न"],
   optionsTelugu: ["సహదేవుడు", "భీముడు", "అర్జునుడు", "ధృష్టధ్యుమ్న"],
-  correct: 1,
+  correct: 0,
   explanation: "Shakuni was killed by Sahadeva as a part of revenge for his role in the dice game and the war.",
   explanationHindi: "शकुनि को सहदेव ने पासे के खेल और युद्ध में उसकी भूमिका के लिए प्रतिशोध के रूप में मारा।",
   explanationTelugu: "సహదేవుడు పాచికలాట మరియు యుద్ధంలో ప్రతికరంగా శకునిని చంపాడు."
@@ -3550,7 +3550,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ashwatthama", "Karna", "Duryodhana", "Bhima"],
   optionsHindi: ["अश्वत्थामा", "कर्ण", "दुर्योधन", "भीम"],
   optionsTelugu: ["అశ్వత్థామ", "కర్ణ", "దుర్యోధన", "భీముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ashwatthama was the last warrior alive after the war ended and was cursed by Krishna for his night attack on the Pandava camp.",
   explanationHindi: "युद्ध के बाद अश्वत्थामा अंतिम जीवित योद्धा रहा और कृष्ण के द्वारा उनके पांडव निवास पर रात के हमले के लिए मानसिक प्रतिकार के साथ मौका मिला।",
   explanationTelugu: "పాండవుల నివాసంపై రాత్రిపూట దాడి చేసినందుకు కృష్ణుని శాపం వల్ల యుద్ధం తరువాత అశ్వత్తామ చివరి యోధుడిగా ఉన్నాడు"
@@ -3565,7 +3565,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Subhadra", "Draupadi", "Krishna", "Yudhishthira"],
   optionsHindi: ["सुभद्रा", "द्रौपदी", "कृष्ण", "युधिष्ठिर"],
   optionsTelugu: ["సుభద్ర", "ద్రౌపది", "కృష్ణుడు", "యుధిష్ఠిరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Subhadra, Arjuna’s wife, was entrusted with taking care of the Pandava children after the war.",
   explanationHindi: "अर्जुन की पत्नी सुभद्रा युद्ध के बाद पांडव बच्चों की देखभाल करने के लिए सौंपी गई।",
   explanationTelugu: "అర్జునుని భార్య సుభద్ర యుద్ధం తరువాత పాండవుల పిల్లల సంరక్షణను అప్పగించబడింది."
@@ -3580,7 +3580,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Drona", "Kripa", "Bhishma", "Krishna"],
   optionsHindi: ["द्रोण", "कृपा", "भीष्म", "कृष्ण"],
   optionsTelugu: ["ద్రోణాచార్యుడు", "కృపాచార్యుడు", "భీష్ముడు", "కృష్ణుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Dronacharya was the guru of the Pandavas, teaching them advanced warfare techniques and the use of divine weapons.",
   explanationHindi: "द्रोणाचार्य पांडवों के गुरु थे, जिन्होंने उन्हें आधुनिक युद्ध कौशल और दिव्य आयुधों के उपयोग की सिखाई की।",
   explanationTelugu: "ద్రోణాచార్యుడు పాండవుల గురువుగా ఉన్నారు, వారికి ఆధునిక యుద్ధ సాంకేతికతలు మరియు దివ్య ఆయుధాల ఉపయోగం నేర్పించారు."
@@ -3595,7 +3595,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Krishna", "Arjuna", "Bhima", "Yudhishthira"],
   optionsHindi: ["कृष्ण", "अर्जुन", "भीम", "युधिष्ठिर"],
   optionsTelugu: ["కృష్ణుడు", "అర్జునుడు", "భీముడు", "యుధిష్ఠిరుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna ensured the survival of Parikshit, the son of Abhimanyu, securing the Pandava lineage.",
   explanationHindi: "कृष्ण ने अभिमन्यु के पुत्र परिषित की जीवन बचाई, पांडव वंश को सुरक्षित करते हुए।",
   explanationTelugu: "కృష్ణుడు అభిమన్యుని కుమారుడు పరిషిత్ యొక్క జీవితం నిర్ధారించాడు, పాండవ వంశాన్ని సురక్షితం చేశాడు."
@@ -3610,7 +3610,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Arjuna", "Bhima", "Karna", "Duryodhana"],
   optionsHindi: ["अर्जुन", "भीम", "कर्ण", "दुर्योधन"],
   optionsTelugu: ["అర్జునుడు", "భీముడు", "కర్ణ", "దుర్యోధన"],
-  correct: 1,
+  correct: 0,
   explanation: "Arjuna was called Savyasachi because of his extraordinary skill to wield weapons with both hands equally in combat.",
   explanationHindi: "अर्जुन को सव्यसाची कहा जाता था क्योंकि वह युद्ध में दोनों हाथों से समान रूप से हथियार प्रयोग करने में अत्यंत कौशली थे।",
   explanationTelugu: "సవ్యసాచి అని అర్జునుని పిలువబడింది ఎందుకంటే అతను యుద్ధంలో రెండు చేయులతో సమానంగా ఆయుధాలను ఉపయోగించే అసాదరన నైపుణ్యం కలిగి ఉన్నాడు."
@@ -3625,7 +3625,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Krishna", "Bhishma", "Drona", "Vidura"],
   optionsHindi: ["कृष्ण", "भीष्म", "द्रोण", "विदुर"],
   optionsTelugu: ["కృష్ణుడు", "భీష్ముడు", "ద్రోణాచార్యుడు", "విదురుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna advised Yudhishthira to perform the Rajasuya yajna to establish his supremacy and dharma as a king.",
   explanationHindi: "कृष्ण ने युधिष्ठिर को राज्यस्यू यज्ञ करने की सलाह दी, ताकि वह अपने राज्य की प्रधानता और धर्म को स्थापित कर सके।",
   explanationTelugu: "కృష్ణుడు యుధిష్ఠిరుడికి రాజసూయ యజ్ఞం నిర్వహించమని సలహా ఇచ్చాడు, తన రాజుగా ప్రాధాన్యత మరియు ధర్మాన్ని స్థాపించడానికి."
@@ -3640,7 +3640,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Arjuna", "Bhima", "Abhimanyu", "Duryodhana"],
   optionsHindi: ["अर्जुन", "भीम", "अभिमन्यु", "दुर्योधन"],
   optionsTelugu: ["అర్జునుడు", "భీముడు", "అభిమన్యుడు", "దుర్యోధన"],
-  correct: 1,
+  correct: 0,
   explanation: "Arjuna was the only warrior who could match Karna’s skill and valor in combat.",
   explanationHindi: "अर्जुन ही कर्ण के नैपुण्य और धैर्य से युद्ध कर सकता था।",
   explanationTelugu: "అర్జునుడు మాత్రమే కర్ణ యొక్క నైపుణ్యం మరియు ధైర్యంతో పోరాడగలిగాడు."
@@ -3655,7 +3655,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Drona", "Arjuna", "Bhima", "Krishna"],
   optionsHindi: ["द्रोण", "अर्जुन", "भीम", "कृष्ण"],
   optionsTelugu: ["ద్రోణాచార్యుడు", "అర్జునుడు", "భీముడు", "కృష్ణుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "After Bhishma fell, Drona was appointed as the commander of the Pandava army for strategic advantage.",
   explanationHindi: "भीष्म गिरने के बाद, द्रोणाचार्य को रणनीतिक लाभ के लिए कौरव सेना का सेनापति नियुक्त किया गया था।",
   explanationTelugu: "భీష్ముడు పడిపోయిన తర్వాత, ద్రోణాచార్యుడు కౌరవుల సేనాపతిగా నియమించబడ్డాడు."
@@ -3670,7 +3670,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Bhima", "Arjuna", "Karna", "Krishna"],
   optionsHindi: ["भीम", "अर्जुन", "कर्ण", "कृष्ण"],
   optionsTelugu: ["భీముడు", "అర్జునుడు", "కర్ణ", "కృష్ణుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhima struck the thigh of Duryodhana and fatally defeated him, fulfilling his vow of revenge for Draupadi’s humiliation.",
   explanationHindi: "भीम ने दुर्योधन की जानु को मारकर उसे मार डाला, जिससे द्रौपदी के हिम्मत के प्रति अपना विधायित सम्मान पूरा हुआ।",
   explanationTelugu: "భీముడు దుర్యోధనను తన పాదం పై చిక్కించి అతను హతం చేశాడు, ద్రౌపది అవమానానికి భీముడు ప్రతీకారం తీర్చాడు."
@@ -3685,7 +3685,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Yudhishthira", "Bhima", "Arjuna", "Karna"],
   optionsHindi: ["युधिष्ठिर", "भीम", "अर्जुन", "कर्ण"],
   optionsTelugu: ["యుధిష్ఠిరుడు", "భీముడు", "అర్జునుడు", "కర్ణ"],
-  correct: 3,
+  correct: 0,
   explanation: "Arjuna killed Shalya during the final phases of the war, after Shalya was made the commander of the Kaurava forces.",
   explanationHindi: "",
   explanationTelugu: "శల్యుడు కౌరవ సేనాపతిగా నియమించబడిన తర్వాత యుద్ధం చివరి దశల్లో అర్జునుడు శల్యును చంపాడు."
@@ -3700,7 +3700,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Brahmastra", "Sudarshana Chakra", "Gandiva", "Shakti"],
   optionsHindi: ["ब्रह्मास्त्र", "सुदर्शन चक्र", "गांडीव", "शक्ति"],
   optionsTelugu: ["బ్రహ్మాస్రం", "సుదర్శన చక్రం", "గాండి‌వ్", "శక్తి"],
-  correct: 4,
+  correct: 0,
   explanation: "Karna received the Shakti weapon from Parashurama, capable of killing any enemy but could be used only once.",
   explanationHindi: "परशुराम ने कर्ण को शक्ति हथियार दिया, जो किसी भी शत्रु को मार सकता है परंतु केवल एक बार ही उपयोग किया जा सकता।",
   explanationTelugu: "పరశురాముడి నుండి కర్ణకు శక్తి ఆయుధం లభించింది, ఇది ఏ శత్రువును చంపగలదు కానీ ఒకసారి మాత్రమే ఉపయోగించవలనదనదనదనదనదనదనదనదనదనదనదనద"
@@ -3715,7 +3715,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Abhimanyu", "Srutakarma", "Iravan", "Babruvahana"],
   optionsHindi: ["अभिमन्यु", "श्रुतकर्म", "इरावन", "बभ्रुवाहन"],
   optionsTelugu: ["అభిమన్యుడు", "శ్రుతకర్మ", "ఇరవణ్", "బబ్రువాహనుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu, Arjuna’s son, was trapped and killed inside the Chakravyuh by the Kaurava warriors.",
   explanationHindi: "",
   explanationTelugu: "అర్జునుడి కుమారుడు అభిమన్యుడు కౌరవుల యోధులచే చక్రవ్యూహంలో చిక్కి మరణించాడు."
@@ -3730,7 +3730,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Drona", "Kripa", "Bhishma", "Krishna"],
   optionsHindi: ["द्रोण", "कृपा", "भीष्म", "कृष्ण"],
   optionsTelugu: ["ద్రోణాచార్యుడు", "కృపాచార్యుడు", "భీష్ముడు", "కృష్ణుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Dronacharya trained both Kauravas and Pandavas in warfare, archery, and the use of divine weapons.",
   explanationHindi: "द्रोणाचार्य ने कौरवों और पांडवों दोनों को युद्ध, धनुर्विद्या और दिव्य अस्त्रों के उपयोग में प्रशिक्षित किया।",
   explanationTelugu: "ద్రోణాచార్యుడు కౌరవులు మరియు పాండవులను యుద్ధనీతి, ధనుర్విద్య మరియు దివ్య ఆయుధాల ఉపయోగంలో శిక్షణ ఇచ్చాడు."
@@ -3745,7 +3745,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Shakuni", "Duryodhana", "Dushasana", "Karna"],
   optionsHindi: ["शकुनि", "दुर्योधन", "दुषासन", "कर्ण"],
   optionsTelugu: ["శకుని", "దుర్యోధన", "దుశాసన", "కర్ణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Shakuni orchestrated the dice game that led to the Pandavas losing their kingdom and going into exile.",
   explanationHindi: "शकुनि ने पांडवों के राज्य को खोने और वनवास में जाने का कारण बना।",
   explanationTelugu: "శకుని పాండవులు తమ రాజ్యాన్ని కోల్పోయి వనవాసానికి వెళ్లడానికి కారణమైన పాచికల ఆటను ఏర్పాడు."
@@ -3760,7 +3760,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Ashwatthama", "Karna", "Duryodhana", "Bhima"],
   optionsHindi: ["अश्वत्थामा", "कर्ण", "दुर्योधन", "भीम"],
   optionsTelugu: ["అశ్వత్థాముడు", "కర్ణ", "దుర్యోధన", "భీముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Ashwatthama attacked the Pandava camp at night and killed the sleeping warriors, earning Krishna’s curse.",
   explanationHindi: "अश्वत्थामा ने रात में पांडव शिविर पर हमला किया और सोए हुए योद्धाओं को मारकर कृष्ण की शाप प्राप्त की।",
   explanationTelugu: "అశ్వత్థామ రాత్రి పాండవుల శిబిరంపై దాడి చేసి నిద్రిస్తున్న యోధులను చంపాడు, కృష్ణుని శాపం పొందాడు."
@@ -3775,7 +3775,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Arjuna", "Bhima", "Karna", "Drona"],
   optionsHindi: ["अर्जुन", "भीम", "कर्ण", "द्रोण"],
   optionsTelugu: ["అర్జునుడు", "భీముడు", "కర్ణ", "ద్రోణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Arjuna killed Jayadratha the next day after taking an oath to avenge Abhimanyu’s death.",
   explanationHindi: "अर्जुन ने अभिमन्यु की मृत्यु का बदला लेने के लिए शपथ लेने के बाद अगले दिन जयद्रथ को मार डाला।",
   explanationTelugu: "అర్జునుడు అభిమన్యుని మరణానికి ప్రతీకారం తీర్చడానికి ప్రమాణం తీసుకున్న తర్వాత తదుపరి రోజు జయద్రథను చంపాడు."
@@ -3790,7 +3790,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Drona", "Karna", "Shalya", "Ashwatthama"],
   optionsHindi: ["द्रोण", "कर्ण", "शल्य", "अश्वत्थामा"],
   optionsTelugu: ["ద్రోణాచార్యుడు", "కర్ణ", "శల్య", "అశ్వత్థాముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "After Bhishma fell, Drona was appointed as the commander of the Kaurava army.",
   explanationHindi: "भीष्म के पतन के बाद द्रोण को कौरव सेना का सेनापति नियुक्त किया गया।",
   explanationTelugu: "భీష్ము పడిపోయిన తర్వాత ద్రోణను కౌరవుల సేనాపతిగా నిమించబడ్డాడు.",
@@ -3805,7 +3805,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["King of Kasi", "King of Kalinga", "King of Panchala", "King of Matsya"],
   optionsHindi: ["काशी का राजा", "कलिंग का राजा", "पंचाल का राजा", "मत्स्य का राजा"],
   optionsTelugu: ["కాసీ రాజు", "కాలింగ రాజు", "పంచాల రాజు", "మత్స్య రాజు"],
-  correct: 1,
+  correct: 0,
   explanation: "Bhishma broke the bow of the King of Kasi during his martial training in his youth, showing his prowess.",
   explanationHindi: "भीष्म ने अपने युवा समय में अपने युद्ध प्रशिक्षण के दौरान काशी के राजा का धनुष तोड़ा, जिससे उनकी सामरिक क्षमता साबित हुई।",
   explanationTelugu: "భీష్ముడు తన యువకంలో యుద్ధ శిక్షణలో కాసీ రాజు యొక్క ధనుస్సును విరజేశాడు, తన నైపుణ్యాన్ని చూపించాడు."
@@ -3820,7 +3820,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Abhimanyu", "Bhima", "Arjuna", "Karna"],
   optionsHindi: ["अभिमन्यु", "भीम", "अर्जुन", "कर्ण"],
   optionsTelugu: ["అభిమన్యుడు", "భీముడు", "అర్జునుడు", "కర్ణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Abhimanyu killed Lakshmana Kumara during the intense battle inside the Chakravyuh.",
   explanationHindi: "अभिमन्यु ने चक्रव्यूह के भीतर हुए तीव्र युद्ध के दौरान लक्ष्मण कुमार को मार डाला।",
   explanationTelugu: "చక్రవ్యూహం లో జరిగిన తీవ్ర యుద్ధంలో అభిమన్యుడు లక్ష్మన కుమారుడిని చంపాడు."
@@ -3835,7 +3835,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Vidura", "Shakuni", "Kripa", "Bhishma"],
   optionsHindi: ["विदुर", "शकुनि", "कृपा", "भीष्म"],
   optionsTelugu: ["విదురుడు", "శకుని", "కృపాచార్యుడు", "భీష్ముడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Vidura advised Yudhishthira during the dice game, warning him of Shakuni’s treachery.",
   explanationHindi: "शकुनि की द्रोह के बारे में चेतावनी देते हुए, विदुर ने पासा खेल के दौरान युधिष्ठिर को सलाह दी।",
   explanationTelugu: "శకుని ద్రోహం గురించి హెచ్చరించి, పాచికలాట సమయంలో యుధిష్ఠిరుడికి విదురుడు సలహా ఇచ్చాడు."
@@ -3850,7 +3850,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Arjuna", "Bhima", "Abhimanyu", "Dhrishtadyumna"],
   optionsHindi: ["अर्जुन", "भीम", "अभिमन्यु", "धृष्टद्युम्न"],
   optionsTelugu: ["అర్జునుడు", "భీముడు", "అభిమన్యుడు", "ధృష్టధ్యుమ్న"],
-  correct: 1,
+  correct: 0,
   explanation: "Arjuna was tasked with fighting Karna after Bhishma’s fall due to his unmatched skill and oath to defeat him.",
   explanationHindi: "भीष्म के पतन के बाद द्रोण को कौरव सेना का सेनापति नियुक्त किया गया।",
   explanationTelugu: "భీష్ముడు పడిపోయిన తర్వాత అర్జునుడు కర్ణతో యుద్ధం చేయడానికి నియమించబడ్డాడు, అతని అపరిమిత నైపుణ్యం మరియు అతన్ని ఓడిંచే ప్రతీకరకలనలనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగదలగలదనగदలగళ"
@@ -3865,7 +3865,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Krishna", "Yudhishthira", "Bhima", "Drona"],
   optionsHindi: ["कृष्ण", "युधिष्ठिर", "भीम", "द्रोण"],
   optionsTelugu: ["కృష్ణుడు", "యుధిష్ఠిరుడు", "భీముడు", "ద్రోణాచార్యుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "Krishna acted as the chief strategist for the Pandavas, guiding them throughout the war.",
   explanationHindi: "कृष्ण ने पांडवों के लिए मुख्य रणनीतिकार के रूप में काम किया, जो युद्ध के समय उनकी नेतृत्व करता।",
   explanationTelugu: "పాండవులకు కృష్ణుడు ప్రధాన వ్యూహనిర్మాతగా పనిచేశాడు, యుద్ధం మొత్తం వారిని మార్గనిర్దేశనం చేశాడు."
@@ -3880,7 +3880,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Sahadeva", "Bhima", "Arjuna", "Dhrishtadyumna"],
   optionsHindi: ["सहदेव", "भीम", "अर्जुन", "धृष्टद्युम्न"],
   optionsTelugu: ["సహదేవుడు", "భీముడు", "అర్జునుడు", "ధృష్టధ్యుమ్న"],
-  correct: 1,
+  correct: 0,
   explanation: "Sahadeva killed Shakuni as part of avenging the wrongs done to the Pandavas.",
   explanationHindi: "सहदेव ने शकुनि को मारकर पांडवों के द्वारा किए गए अन्याय की बात करते हुए मारा।",
   explanationTelugu: "సహదేవుడు పాండవులకు చేసిన దోషాలను ప్రతీకరించడానికి శకునిని చంపాడు."
@@ -3895,7 +3895,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Virata", "Drupada", "Shalya", "Somadatta"],
   optionsHindi: ["विराट", "द्रुपद", "शल्य", "सोमदत्त"],
   optionsTelugu: ["విరాటుడు", "ద్రుపదుడు", "శల్య", "సోమదత్తుడు"],
-  correct: 1,
+  correct: 0,
   explanation: "King Virata of Matsya was the ruler whose kingdom sheltered the Pandavas during their incognito exile.",
   explanationHindi: "मत्स्य राज्य के राजा विराट ने पांडवों को अपने राज्य में छिपाकर सुरक्षा प्रदान की।",
   explanationTelugu: "మత్స్య రాజ్యం రాజు విరాటుడు పాండవులను తన రాజ్యంలో దగ్గరగా ఉన్నట్లు గ్రహించి, వారికి ఆశ్రయం ఇచ్చాడు."
@@ -3910,7 +3910,7 @@ export const quizQuestions: QuizQuestion[] = [
   options: ["Karna", "Bhima", "Arjuna", "Drona"],
   optionsHindi: ["कर्ण", "भीम", "अर्जुन", "द्रोण"],
   optionsTelugu: ["కర్ణ", "భీముడు", "అర్జునుడు", "ద్రోణ"],
-  correct: 1,
+  correct: 0,
   explanation: "Karna killed Ghatotkacha using the Indra-given Shakti weapon during the night battle.",
   explanationHindi: "कर्ण ने इंद्र द्वारा दिए गए शक्ति हथियार का उपयोग करके रात्रि युद्ध में घातोत्वकाच को मारा।",
   explanationTelugu: "కర్ణుడు ఇంద్రుడు ఇచ్చిన శక్తి ఆయుధాన్ని ఉపయోగించి రాత్రి యుద్ధంలో ఘటోత్కచను చంపాడు."
