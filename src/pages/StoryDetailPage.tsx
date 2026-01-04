@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useRef, useEffect } from "react";
+import { Play, Pause, Volume2 } from "lucide-react";
 import {
   ArrowLeft,
   ArrowRight,
@@ -103,21 +105,48 @@ export default function StoryDetailPage() {
         return story.keyElements;
     }
   };
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+const [isPlaying, setIsPlaying] = useState(false);
 
-  const getAudioSrc = () => {
-    switch (storyLanguage) {
-      case "hindi":
-        return story.audioHindi;
-      case "telugu":
-        return story.audioTelugu;
-      default:
-        return story.audioEnglish;
+const getAudioSrc = () => {
+  switch (storyLanguage) {
+    case "hindi":
+      return story.audioHindi;
+    case "telugu":
+      return story.audioTelugu;
+    default:
+      return story.audioEnglish;
+  }
+};
+
+const audioSrc = getAudioSrc();
+
+const handlePlayPause = async () => {
+  if (!audioRef.current) return;
+
+  try {
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      await audioRef.current.play();
+      setIsPlaying(true);
     }
-  };
+  } catch (err) {
+    console.error("Audio error:", err);
+  }
+};
 
+useEffect(() => {
+  // Stop audio when language changes
+  if (audioRef.current) {
+    audioRef.current.pause();
+    audioRef.current.currentTime = 0;
+    setIsPlaying(false);
+  }
+}, [storyLanguage]);
   const handleLanguageChange = (lang: Language) => {
     setStoryLanguage(lang);
-    setLanguage(lang);
   };
 
   return (
@@ -140,6 +169,24 @@ export default function StoryDetailPage() {
       </motion.div>
 
       {/* Header */}
+      {audioSrc && (
+  <div className="flex items-center gap-3 mt-4">
+    <Button
+      onClick={handlePlayPause}
+      variant="outline"
+      size="icon"
+      aria-label="Play narration"
+    >
+      {isPlaying ? <Pause /> : <Play />}
+    </Button>
+
+    <span className="text-sm text-muted-foreground">
+      {isPlaying ? "Pause narration" : "Play narration"}
+    </span>
+
+    <Volume2 className="text-primary" />
+  </div>
+)}
       <motion.header
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -277,6 +324,13 @@ export default function StoryDetailPage() {
           </Link>
         )}
       </motion.footer>
+      {audioSrc && (
+  <audio
+    ref={audioRef}
+    src={audioSrc}
+    onEnded={() => setIsPlaying(false)}
+  />
+)}
     </div>
   );
 }
