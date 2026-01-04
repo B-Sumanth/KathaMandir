@@ -12,7 +12,6 @@ import { Button } from "@/components/ui/button";
 import { allStories } from "@/data/stories";
 import { useLanguage, Language } from "@/i18n";
 import { cn } from "@/lib/utils";
-import StoryAudioButton from "@/components/StoryAudioButton";
 
 export default function StoryDetailPage() {
   const { epic, storyId } = useParams<{
@@ -20,9 +19,10 @@ export default function StoryDetailPage() {
     storyId: string;
   }>();
 
-  const { t, language: globalLanguage } = useLanguage();
-  const [storyLanguage, setStoryLanguage] =
-    useState<Language>(globalLanguage);
+  const { t, language: globalLanguage, setLanguage } = useLanguage();
+  const [storyLanguage, setStoryLanguage] = useState<Language>(
+    globalLanguage
+  );
 
   if (!epic || !storyId) {
     return (
@@ -46,14 +46,19 @@ export default function StoryDetailPage() {
   if (!story) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <Link to={`/${epic}`}>
-          <Button variant="outline">{t.common.back}</Button>
-        </Link>
+        <div className="text-center">
+          <h1 className="font-display text-3xl mb-4">
+            {t.notFound.subtitle}
+          </h1>
+          <Link to={`/${epic}`}>
+            <Button variant="outline">{t.common.back}</Button>
+          </Link>
+        </div>
       </div>
     );
   }
 
-  // ---------- CONTENT HELPERS ----------
+  // ---------------- LANGUAGE HELPERS ----------------
   const getTitle = () => {
     switch (storyLanguage) {
       case "hindi":
@@ -98,13 +103,10 @@ export default function StoryDetailPage() {
     }
   };
 
-  // ---------- AUDIO SOURCE ----------
-  const audioSrc =
-    storyLanguage === "hindi"
-      ? story.audioHindi
-      : storyLanguage === "telugu"
-      ? story.audioTelugu
-      : story.audioEnglish;
+  const handleLanguageChange = (lang: Language) => {
+    setStoryLanguage(lang);
+    setLanguage(lang);
+  };
 
   return (
     <div className="min-h-screen max-w-4xl mx-auto">
@@ -135,24 +137,16 @@ export default function StoryDetailPage() {
           {t.story.chapter} {story.chapter}
         </span>
 
-        <div className="flex items-center justify-between gap-4 mt-2 mb-4">
-          <h1 className="font-display text-4xl">{getTitle()}</h1>
+        <h1 className="font-display text-4xl mt-2 mb-4">{getTitle()}</h1>
 
-          {/* ✅ AUDIO BUTTON (ONLY HERE) */}
-          {audioSrc && <StoryAudioButton src={audioSrc} />}
-        </div>
-
-        {/* Language Switch */}
-        <div className="flex gap-2 mb-4">
+        <div className="flex gap-2 mb-4 items-center">
           {(["english", "hindi", "telugu"] as Language[]).map(
             (lang) => (
               <Button
                 key={lang}
                 size="sm"
-                variant={
-                  storyLanguage === lang ? "default" : "outline"
-                }
-                onClick={() => setStoryLanguage(lang)}
+                variant={storyLanguage === lang ? "default" : "outline"}
+                onClick={() => handleLanguageChange(lang)}
                 className={cn(
                   "capitalize",
                   storyLanguage === lang && "bg-primary"
@@ -169,32 +163,47 @@ export default function StoryDetailPage() {
         </div>
       </motion.header>
 
-      {/* Story */}
+      {/* Story Content */}
       <motion.article className="prose-lg">
+        {/* Story */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="text-primary" />
-            <h2 className="font-display text-2xl">
-              {t.story.theStory}
-            </h2>
+            <h2 className="font-display text-2xl">{t.story.theStory}</h2>
           </div>
 
           {getContent()
             .split("\n\n")
-            .map((block, i) => (
-              <p key={i} className="text-lg leading-relaxed">
-                {block}
-              </p>
-            ))}
+            .map((block, i) => {
+              const isSideHeading =
+                block.length < 60 &&
+                !block.endsWith(".") &&
+                !block.endsWith("।");
+
+              if (isSideHeading) {
+                return (
+                  <h3
+                    key={i}
+                    className="mt-8 mb-3 text-xl font-semibold text-primary border-l-4 border-primary pl-4"
+                  >
+                    {block}
+                  </h3>
+                );
+              }
+
+              return (
+                <p key={i} className="text-lg leading-relaxed">
+                  {block}
+                </p>
+              );
+            })}
         </section>
 
         {/* Key Elements */}
         <section className="mb-12 p-6 rounded-xl border">
           <div className="flex items-center gap-3 mb-4">
             <Star className="text-primary" />
-            <h2 className="font-display text-xl">
-              {t.story.keyElements}
-            </h2>
+            <h2 className="font-display text-xl">{t.story.keyElements}</h2>
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -213,9 +222,7 @@ export default function StoryDetailPage() {
         <section className="mb-12 p-6 rounded-xl border">
           <div className="flex items-center gap-3 mb-4">
             <MessageCircle className="text-primary" />
-            <h2 className="font-display text-xl">
-              {t.story.theMoral}
-            </h2>
+            <h2 className="font-display text-xl">{t.story.theMoral}</h2>
           </div>
           <p className="italic text-lg">"{getMoral()}"</p>
         </section>
