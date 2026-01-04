@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import { allStories } from "@/data/stories";
 import { useLanguage, Language } from "@/i18n";
 import { cn } from "@/lib/utils";
+import StoryAudioButton from "@/components/StoryAudioButton";
 
 export default function StoryDetailPage() {
   const { epic, storyId } = useParams<{
@@ -103,6 +104,17 @@ export default function StoryDetailPage() {
     }
   };
 
+  const getAudioSrc = () => {
+    switch (storyLanguage) {
+      case "hindi":
+        return story.audioHindi;
+      case "telugu":
+        return story.audioTelugu;
+      default:
+        return story.audioEnglish;
+    }
+  };
+
   const handleLanguageChange = (lang: Language) => {
     setStoryLanguage(lang);
     setLanguage(lang);
@@ -137,8 +149,13 @@ export default function StoryDetailPage() {
           {t.story.chapter} {story.chapter}
         </span>
 
-        <h1 className="font-display text-4xl mt-2 mb-4">{getTitle()}</h1>
+        {/* TITLE + AUDIO BUTTON */}
+        <div className="flex items-center justify-between gap-4 mt-2 mb-4">
+          <h1 className="font-display text-4xl">{getTitle()}</h1>
+          <StoryAudioButton src={getAudioSrc()} />
+        </div>
 
+        {/* Language Switch */}
         <div className="flex gap-2 mb-4 items-center">
           {(["english", "hindi", "telugu"] as Language[]).map(
             (lang) => (
@@ -169,7 +186,9 @@ export default function StoryDetailPage() {
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="text-primary" />
-            <h2 className="font-display text-2xl">{t.story.theStory}</h2>
+            <h2 className="font-display text-2xl">
+              {t.story.theStory}
+            </h2>
           </div>
 
           {getContent()
@@ -203,7 +222,9 @@ export default function StoryDetailPage() {
         <section className="mb-12 p-6 rounded-xl border">
           <div className="flex items-center gap-3 mb-4">
             <Star className="text-primary" />
-            <h2 className="font-display text-xl">{t.story.keyElements}</h2>
+            <h2 className="font-display text-xl">
+              {t.story.keyElements}
+            </h2>
           </div>
 
           <div className="flex flex-wrap gap-2">
@@ -222,7 +243,9 @@ export default function StoryDetailPage() {
         <section className="mb-12 p-6 rounded-xl border">
           <div className="flex items-center gap-3 mb-4">
             <MessageCircle className="text-primary" />
-            <h2 className="font-display text-xl">{t.story.theMoral}</h2>
+            <h2 className="font-display text-xl">
+              {t.story.theMoral}
+            </h2>
           </div>
           <p className="italic text-lg">"{getMoral()}"</p>
         </section>
