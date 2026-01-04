@@ -1,20 +1,19 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useRef, useEffect } from "react";
-import { Play, Pause, Volume2 } from "lucide-react";
 import {
   ArrowLeft,
   ArrowRight,
   BookOpen,
   Star,
   MessageCircle,
+  Play,
+  Pause,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { allStories } from "@/data/stories";
 import { useLanguage, Language } from "@/i18n";
 import { cn } from "@/lib/utils";
-import StoryAudioButton from "@/components/StoryAudioButton";
 
 export default function StoryDetailPage() {
   const { epic, storyId } = useParams<{
@@ -22,10 +21,12 @@ export default function StoryDetailPage() {
     storyId: string;
   }>();
 
-  const { t, language: globalLanguage, setLanguage } = useLanguage();
-  const [storyLanguage, setStoryLanguage] = useState<Language>(
-    globalLanguage
-  );
+  const { t, language: globalLanguage } = useLanguage();
+  const [storyLanguage, setStoryLanguage] =
+    useState<Language>(globalLanguage);
+
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   if (!epic || !storyId) {
     return (
@@ -49,19 +50,14 @@ export default function StoryDetailPage() {
   if (!story) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="font-display text-3xl mb-4">
-            {t.notFound.subtitle}
-          </h1>
-          <Link to={`/${epic}`}>
-            <Button variant="outline">{t.common.back}</Button>
-          </Link>
-        </div>
+        <Link to={`/${epic}`}>
+          <Button variant="outline">{t.common.back}</Button>
+        </Link>
       </div>
     );
   }
 
-  // ---------------- LANGUAGE HELPERS ----------------
+  // ---------- CONTENT HELPERS ----------
   const getTitle = () => {
     switch (storyLanguage) {
       case "hindi":
@@ -105,48 +101,45 @@ export default function StoryDetailPage() {
         return story.keyElements;
     }
   };
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-const [isPlaying, setIsPlaying] = useState(false);
 
-const getAudioSrc = () => {
-  switch (storyLanguage) {
-    case "hindi":
-      return story.audioHindi;
-    case "telugu":
-      return story.audioTelugu;
-    default:
-      return story.audioEnglish;
-  }
-};
-
-const audioSrc = getAudioSrc();
-
-const handlePlayPause = async () => {
-  if (!audioRef.current) return;
-
-  try {
-    if (isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(false);
-    } else {
-      await audioRef.current.play();
-      setIsPlaying(true);
+  // ---------- AUDIO ----------
+  const getAudioSrc = () => {
+    switch (storyLanguage) {
+      case "hindi":
+        return story.audioHindi;
+      case "telugu":
+        return story.audioTelugu;
+      default:
+        return story.audioEnglish;
     }
-  } catch (err) {
-    console.error("Audio error:", err);
-  }
-};
+  };
 
-useEffect(() => {
-  // Stop audio when language changes
-  if (audioRef.current) {
+  const audioSrc = getAudioSrc();
+
+  useEffect(() => {
+    if (!audioRef.current || !audioSrc) return;
+
     audioRef.current.pause();
+    audioRef.current.src = audioSrc;
+    audioRef.current.load(); // 🔥 critical
     audioRef.current.currentTime = 0;
     setIsPlaying(false);
-  }
-}, [storyLanguage]);
-  const handleLanguageChange = (lang: Language) => {
-    setStoryLanguage(lang);
+  }, [audioSrc]);
+
+  const handlePlayPause = async () => {
+    if (!audioRef.current || !audioSrc) return;
+
+    try {
+      if (isPlaying) {
+        audioRef.current.pause();
+        setIsPlaying(false);
+      } else {
+        await audioRef.current.play();
+        setIsPlaying(true);
+      }
+    } catch (err) {
+      console.error("Audio playback error:", err);
+    }
   };
 
   return (
@@ -169,24 +162,6 @@ useEffect(() => {
       </motion.div>
 
       {/* Header */}
-      {audioSrc && (
-  <div className="flex items-center gap-3 mt-4">
-    <Button
-      onClick={handlePlayPause}
-      variant="outline"
-      size="icon"
-      aria-label="Play narration"
-    >
-      {isPlaying ? <Pause /> : <Play />}
-    </Button>
-
-    <span className="text-sm text-muted-foreground">
-      {isPlaying ? "Pause narration" : "Play narration"}
-    </span>
-
-    <Volume2 className="text-primary" />
-  </div>
-)}
       <motion.header
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -196,21 +171,32 @@ useEffect(() => {
           {t.story.chapter} {story.chapter}
         </span>
 
-        {/* TITLE + AUDIO BUTTON */}
         <div className="flex items-center justify-between gap-4 mt-2 mb-4">
           <h1 className="font-display text-4xl">{getTitle()}</h1>
-          <StoryAudioButton src={getAudioSrc()} />
+
+          {audioSrc && (
+            <Button
+              onClick={handlePlayPause}
+              size="icon"
+              variant="outline"
+              aria-label="Play narration"
+            >
+              {isPlaying ? <Pause /> : <Play />}
+            </Button>
+          )}
         </div>
 
         {/* Language Switch */}
-        <div className="flex gap-2 mb-4 items-center">
+        <div className="flex gap-2 mb-4">
           {(["english", "hindi", "telugu"] as Language[]).map(
             (lang) => (
               <Button
                 key={lang}
                 size="sm"
-                variant={storyLanguage === lang ? "default" : "outline"}
-                onClick={() => handleLanguageChange(lang)}
+                variant={
+                  storyLanguage === lang ? "default" : "outline"
+                }
+                onClick={() => setStoryLanguage(lang)}
                 className={cn(
                   "capitalize",
                   storyLanguage === lang && "bg-primary"
@@ -227,9 +213,8 @@ useEffect(() => {
         </div>
       </motion.header>
 
-      {/* Story Content */}
+      {/* Story */}
       <motion.article className="prose-lg">
-        {/* Story */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="text-primary" />
@@ -240,29 +225,11 @@ useEffect(() => {
 
           {getContent()
             .split("\n\n")
-            .map((block, i) => {
-              const isSideHeading =
-                block.length < 60 &&
-                !block.endsWith(".") &&
-                !block.endsWith("।");
-
-              if (isSideHeading) {
-                return (
-                  <h3
-                    key={i}
-                    className="mt-8 mb-3 text-xl font-semibold text-primary border-l-4 border-primary pl-4"
-                  >
-                    {block}
-                  </h3>
-                );
-              }
-
-              return (
-                <p key={i} className="text-lg leading-relaxed">
-                  {block}
-                </p>
-              );
-            })}
+            .map((block, i) => (
+              <p key={i} className="text-lg leading-relaxed">
+                {block}
+              </p>
+            ))}
         </section>
 
         {/* Key Elements */}
@@ -324,13 +291,12 @@ useEffect(() => {
           </Link>
         )}
       </motion.footer>
-      {audioSrc && (
-  <audio
-    ref={audioRef}
-    src={audioSrc}
-    onEnded={() => setIsPlaying(false)}
-  />
-)}
+
+      {/* AUDIO ELEMENT (ALWAYS MOUNTED) */}
+      <audio
+        ref={audioRef}
+        onEnded={() => setIsPlaying(false)}
+      />
     </div>
   );
 }
