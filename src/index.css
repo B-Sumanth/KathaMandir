@@ -1,0 +1,232 @@
+@import "@fontsource/cinzel/400.css";
+@import "@fontsource/cinzel/600.css";
+@import "@fontsource/cinzel/700.css";
+@import "@fontsource/lora/400.css";
+@import "@fontsource/lora/500.css";
+@import "@fontsource/lora/600.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark Epic Theme - Inspired by ancient manuscripts and temple gold */
+    --background: 20 10% 6%;
+    --foreground: 40 20% 92%;
+
+    --card: 20 10% 9%;
+    --card-foreground: 40 20% 92%;
+
+    --popover: 20 10% 8%;
+    --popover-foreground: 40 20% 92%;
+
+    /* Temple Gold */
+    --primary: 38 70% 50%;
+    --primary-foreground: 20 10% 6%;
+
+    /* Deep Burgundy */
+    --secondary: 350 40% 25%;
+    --secondary-foreground: 40 20% 92%;
+
+    --muted: 20 10% 15%;
+    --muted-foreground: 40 10% 55%;
+
+    /* Saffron Accent */
+    --accent: 25 80% 55%;
+    --accent-foreground: 20 10% 6%;
+
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 40 20% 92%;
+
+    --border: 30 15% 18%;
+    --input: 30 15% 18%;
+    --ring: 38 70% 50%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar */
+    --sidebar-background: 20 12% 8%;
+    --sidebar-foreground: 40 20% 85%;
+    --sidebar-primary: 38 70% 50%;
+    --sidebar-primary-foreground: 20 10% 6%;
+    --sidebar-accent: 350 40% 25%;
+    --sidebar-accent-foreground: 40 20% 92%;
+    --sidebar-border: 30 15% 15%;
+    --sidebar-ring: 38 70% 50%;
+
+    /* Custom Epic Colors */
+    --gold: 38 70% 50%;
+    --gold-light: 40 60% 65%;
+    --gold-dark: 35 70% 35%;
+    --burgundy: 350 40% 25%;
+    --burgundy-light: 350 35% 35%;
+    --saffron: 25 80% 55%;
+    --cream: 40 30% 90%;
+    --charcoal: 20 10% 10%;
+    --charcoal-light: 20 10% 15%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(38 70% 50%), hsl(25 80% 55%));
+    --gradient-dark: linear-gradient(180deg, hsl(20 10% 6%), hsl(20 12% 10%));
+    --gradient-card: linear-gradient(145deg, hsl(20 10% 10%), hsl(20 10% 8%));
+    --gradient-burgundy: linear-gradient(135deg, hsl(350 40% 25%), hsl(350 35% 20%));
+
+    /* Shadows */
+    --shadow-gold: 0 4px 30px hsl(38 70% 50% / 0.15);
+    --shadow-soft: 0 8px 32px hsl(0 0% 0% / 0.4);
+    --shadow-glow: 0 0 40px hsl(38 70% 50% / 0.2);
+
+    /* Typography */
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Lora', serif;
+  }
+
+  .dark {
+    /* Same as root - dark by default */
+    --background: 20 10% 6%;
+    --foreground: 40 20% 92%;
+    --card: 20 10% 9%;
+    --card-foreground: 40 20% 92%;
+    --popover: 20 10% 8%;
+    --popover-foreground: 40 20% 92%;
+    --primary: 38 70% 50%;
+    --primary-foreground: 20 10% 6%;
+    --secondary: 350 40% 25%;
+    --secondary-foreground: 40 20% 92%;
+    --muted: 20 10% 15%;
+    --muted-foreground: 40 10% 55%;
+    --accent: 25 80% 55%;
+    --accent-foreground: 20 10% 6%;
+    --border: 30 15% 18%;
+    --input: 30 15% 18%;
+  }
+
+  .light {
+    /* Light Theme - Warm parchment with gold accents */
+    --background: 40 30% 96%;
+    --foreground: 20 15% 15%;
+    --card: 40 25% 98%;
+    --card-foreground: 20 15% 15%;
+    --popover: 40 25% 98%;
+    --popover-foreground: 20 15% 15%;
+    --primary: 35 75% 45%;
+    --primary-foreground: 40 30% 98%;
+    --secondary: 350 30% 92%;
+    --secondary-foreground: 350 40% 25%;
+    --muted: 40 20% 90%;
+    --muted-foreground: 20 10% 40%;
+    --accent: 25 70% 50%;
+    --accent-foreground: 40 30% 98%;
+    --border: 35 20% 85%;
+    --input: 35 20% 85%;
+    --ring: 35 75% 45%;
+
+    --gold: 35 75% 45%;
+    --gold-light: 38 60% 55%;
+    --cream: 40 30% 92%;
+    --charcoal: 20 10% 90%;
+    --charcoal-light: 20 10% 95%;
+
+    --gradient-gold: linear-gradient(135deg, hsl(35 75% 45%), hsl(25 70% 50%));
+    --gradient-dark: linear-gradient(180deg, hsl(40 30% 96%), hsl(40 25% 92%));
+    --gradient-card: linear-gradient(145deg, hsl(40 25% 98%), hsl(40 20% 96%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-wide;
+  }
+}
+
+@layer components {
+  .epic-title {
+    font-family: var(--font-display);
+    @apply text-primary tracking-widest uppercase;
+  }
+
+  .story-text {
+    font-family: var(--font-body);
+    @apply text-foreground leading-relaxed;
+  }
+
+  .gold-glow {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .card-gradient {
+    background: var(--gradient-card);
+  }
+
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .border-gold-subtle {
+    border-color: hsl(var(--gold) / 0.3);
+  }
+
+  .hover-gold-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-gold-glow:hover {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .ornate-border {
+    border: 1px solid hsl(var(--gold) / 0.2);
+    @apply rounded-lg;
+  }
+
+  .ornate-border::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: var(--gradient-gold);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0.3;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .reading-width {
+    max-width: 70ch;
+  }
+}
