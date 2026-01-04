@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
@@ -7,13 +7,12 @@ import {
   BookOpen,
   Star,
   MessageCircle,
-  Play,
-  Pause,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { allStories } from "@/data/stories";
 import { useLanguage, Language } from "@/i18n";
 import { cn } from "@/lib/utils";
+import StoryAudioButton from "@/components/StoryAudioButton";
 
 export default function StoryDetailPage() {
   const { epic, storyId } = useParams<{
@@ -24,9 +23,6 @@ export default function StoryDetailPage() {
   const { t, language: globalLanguage } = useLanguage();
   const [storyLanguage, setStoryLanguage] =
     useState<Language>(globalLanguage);
-
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   if (!epic || !storyId) {
     return (
@@ -102,45 +98,13 @@ export default function StoryDetailPage() {
     }
   };
 
-  // ---------- AUDIO ----------
-  const getAudioSrc = () => {
-    switch (storyLanguage) {
-      case "hindi":
-        return story.audioHindi;
-      case "telugu":
-        return story.audioTelugu;
-      default:
-        return story.audioEnglish;
-    }
-  };
-
-  const audioSrc = getAudioSrc();
-
-  useEffect(() => {
-    if (!audioRef.current || !audioSrc) return;
-
-    audioRef.current.pause();
-    audioRef.current.src = audioSrc;
-    audioRef.current.load(); // 🔥 critical
-    audioRef.current.currentTime = 0;
-    setIsPlaying(false);
-  }, [audioSrc]);
-
-  const handlePlayPause = async () => {
-    if (!audioRef.current || !audioSrc) return;
-
-    try {
-      if (isPlaying) {
-        audioRef.current.pause();
-        setIsPlaying(false);
-      } else {
-        await audioRef.current.play();
-        setIsPlaying(true);
-      }
-    } catch (err) {
-      console.error("Audio playback error:", err);
-    }
-  };
+  // ---------- AUDIO SOURCE ----------
+  const audioSrc =
+    storyLanguage === "hindi"
+      ? story.audioHindi
+      : storyLanguage === "telugu"
+      ? story.audioTelugu
+      : story.audioEnglish;
 
   return (
     <div className="min-h-screen max-w-4xl mx-auto">
@@ -174,16 +138,8 @@ export default function StoryDetailPage() {
         <div className="flex items-center justify-between gap-4 mt-2 mb-4">
           <h1 className="font-display text-4xl">{getTitle()}</h1>
 
-          {audioSrc && (
-            <Button
-              onClick={handlePlayPause}
-              size="icon"
-              variant="outline"
-              aria-label="Play narration"
-            >
-              {isPlaying ? <Pause /> : <Play />}
-            </Button>
-          )}
+          {/* ✅ AUDIO BUTTON (ONLY HERE) */}
+          {audioSrc && <StoryAudioButton src={audioSrc} />}
         </div>
 
         {/* Language Switch */}
@@ -291,12 +247,6 @@ export default function StoryDetailPage() {
           </Link>
         )}
       </motion.footer>
-
-      {/* AUDIO ELEMENT (ALWAYS MOUNTED) */}
-      <audio
-        ref={audioRef}
-        onEnded={() => setIsPlaying(false)}
-      />
     </div>
   );
 }
