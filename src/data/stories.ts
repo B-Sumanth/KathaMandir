@@ -129,9 +129,9 @@ After blessings from sages and King Janaka, Rama, Sita, and Lakshmana returned t
   moral: "Dharma, humility, and divine purpose guide righteous leadership.",
   moralHindi: "धर्म और विनम्रता ही सच्चे नेतृत्व का मार्ग हैं।",
   moralTelugu: "ధర్మం  మరియు వినమ్రత నిజమైన నాయకత్వానికి మూలం.",
-  audioEnglish: "/audio/ramayana/bala-kanda-english.mp3",
-  audioHindi: "/audio/ramayana/bala-kanda-hindi.mp3",
-  audioTelugu: "/audio/ramayana/bala-kanda-telugu.mp3",
+  audioEnglish: "/ramayana/bala-kanda-english.mp3",
+  audioHindi: "/ramayana/bala-kanda-hindi.mp3",
+  audioTelugu: "/ramayana/bala-kanda-telugu.mp3",
   image: "/story-bala-kanda.jpg",
   chapter: 1
 },
