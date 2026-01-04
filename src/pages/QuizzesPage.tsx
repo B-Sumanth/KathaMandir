@@ -21,6 +21,7 @@ export default function QuizzesPage() {
   const [score, setScore] = useState(0);
   const [quizComplete, setQuizComplete] = useState(false);
 
+  /* ---------------- Restore State ---------------- */
   useEffect(() => {
     const savedState = loadQuizState();
     if (savedState?.difficulty && savedState.questionIds.length > 0) {
@@ -30,7 +31,7 @@ export default function QuizzesPage() {
 
       if (restoredQuestions.length > 0) {
         setDifficulty(savedState.difficulty);
-        setQuestions(restoredQuestions);
+        setQuestions(restoredQuestions.slice(0, 10));
         setCurrentQuestion(savedState.currentQuestion);
         setScore(savedState.score);
         setIsAnswered(savedState.isAnswered);
@@ -40,6 +41,7 @@ export default function QuizzesPage() {
     }
   }, []);
 
+  /* ---------------- Save State ---------------- */
   useEffect(() => {
     if (difficulty && questions.length > 0) {
       saveQuizState({
@@ -52,12 +54,21 @@ export default function QuizzesPage() {
         quizComplete
       });
     }
-  }, [difficulty, currentQuestion, score, isAnswered, selectedAnswer, quizComplete, questions]);
+  }, [
+    difficulty,
+    currentQuestion,
+    score,
+    isAnswered,
+    selectedAnswer,
+    quizComplete,
+    questions
+  ]);
 
+  /* ---------------- Start Quiz ---------------- */
   const startQuiz = (diff: Difficulty) => {
     clearQuizState();
     setDifficulty(diff);
-    setQuestions(getRandomQuestions(diff, 5));
+    setQuestions(getRandomQuestions(diff, 10)); // ✅ FIXED: 10 QUESTIONS
     setCurrentQuestion(0);
     setSelectedAnswer(null);
     setIsAnswered(false);
@@ -65,6 +76,7 @@ export default function QuizzesPage() {
     setQuizComplete(false);
   };
 
+  /* ---------------- Language Helpers ---------------- */
   const getQuestion = (q: QuizQuestion) =>
     language === "hindi" ? q.questionHindi :
     language === "telugu" ? q.questionTelugu :
@@ -80,18 +92,19 @@ export default function QuizzesPage() {
     language === "telugu" ? q.explanationTelugu :
     q.explanation;
 
+  /* ---------------- Answer Logic ---------------- */
   const handleAnswer = (index: number) => {
     if (isAnswered) return;
     setSelectedAnswer(index);
     setIsAnswered(true);
     if (index === questions[currentQuestion].correct) {
-      setScore(score + 1);
+      setScore(prev => prev + 1);
     }
   };
 
   const nextQuestion = () => {
     if (currentQuestion < questions.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
+      setCurrentQuestion(prev => prev + 1);
       setSelectedAnswer(null);
       setIsAnswered(false);
     } else {
@@ -122,7 +135,7 @@ export default function QuizzesPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-lg w-full"
           >
-            <h1 className="font-display text-3xl text-foreground mb-2">
+            <h1 className="font-display text-3xl mb-2">
               {t.quiz.testKnowledge}
             </h1>
             <p className="text-muted-foreground mb-8">
@@ -149,7 +162,7 @@ export default function QuizzesPage() {
                      t.quiz.hard}
                   </span>
                   <span className="text-xs text-muted-foreground">
-                    5 {t.quiz.question}s
+                    10 {t.quiz.question}s
                   </span>
                 </Button>
               ))}
@@ -172,25 +185,18 @@ export default function QuizzesPage() {
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            className="text-center p-8 rounded-2xl bg-card border border-border max-w-md w-full"
+            className="text-center p-8 rounded-2xl bg-card border max-w-md w-full"
           >
-            <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-              <Trophy className="w-10 h-10 text-primary" />
-            </div>
+            <Trophy className="w-16 h-16 mx-auto mb-6 text-primary" />
 
-            <h1 className="font-display text-3xl text-foreground mb-2">
+            <h1 className="font-display text-3xl mb-2">
               {t.quiz.quizComplete}
             </h1>
             <p className="text-muted-foreground mb-6">
               {t.quiz.youScored} {score} {t.quiz.outOf} {questions.length}
             </p>
 
-            <Button
-              variant="gold"
-              size="lg"
-              onClick={restartQuiz}
-              className="w-full"
-            >
+            <Button variant="gold" size="lg" onClick={restartQuiz} className="w-full">
               <RotateCcw className="w-4 h-4 mr-2" />
               {t.quiz.tryAgain}
             </Button>
@@ -200,9 +206,10 @@ export default function QuizzesPage() {
     );
   }
 
-  /* ---------------- Quiz Questions ---------------- */
+  /* ---------------- Quiz Screen ---------------- */
   const question = questions[currentQuestion];
-  const progress = ((currentQuestion + (isAnswered ? 1 : 0)) / questions.length) * 100;
+  const progress =
+    ((currentQuestion + (isAnswered ? 1 : 0)) / questions.length) * 100;
 
   return (
     <div className="min-h-screen" key={language}>
@@ -214,7 +221,7 @@ export default function QuizzesPage() {
         className="max-w-2xl mx-auto"
       >
         <div className="mb-8">
-          <div className="flex justify-between text-sm text-muted-foreground mb-2">
+          <div className="flex justify-between text-sm mb-2">
             <span>
               {t.quiz.question} {currentQuestion + 1} {t.quiz.of} {questions.length}
             </span>
@@ -231,9 +238,9 @@ export default function QuizzesPage() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
-            className="p-6 rounded-2xl bg-card border border-border"
+            className="p-6 rounded-2xl bg-card border"
           >
-            <h2 className="text-xl text-foreground mb-6">
+            <h2 className="text-xl mb-6">
               {getQuestion(question)}
             </h2>
 
@@ -241,44 +248,31 @@ export default function QuizzesPage() {
               {getOptions(question).map((option, index) => (
                 <motion.button
                   key={index}
-                  whileHover={!isAnswered ? { scale: 1.02 } : {}}
                   onClick={() => handleAnswer(index)}
                   disabled={isAnswered}
                   className={cn(
-                    "w-full p-4 rounded-xl text-left transition-all duration-300 border",
-                    !isAnswered && "hover:border-primary/50 hover:bg-muted/50 border-border bg-background",
-                    isAnswered && index === question.correct && "bg-green-500/10 border-green-500/50 text-green-400",
-                    isAnswered && index === selectedAnswer && index !== question.correct && "bg-red-500/10 border-red-500/50 text-red-400",
+                    "w-full p-4 rounded-xl text-left border transition",
+                    !isAnswered && "hover:bg-muted/50",
+                    isAnswered && index === question.correct && "bg-green-500/10 border-green-500/50",
+                    isAnswered && index === selectedAnswer && index !== question.correct && "bg-red-500/10 border-red-500/50",
                     isAnswered && index !== selectedAnswer && index !== question.correct && "opacity-50"
                   )}
                 >
-                  <div className="flex items-center justify-between">
-                    <span>{option}</span>
-                    {isAnswered && index === question.correct && (
-                      <CheckCircle2 className="w-5 h-5 text-green-400" />
-                    )}
-                    {isAnswered && index === selectedAnswer && index !== question.correct && (
-                      <XCircle className="w-5 h-5 text-red-400" />
-                    )}
-                  </div>
+                  {option}
                 </motion.button>
               ))}
             </div>
 
             {isAnswered && (
               <>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className="mb-6 p-4 rounded-lg bg-muted/50 border border-border"
-                >
-                  <p className="text-sm text-muted-foreground">
-                    <span className="text-primary font-medium">
-                      {t.quiz.explanation}:
-                    </span>{" "}
+                <div className="mb-6 p-4 rounded-lg bg-muted/50 border">
+                  <p className="text-sm">
+                    <span className="font-medium">
+                      {t.quiz.explanation}:{" "}
+                    </span>
                     {getExplanation(question)}
                   </p>
-                </motion.div>
+                </div>
 
                 <Button variant="gold" onClick={nextQuestion} className="w-full">
                   {currentQuestion < questions.length - 1

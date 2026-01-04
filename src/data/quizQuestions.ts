@@ -174,7 +174,7 @@ export const quizQuestions: QuizQuestion[] = [
     questionTelugu: "వాల్మీకికి రామాయణాన్ని ఎవరు వివరించారు?",
     options: ["Vasishta", "Narada", "Agastya", "Vishwamitra"],
     optionsHindi: ["वशिष्ठ", "नारद", "अगस्त्य", "विश्वामित्र"],
-    optionsTelugu: ["వశిష్ఠుడు", "నారదుడు", "అగസ്ത్యుడు", "విశ్వామిత్రుడు"],
+    optionsTelugu: ["వశిష్ఠుడు", "నారదుడు", "అగస్త్యుడు", "విశ్వామిత్రుడు"],
     correct: 2,
     explanation: "Sage Narada narrated the story of Rama to Valmiki.",
     explanationHindi: "नारद मुनि ने वाल्मीकि को रामकथा सुनाई।",
@@ -253,7 +253,7 @@ export const quizQuestions: QuizQuestion[] = [
     correct: 4,
     explanation: "Bharata was crowned king during Rama’s exile.",
     explanationHindi: "भरत को राम के वनवास के दौरान राजा बनाया गया।",
-    explanationTelugu: "భరతుడు రాముని గైర్హాజరీలో రాజుగా నియమించబడ్డాడు."
+    explanationTelugu: "భరతుడు రాముని స్థానంలో రాజుగా నియమించబడ్డాడు."
   },
   {
     id: 17,
@@ -268,7 +268,7 @@ export const quizQuestions: QuizQuestion[] = [
     correct: 4,
     explanation: "Lakshmana accompanied Rama and Sita to the forest.",
     explanationHindi: "लक्ष्मण राम और सीता के साथ वन में गए।",
-    explanationTelugu: "లక్ష్మణుడు రాముని మరియు సీతను అడవికి కలిసి వెళ్లాడు."
+    explanationTelugu: "లక్ష్మణుడు రాముని మరియు సీతతో అడవికి కలిసి వెళ్లాడు."
   },
   {
     id: 18,
@@ -279,7 +279,7 @@ export const quizQuestions: QuizQuestion[] = [
     questionTelugu: "రాముని వివాహం చేసుకోవాలని ప్రయత్నించిన రాక్షసి ఎవరు?",
     options: ["Mandodari", "Surpanakha", "Tataka", "Trijata"],
     optionsHindi: ["मंदोदरी", "शूर्पणखा", "ताटका", "त्रिजटा"],
-    optionsTelugu: ["మందోదరి", "శూర్పణఖ", "తाटక", "త్రిజట"],
+    optionsTelugu: ["మందోదరి", "శూర్పణఖ", "తాటక", "త్రిజట"],
     correct: 2,
     explanation: "Surpanakha tried to marry Rama.",
     explanationHindi: "शूर्पणखा ने राम से विवाह करने की कोशिश की।",
@@ -294,7 +294,7 @@ export const quizQuestions: QuizQuestion[] = [
     questionTelugu: "బంగారు జింకగా మారినవాడు ఎవరు?",
     options: ["Ravana", "Subahu", "Vibhishana", "Maricha"],
     optionsHindi: ["रावण", "सुबाहु", "विभीषण", "मारीच"],
-    optionsTelugu: ["రావణుడు", "సుబाहుడు", "విభీషణుడు", "మారీచుడు"],
+    optionsTelugu: ["రావణుడు", "సుబాహుడు", "విభీషణుడు", "మారీచుడు"],
     correct: 4,
     explanation: "Maricha disguised himself as a golden deer.",
     explanationHindi: "मारीच ने सुनहरे हिरण का रूप लिया।",
@@ -306,7 +306,7 @@ export const quizQuestions: QuizQuestion[] = [
     source: "Sundara Kanda",
     question: "Who discovered Sita in Ashoka Vatika?",
     questionHindi: "अशोक वाटिका में सीता को किसने खोजा?",
-    questionTelugu: "అశోకవాటికలో సീതను ఎవరు కనుగొన్నారు?",
+    questionTelugu: "అశోకవాటికలో సీతను ఎవరు కనుగొన్నారు?",
     options: ["Sugriva", "Angada", "Rama", "Hanuman"],
     optionsHindi: ["सुग्रीव", "अंगद", "राम", "हनुमान"],
     optionsTelugu: ["సుగ్రీవుడు", "అంగదుడు", "రాముడు", "హనుమాన్"],
@@ -321,7 +321,7 @@ export const quizQuestions: QuizQuestion[] = [
   source: "Ramayana",
   question: "Who wrote the epic Ramayana?",
   questionHindi: "रामायण का लेखक कौन था?",
-  questionTelugu: "रामాయణం ఎవరు రాశారు?",
+  questionTelugu: "రామాయణం ఎవరు రాశారు?",
   options: ["Valmiki", "Vyasa", "Tulsidas", "Kalidasa"],
   optionsHindi: ["वाल्मीकि", "व्यास", "तुलसीदास", "कालिदास"],
   optionsTelugu: ["వాల్మీకి", "వ్యాస", "తులసిదాస్", "కాలిదాస"],
@@ -336,14 +336,14 @@ export const quizQuestions: QuizQuestion[] = [
   source: "Ramayana",
   question: "How many queens did King Dasharatha have?",
   questionHindi: "राजा दशरथ की कितनी रानियाँ थीं?",
-  questionTelugu: "రాజు దశరథుడికి ఎన్ని రాణులు ఉన్నారు?",
+  questionTelugu: "రాజు దశరథుడికి ఎందరు రాణులు ఉన్నారు?",
   options: ["One", "Two", "Three", "Four"],
   optionsHindi: ["एक", "दो", "तीन", "चार"],
   optionsTelugu: ["ఒకటి", "రెండు", "మూడు", "నాలుగు"],
   correct: 3,
   explanation: "King Dasharatha had three queens.", 
   explanationHindi: "दशरथ के तीन रानियाँ थीं।",
-  explanationTelugu: "దశరథుడికి మూడు రాణులు ఉన్నారు."
+  explanationTelugu: "దశరథుడికి ముగ్గురు రాణులు ఉన్నారు."
 },
 {
   id: 23,
