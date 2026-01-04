@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Volume2, Pause } from "lucide-react";
+import { Volume2 } from "lucide-react";
 
 interface Props {
   src?: string;
@@ -8,29 +8,28 @@ interface Props {
 export default function StoryAudioButton({ src }: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  console.log("AUDIO SRC RECEIVED:", src);
+
   if (!src) return null;
 
-  const toggleAudio = () => {
+  const playAudio = () => {
     if (!audioRef.current) return;
 
-    if (audioRef.current.paused) {
-      audioRef.current.play();
-    } else {
-      audioRef.current.pause();
-    }
+    audioRef.current.play().catch(err => {
+      console.error("Audio play error:", err);
+    });
   };
 
   return (
     <>
       <button
-        onClick={toggleAudio}
-        className="p-2 rounded-full border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black transition"
-        title="Play narration"
+        onClick={playAudio}
+        className="p-2 rounded-full border border-primary text-primary"
       >
         <Volume2 size={20} />
       </button>
 
-      <audio ref={audioRef} src={src} preload="none" />
+      <audio ref={audioRef} src={src} />
     </>
   );
 }
